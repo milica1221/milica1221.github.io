@@ -2718,7 +2718,7 @@ blockquote {
 	position: relative;
 	font-family: 'Lato', sans-serif;
 	text-align: left;
-	margin: 3% 5% 0% 5%;
+	margin: 3% 3% 0% 3%;
 }
 
 .service-detail .title-long::before {
@@ -2757,7 +2757,16 @@ blockquote {
 	font-family: 'Lato', sans-serif;
 	color: #2e2e2e;
 	text-align: left;
-	margin: 3% 5% 0% 5%;
+	margin: 5% 5% 0% 5%;
+}
+
+.service-detail .paragraph-long {
+	font-size: 1.25rem;
+	font-weight: normal;
+	font-family: 'Lato', sans-serif;
+	color: #2e2e2e;
+	text-align: left;
+	margin: 3% 3% 0% 3%;
 }
 
 .service-detail .list-1 {
@@ -2804,7 +2813,7 @@ blockquote {
 	color: #2e2e2e;
 	opacity: 0.6;
 	text-align: left;
-	margin: 5% 10%;
+	margin: 7% 10%;
 }
 
 .details-bg {
