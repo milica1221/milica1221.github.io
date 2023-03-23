@@ -5910,6 +5910,7 @@ blockquote {
 		background: none;
 		color: #ffffff;
 		font-size: 1rem;
+		word-Wrap: break-word;
 	}
 
 	.img-platform-2, .img-platform-3, .img-platform-4 {
