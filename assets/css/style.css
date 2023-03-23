@@ -1822,6 +1822,10 @@ blockquote {
 	margin-bottom: 35px;
 }
 
+.slider-content a.btn {
+	text-transform: capitalize;
+}
+
 .slider-two-bg{
 	height: 810px;
 	background-size: cover;
@@ -2691,7 +2695,7 @@ blockquote {
 .details-content h2 {
 	position: relative;
 	font-size: 1.875rem;
-	font-weight: normal;
+	font-weight: bold;
 	font-family: 'Lato', sans-serif;
 	color: #ffffff;
 	line-height: 28px;
@@ -2866,6 +2870,10 @@ blockquote {
 	margin: 10% 5%;
 }
 
+.mini-meeting {
+	margin-top: 5%;
+}
+
 .mini-meeting p {
 	color: #ffffff;
 	font-weight: bold;
@@ -2877,7 +2885,7 @@ blockquote {
 
 .mini-meeting a.btn {
 	padding: 2% 3%;
-	margin: 5% 25% 5% 25%;
+	margin: 5% 25% 5% 10%;
 	font-weight: bold;
 	border: 2px solid #ffffff;
 	background: none;
@@ -3031,6 +3039,26 @@ blockquote {
 	display: none;
 }
 
+.service-detail .title-1-edge {
+	color: #363636;
+	font-size: 1.5rem;
+	font-weight: bold;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 10% 5%;
+}
+
+.service-detail .title-1-edge::before {
+	content: "";
+	position: absolute;
+	width: 60%;
+	height: 2px;
+	background: #ff5e14;
+	bottom: -15px;
+	margin: 0%;
+}
+
 
 /* flip phones, extra small */
 @media only screen and (max-width: 320px) {
@@ -3089,6 +3117,7 @@ blockquote {
 
 	.tab-content .tab-pane p {
 		font-size: 2rem;
+		margin-top: 5%;
 	}
 
 	.tab-content .tab-pane a.btn {
@@ -3096,8 +3125,8 @@ blockquote {
 	}
 	.nav-tabs .nav-link {
 		font-size: 2rem;
-		margin-right: 0%;
-		margin-left: 0%;
+		margin-right: 1%;
+		margin-left: 1%;
 	}
 	/* Paragraphs */
 	.container-purple h3{
@@ -3154,7 +3183,7 @@ blockquote {
 
 	.meeting-text a.btn {
 		padding: 2% 3%;
-		margin: 5% 25% 5% 25%;
+		margin: 5% 25% 5% 30%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
@@ -3310,7 +3339,7 @@ blockquote {
 		padding: 1%;
 	}
 
-	/* Solutions */
+	/* Products, services, solutions */
 	.solutions-area p, .products-area p, .services-entity-area p {
 		font-size: 2.67rem;
 		color: black;
@@ -3336,15 +3365,15 @@ blockquote {
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
 		box-shadow: none;
 	}
-	/* Mobile products, services, solutions */
+
 	.details-content h2 {
 		position: relative;
 		font-size: 4rem;
-		font-weight: normal;
+		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 28px;
-		margin-top: 70%;
+		margin-top: 65%;
 		padding-bottom: 2%;
 	}
 
@@ -3355,8 +3384,8 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 29px;
-		margin-top: 3%;
-		padding-bottom: 2%;
+		margin-top: 5%;
+		padding-bottom: 10%;
 	}
 
 	.service-detail .title-long {
@@ -3373,6 +3402,26 @@ blockquote {
 		content: "";
 		position: absolute;
 		width: 100%;
+		height: 2px;
+		background: #ff5e14;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-edge {
+		color: #363636;
+		font-size: 4rem;
+		font-weight: bold;
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		text-align: left;
+		margin: 20% 5%;
+	}
+
+	.service-detail .title-1-edge::before {
+		content: "";
+		position: absolute;
+		width: 60%;
 		height: 2px;
 		background: #ff5e14;
 		bottom: -15px;
@@ -3434,7 +3483,16 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #2e2e2e;
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .paragraph-1-providers {
+		font-size: 2.67rem;
+		font-weight: normal;
+		font-family: 'Lato', sans-serif;
+		color: #2e2e2e;
+		text-align: left;
+		margin: 0% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-long {
@@ -3443,7 +3501,7 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #2e2e2e;
 		text-align: left;
-
+		margin: 25% 5% 0% 5%;
 	}
 
 	.service-detail .list-1 {
@@ -3452,7 +3510,7 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #2e2e2e;
 		text-align: left;
-		margin: 3% 5% 0% 15%;
+		margin: 10% 5% 0% 15%;
 	}
 
 	.service-detail .list-1 li {
@@ -3489,8 +3547,8 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #2e2e2e;
 		opacity: 0.6;
-		text-align: left;
-		margin: 15% 10%;
+		text-align: center;
+		margin: 15% 10% 0% 10%;
 	}
 
 	.details-bg {
@@ -3516,7 +3574,7 @@ blockquote {
 	}
 
 	.mini-meeting {
-		margin-top: 10%;
+		margin-top: -20%;
 	}
 
 	.mini-meeting p {
@@ -3592,7 +3650,7 @@ blockquote {
 		order: 1;
 	}
 
-	.img-industry-2, .img-agri-2 {
+	.img-industry-2, .regular-agriculture, .regular-industry {
 		display: none;
 	}
 
@@ -3725,7 +3783,7 @@ blockquote {
 
 	.meeting-text a.btn {
 		padding: 2% 3%;
-		margin: 5% 25% 5% 25%;
+		margin: 5% 25% 5% 30%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
@@ -3910,11 +3968,11 @@ blockquote {
 	.details-content h2 {
 		position: relative;
 		font-size: 3rem;
-		font-weight: normal;
+		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 28px;
-		margin-top: 70%;
+		margin-top: 60%;
 		padding-bottom: 2%;
 	}
 
@@ -3983,6 +4041,26 @@ blockquote {
 		content: "";
 		position: absolute;
 		width: 50%;
+		height: 2px;
+		background: #ff5e14;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-edge {
+		color: #363636;
+		font-size: 3rem;
+		font-weight: bold;
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		text-align: left;
+		margin: 10% 5%;
+	}
+
+	.service-detail .title-1-edge::before {
+		content: "";
+		position: absolute;
+		width: 60%;
 		height: 2px;
 		background: #ff5e14;
 		bottom: -15px;
@@ -4085,18 +4163,22 @@ blockquote {
 		margin: 10% 5%;
 	}
 
+	.mini-meeting {
+		margin-top: 20%;
+	}
+
 	.mini-meeting p {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1;
 		text-align: center;
 		font-size: 2.5rem;
-
+		margin: 2% 25% 0% 25%;
 	}
 
 	.mini-meeting a.btn {
 		padding: 2% 3%;
-		margin: 5% 25% 5% 25%;
+		margin: 0% 25% 3% 25%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
@@ -4157,7 +4239,7 @@ blockquote {
 		order: 1;
 	}
 
-	.img-industry-2, .img-agri-2 {
+	.img-industry-2, .regular-agriculture, .regular-industry {
 		display: none;
 	}
 }
@@ -4466,11 +4548,11 @@ blockquote {
 	.details-content h2 {
 		position: relative;
 		font-size: 2.4rem;
-		font-weight: normal;
+		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 28px;
-		margin-top: 60%;
+		margin-top: 50%;
 		padding-bottom: 2%;
 	}
 
@@ -4539,6 +4621,26 @@ blockquote {
 		content: "";
 		position: absolute;
 		width: 50%;
+		height: 2px;
+		background: #ff5e14;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-edge {
+		color: #363636;
+		font-size: 2.4rem;
+		font-weight: bold;
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		text-align: left;
+		margin: 10% 5%;
+	}
+
+	.service-detail .title-1-edge::before {
+		content: "";
+		position: absolute;
+		width: 60%;
 		height: 2px;
 		background: #ff5e14;
 		bottom: -15px;
@@ -4641,18 +4743,22 @@ blockquote {
 		margin: 10% 5%;
 	}
 
+	.mini-meeting {
+		margin-top: 10%;
+	}
+
 	.mini-meeting p {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1;
 		text-align: center;
 		font-size: 2rem;
-
+		margin: 5% 25% 0% 25%;
 	}
 
 	.mini-meeting a.btn {
 		padding: 2% 3%;
-		margin: 5% 25% 5% 25%;
+		margin: 0% 25% 5% 25%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
@@ -4713,7 +4819,7 @@ blockquote {
 		order: 1;
 	}
 
-	.img-industry-2, .img-agri-2 {
+	.img-industry-2, .regular-agriculture, .regular-industry {
 		display: none;
 	}
 }
@@ -5083,11 +5189,11 @@ blockquote {
 	.details-content h2 {
 		position: relative;
 		font-size: 2.143rem;
-		font-weight: normal;
+		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 28px;
-		margin-top: 30%;
+		margin-top: 40%;
 		padding-bottom: 2%;
 	}
 
@@ -5153,6 +5259,26 @@ blockquote {
 	}
 
 	.service-detail .title-1-b::before {
+		content: "";
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		background: #ff5e14;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-edge {
+		color: #363636;
+		font-size: 2rem;
+		font-weight: bold;
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		text-align: left;
+		margin: 10% 5% 0% 5%;
+	}
+
+	.service-detail .title-1-edge::before {
 		content: "";
 		position: absolute;
 		width: 50%;
@@ -5258,18 +5384,22 @@ blockquote {
 		margin: 10% 5%;
 	}
 
+	.mini-meeting {
+		margin-top: 5%;
+	}
+
 	.mini-meeting p {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1;
 		text-align: center;
 		font-size: 1.714rem;
-
+		margin: 5% 10% 5% 10%;
 	}
 
 	.mini-meeting a.btn {
 		padding: 2% 3%;
-		margin: 5% 25% 5% 25%;
+		margin: 5% -20% 5% -35%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
@@ -5283,7 +5413,7 @@ blockquote {
 		align-items: center;
 	}
 
-	.mobile-platform {
+	.mobile-platform, .mobile-agriculture, .mobile-industry {
 		display: none;
 	}
 
@@ -5291,6 +5421,18 @@ blockquote {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 	.contact-area .mobile-maps-area {
+		display: none;
+	}
+
+	.mobile-platform {
+		display: none;
+	}
+
+	.mobile-agriculture {
+		display: none;
+	}
+
+	.mobile-industry {
 		display: none;
 	}
 
@@ -5572,7 +5714,7 @@ blockquote {
 	.details-content h2 {
 		position: relative;
 		font-size: 1.5rem;
-		font-weight: normal;
+		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 28px;
@@ -5747,6 +5889,10 @@ blockquote {
 		margin: 10% 5%;
 	}
 
+	.mini-meeting {
+		margin-top: 0%;
+	}
+
 	.mini-meeting p {
 		color: #ffffff;
 		font-weight: bold;
@@ -5772,7 +5918,7 @@ blockquote {
 		align-items: center;
 	}
 
-	.mobile-platform {
+	.mobile-platform, .mobile-agriculture, .mobile-industry {
 		display: none;
 	}
 }
