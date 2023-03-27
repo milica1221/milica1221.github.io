@@ -1930,7 +1930,7 @@ blockquote {
 	border: 1px solid;
 	border-spacing: 3%;
 	border-color: #707070;
-	margin: 10%;
+	margin: 10% 10% 5% 10%;
 	padding: 2% 4% 4% 4%;
 }
 
@@ -2041,8 +2041,7 @@ blockquote {
 .container-purple {
 	position: relative;
 	background-color: #ffffff;
-	margin: 10%;
-	padding: 3%;
+	margin: 5% 10%;
   }
 
 .container-purple p {
@@ -2087,6 +2086,7 @@ blockquote {
 	color: #2E2E2E;
 	font-weight: normal;
 	font-family: 'Lato', sans-serif;
+	text-align: left;
   }
 
 .container-white h3 {
@@ -2102,7 +2102,7 @@ blockquote {
 .container-white h3::before {
 	content: "";
 	position: absolute;
-	right: 0;
+	left: 0;
 	width: 110%;
 	height: 2px;
 	background: #FF5A14;
@@ -2111,8 +2111,8 @@ blockquote {
 
 .container-white {
 	position: relative;
-	background-color: #ffffff;
-	margin: 10%;
+	background-color: #fbfbfb;
+	padding: 5% 10%;
 }
 
 /* 5. Meeting */
@@ -4996,6 +4996,14 @@ blockquote {
 		width: 21.429rem;
 	}
 
+	.container-white div:nth-child(1) {
+		order: 2;
+	}
+
+	.container-white  div:nth-child(2) {
+		order: 1;
+	}
+
 	/* Meeting */
 	.meeting {
 		margin: 0;
@@ -5077,8 +5085,8 @@ blockquote {
 		color: #363636;
 		font-family: 'Lato', sans-serif;
 		font-weight: normal;
-		margin-top: 15%;
-		margin-bottom: 15%;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 	.features-wrap a {
 		font-size: 1.143rem;
@@ -5442,7 +5450,7 @@ blockquote {
 /* my desktop, big tv */
 @media only screen and (min-width: 1201px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 	html,body{
 		overflow-x: hidden;
@@ -5467,11 +5475,11 @@ blockquote {
 	}
 
 	.intro .orange-text {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 
 	.intro .black-text {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 
 	.intro .grey-text {
@@ -5484,7 +5492,7 @@ blockquote {
 		padding-top: 5%;
 	}
 	.user-story h2 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 
 	.user-story .black-text {
@@ -5508,10 +5516,10 @@ blockquote {
 	}
 	/* Paragraphs */
 	.container-purple h3{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 	.container-white h3{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 	.container-purple p{
 		font-size: 1.2rem;
@@ -5524,7 +5532,7 @@ blockquote {
 	}
 
 	.container-white h3::before {
-		width: 21.75rem;
+		width: 18.75rem;
 	}
 
 	/* Meeting */
@@ -5569,14 +5577,14 @@ blockquote {
 	}
 	.section-title.usecase-title h2 {
 		margin-bottom: 2.857rem;
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 
 	.section-title.usecase-title p {
 		font-size: 1.2rem;
 	}
 	.card-title-new h5 {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 
 	.card-text p {
@@ -5587,7 +5595,7 @@ blockquote {
 	}
 	/* Services */
 	.service-area h2 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 	.service-area p {
 		font-size: 1.2rem;
@@ -5608,8 +5616,8 @@ blockquote {
 		color: #363636;
 		font-family: 'Lato', sans-serif;
 		font-weight: normal;
-		margin-top: 15%;
-		margin-bottom: 15%;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 	.features-wrap a {
 		font-size: 1.2rem;
@@ -5630,7 +5638,7 @@ blockquote {
 	}
 	/* Partners */
 	.section-partners h2 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 	.brands__item {
 		margin-bottom: 10%;
@@ -5799,7 +5807,7 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #2e2e2e;
 		text-align: left;
-		margin: 5% 5% 15% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-1-b {
