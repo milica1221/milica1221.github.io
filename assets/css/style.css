@@ -2027,13 +2027,13 @@ blockquote {
 }
 
 /* 4. Paragraphs */
-.container-fluid {
+.paragraphs .container-fluid {
 	margin-top: -7% !important;
 	margin-bottom: -7% !important;
     overflow-x: hidden;
 }
 
-.container-fluid img {
+.paragraphs .container-fluid img {
 	height: auto;
 	max-width: 100%;
 }
@@ -2042,7 +2042,7 @@ blockquote {
 	position: relative;
 	background-color: #ffffff;
 	margin: 5% 10%;
-  }
+}
 
 .container-purple p {
 	font-size: 1.5rem;
@@ -2122,9 +2122,6 @@ blockquote {
 	background-color: #FF5A14;
 }
 
-.meeting-text {
-
-}
 
 .meeting-text-p {
 	color: #ffffff;
@@ -2135,7 +2132,7 @@ blockquote {
 	margin-right: 10%; */
 }
 
-.meeting-text a.btn {
+/* .meeting-text a.btn {
 	padding: 2% 3%;
 	margin-top: 5%;
 	margin-left: 7%;
@@ -2146,7 +2143,7 @@ blockquote {
 	border: 2px solid #ffffff;
 	background: none;
 	color: #ffffff;
-}
+} */
 
 /* 6. Use cases */
 
@@ -2182,7 +2179,7 @@ blockquote {
 	/* border: 1px solid #e6e6e6; */
 	/*box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);*/
 	max-width: 100%;
-	height: auto;
+	height: max-content;
 }
 
 .usecase-box-new a.btn {
@@ -3068,6 +3065,7 @@ blockquote {
 	html,body{
 		overflow-x: hidden;
 	}
+
 	/* Menu */
 	.menu-area {
 		padding-top: 0%;
@@ -3080,7 +3078,17 @@ blockquote {
 		padding-bottom: 90px;
 		margin-bottom: 0%;
 	}
+	/* Slider */
+	.slider-content {
+		margin-top: 30% !important;
+	}
+	.slider-content h1 {
+		line-height: 1.2 !important;
+	}
 	/* Intro */
+	.intro {
+		margin-top: -15% !important;
+	}
 	.intro img {
 		margin: 10% auto;
 		max-width: 38.125rem;
@@ -3089,6 +3097,7 @@ blockquote {
 
 	.intro .orange-text {
 		font-size: 3rem;
+		line-height: 1.2 !important;
 	}
 
 	.intro .black-text {
@@ -3101,15 +3110,25 @@ blockquote {
 
 	/* User story */
 	.user-story {
-		margin-top: 0%;
 		padding-top: 5%;
 	}
+	.user-story .container-box {
+		margin: 0% !important;
+		padding: 7% !important;
+	}
+	.user-story .container-fluid{
+		margin-top: 7% !important;
+	}
 	.user-story h2 {
+		margin-top: 10% !important;
 		font-size: 3rem;
 	}
 
 	.user-story .black-text {
 		font-size: 2.25rem;
+	}
+	.tab-content .tab-pane {
+		height: 50rem !important;
 	}
 	.tab-content .tab-pane h3 {
 		font-size: 2.25rem;
@@ -3117,18 +3136,44 @@ blockquote {
 
 	.tab-content .tab-pane p {
 		font-size: 2rem;
-		margin-top: 5%;
+		margin-top: 10% !important;
+	}
+	.tab-content .tab-pane .col-xl-12 {
+		margin-top: 10% !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
 	}
 
 	.tab-content .tab-pane a.btn {
+		padding: 5% 10% 5% 10% !important;
 		font-size: 2rem;
 	}
 	.nav-tabs .nav-link {
+		width: 30% !important;
 		font-size: 2rem;
 		margin-right: 1%;
 		margin-left: 1%;
 	}
+	.tab-content {
+		margin-top: 10% !important;
+	}
 	/* Paragraphs */
+
+	.container-purple {
+		margin: 5% !important;
+		margin-top: 20% !important;
+	}
+
+	.paragraphs .container-fluid {
+		margin-top: 0% !important;
+		margin-bottom: -20% !important;
+		overflow-x: hidden;
+	}
+	.container-white {
+		margin: 5% !important;
+		padding: 0 !important;
+		margin-top: 20% !important;
+	}
 	.container-purple h3{
 		font-size: 3rem;
 	}
@@ -3182,7 +3227,7 @@ blockquote {
 	}
 
 	.meeting-text a.btn {
-		padding: 2% 3%;
+		padding: 2%;
 		margin: 5% 25% 5% 30%;
 		font-weight: bold;
 		border: 2px solid #ffffff;
@@ -3190,30 +3235,36 @@ blockquote {
 		color: #ffffff;
 		font-size: 2.25rem;
 	}
+	.meeting row {
+		display: flex !important;
+		justify-content: center !important;
+	}
 
 	/* Use cases */
 	.use-cases {
-		margin-top: 1.25rem;
-		padding-top: 10rem;
+		margin-top: 2.25rem !important;
+		padding-top: 15rem !important;
 	}
 	.section-title.usecase-title h2 {
 		margin-bottom: 5rem;
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.section-title.usecase-title p {
 		font-size: 2.25rem;
+		margin-bottom: 1rem !important;
 	}
 	.card-title-new h5 {
-		font-size: 2rem;
+		margin-bottom: 10% !important;
+		font-size: 3rem;
 	}
 
 	.card-text p {
 		font-size: 1.75rem;
 	}
 	.usecase-box-new a.btn {
-		font-size: 1.75rem;
-		padding: 3%;
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
 		margin-bottom: 10%;
 	}
 	/* Services */
@@ -3247,8 +3298,13 @@ blockquote {
 		margin-bottom: 10%;
 		padding: 2%;
 	}
+	.service-btn {
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
+		margin-bottom: 10%;
+	}
 	.features-wrap h4 {
-		font-size: 2.25rem;
+		font-size: 2.5rem;
 	}
 	.features-wrap {
 		position: relative;
@@ -3265,10 +3321,27 @@ blockquote {
 	}
 	.brands {
 		display: block;
+		justify-content: center;
+
+
+
 	}
 	.brands__item {
 		margin-bottom: 10%;
 		text-align: center;
+		padding: 5% !important;
+	}
+
+	/* Footer */
+
+	.footer-section h4 {
+		font-size: 2.5rem !important;
+	}
+	.footer-text p {
+		font-size: 2.5rem !important;
+	}
+	.footer-section h3 {
+		font-size: 3rem !important;
 	}
 
 	/* Contact */
@@ -3309,7 +3382,9 @@ blockquote {
 	}
 
 	.contact-form button {
-		font-size: 2.67rem;
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
+		margin-bottom: 10%;
 	}
 
 	.contact-form .button:hover {
@@ -3346,6 +3421,10 @@ blockquote {
 		text-align: left;
 		margin: 3rem 1rem;
 	}
+	.products-content  {
+		margin-top:20% !important;
+	}
+
 
 	.solutions-area h5, .products-area h5, .services-entity-area h5 {
 		font-size: 4rem;
@@ -3355,16 +3434,27 @@ blockquote {
 	}
 
 	.solutions-area a.btn, .products-area a.btn, .services-entity-area a.btn {
-		font-size: 2.67rem;
+
 		color: #363636;
 		background-color: transparent;
 		border: 1px solid #363636;
 		margin: 3rem 1rem;
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
+		margin-bottom: 10% !important;
+
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
 		box-shadow: none;
 	}
+	.services-entity-content {
+		margin-top:20% !important;
+	}
+	.solutions-content {
+		margin-top:20% !important;
+	}
+
 
 	.details-content h2 {
 		position: relative;
@@ -3384,7 +3474,7 @@ blockquote {
 		font-family: 'Lato', sans-serif;
 		color: #ffffff;
 		line-height: 29px;
-		margin-top: 5%;
+		margin-top: 15%;
 		padding-bottom: 10%;
 	}
 
@@ -3580,9 +3670,9 @@ blockquote {
 	.mini-meeting p {
 		color: #ffffff;
 		font-weight: bold;
-		line-height: 1;
+		line-height: 1.5;
 		text-align: center;
-		font-size: 3.33rem;
+		font-size: 3rem;
 		margin: 2% 25% 0% 25%;
 	}
 
@@ -3661,7 +3751,7 @@ blockquote {
 }
 
 /* smaller phones */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
     html {
         font-size: 8px;
     }
@@ -3680,6 +3770,15 @@ blockquote {
 		padding-bottom: 90px;
 		margin-bottom: 0%;
 	}
+	/* Slider */
+	.slider-content {
+		margin: 30% 5% 5% 5% !important;
+
+	}
+	.slider-content h1 {
+		line-height: 1.2 !important;
+	}
+
 	/* Contact */
 	/* Intro */
 	.intro img {
@@ -3702,15 +3801,25 @@ blockquote {
 
 	/* User story */
 	.user-story {
-		margin-top: 0%;
 		padding-top: 5%;
 	}
+	.user-story .container-box {
+		margin: 0% !important;
+		padding: 7% !important;
+	}
+	.user-story .container-fluid{
+		margin-top: 7% !important;
+	}
 	.user-story h2 {
+		margin-top: 10% !important;
 		font-size: 3rem;
 	}
 
 	.user-story .black-text {
 		font-size: 2.25rem;
+	}
+	.tab-content .tab-pane {
+		height: 50rem !important;
 	}
 	.tab-content .tab-pane h3 {
 		font-size: 2.25rem;
@@ -3718,17 +3827,43 @@ blockquote {
 
 	.tab-content .tab-pane p {
 		font-size: 2rem;
+		margin-top: 10% !important;
+	}
+	.tab-content .tab-pane .col-xl-12 {
+		margin-top: 10% !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
 	}
 
 	.tab-content .tab-pane a.btn {
+		padding: 5% 10% 5% 10% !important;
 		font-size: 2rem;
 	}
 	.nav-tabs .nav-link {
+		width: 30% !important;
 		font-size: 2rem;
-		margin-right: 0%;
-		margin-left: 0%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.tab-content {
+		margin-top: 10% !important;
 	}
 	/* Paragraphs */
+	.container-purple {
+		margin: 5% !important;
+		margin-top: 20% !important;
+	}
+
+	.paragraphs .container-fluid {
+		margin-top: 0% !important;
+		margin-bottom: -20% !important;
+		overflow-x: hidden;
+	}
+	.container-white {
+		margin: 5% !important;
+		padding: 0 !important;
+		margin-top: 20% !important;
+	}
 	.container-purple h3{
 		font-size: 3rem;
 	}
@@ -3776,7 +3911,7 @@ blockquote {
 		margin-top: 15%;
 		margin-left: 15%;
 		margin-right: 15%;
-		line-height: 1;
+		line-height: 1.5;
 		text-align: center;
 		font-size: 3rem;
 	}
@@ -3793,28 +3928,31 @@ blockquote {
 
 	/* Use cases */
 	.use-cases {
-		margin-top: 1.25rem;
-		padding-top: 10rem;
+		margin-top: 2.25rem !important;
+		padding-top: 15rem !important;
 	}
 	.section-title.usecase-title h2 {
 		margin-bottom: 5rem;
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.section-title.usecase-title p {
 		font-size: 2.25rem;
+		margin-bottom: 1rem !important;
 	}
 	.card-title-new h5 {
-		font-size: 2rem;
+		margin-bottom: 10% !important;
+		font-size: 3rem;
 	}
 
 	.card-text p {
 		font-size: 1.75rem;
 	}
 	.usecase-box-new a.btn {
-		font-size: 1.75rem;
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
+		margin-bottom: 10%;
 	}
-	/* Services */
 	.service-area h2 {
 		font-size: 3rem;
 	}
@@ -3842,11 +3980,16 @@ blockquote {
 	}
 	.features-wrap a {
 		font-size: 2rem;
+		margin-bottom: 10%;
 		padding: 2%;
+	}
+	.service-btn {
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
 		margin-bottom: 10%;
 	}
 	.features-wrap h4 {
-		font-size: 2.25rem;
+		font-size: 2.5rem;
 	}
 	.features-wrap {
 		position: relative;
@@ -3867,6 +4010,16 @@ blockquote {
 	.brands__item {
 		margin-bottom: 10%;
 		text-align: center;
+	}
+	/* Footer */
+	.footer-section h4 {
+		font-size: 2.5rem !important;
+	}
+	.footer-text p {
+		font-size: 2.5rem !important;
+	}
+	.footer-section h3 {
+		font-size: 3rem !important;
 	}
 	/* Contact */
 	/* Contact */
@@ -3937,7 +4090,12 @@ blockquote {
 		padding: 1%;
 	}
 
+
 	/* Solutions */
+
+
+
+
 	.solutions-area p, .products-area p, .services-entity-area p {
 		font-size: 2rem;
 		color: black;
@@ -3946,7 +4104,7 @@ blockquote {
 	}
 
 	.solutions-area h5, .products-area h5, .services-entity-area h5 {
-		font-size: 3rem;
+		font-size: 4rem;
 		color: black;
 		text-align: left;
 		margin: 3rem 1rem;
@@ -3965,6 +4123,16 @@ blockquote {
 	}
 
 	/* Mobile products, services, solutions */
+
+	.products-content  {
+		margin-top:20% !important;
+	}
+	.services-entity-content {
+		margin-top:20% !important;
+	}
+	.solutions-content {
+		margin-top:20% !important;
+	}
 	.details-content h2 {
 		position: relative;
 		font-size: 3rem;
@@ -4276,7 +4444,7 @@ blockquote {
 	}
 
 	.intro .black-text {
-		font-size: 1.8rem;
+		font-size: 2.4rem;
 	}
 
 	.intro .grey-text {
@@ -4289,29 +4457,58 @@ blockquote {
 		padding-top: 5%;
 	}
 	.user-story h2 {
-		font-size: 2.4rem;
+		font-size: 3rem;
 	}
 
 	.user-story .black-text {
-		font-size: 1.8rem;
+		font-size: 2.25rem;
+	}
+
+	.tab-content .tab-pane {
+		height: 50rem !important;
 	}
 	.tab-content .tab-pane h3 {
-		font-size: 1.8rem;
+		font-size: 2.25rem;
 	}
 
 	.tab-content .tab-pane p {
-		font-size: 1.6rem;
+		font-size: 2rem;
+		margin-top: 10% !important;
+	}
+	.tab-content .tab-pane .col-xl-12 {
+		margin-top: 10% !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
 	}
 
 	.tab-content .tab-pane a.btn {
-		font-size: 1.6rem;
+		padding: 5% 10% 5% 10% !important;
+		font-size: 2rem;
 	}
 	.nav-tabs .nav-link {
-		font-size: 1.6rem;
-		margin-right: 0%;
-		margin-left: 0%;
+		width: 30% !important;
+		font-size: 2rem;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.tab-content {
+		margin-top: 10% !important;
 	}
 	/* Paragraphs */
+	.paragraphs .container-fluid {
+		margin-top: 0% !important;
+		margin-bottom: -10% !important;
+		overflow-x: hidden;
+	}
+	.container-purple {
+		margin: 5% !important;
+		margin-top: 10% !important;
+	}
+	.container-white {
+		margin: 5% !important;
+		padding: 0 !important;
+		margin-top: 10% !important;
+	}
 	.container-purple h3{
 		font-size: 2.4rem;
 	}
@@ -4341,38 +4538,52 @@ blockquote {
 
 	/* Meeting */
 	.meeting {
-		margin: 0;
-		padding: 0;
+		margin: 0% !important;
+		padding-top: 0% !important;
+		padding-bottom: -20% !important;
+	}
+	.meeting .container-fluid {
+		margin: 0% !important;
+		padding-top: 0% !important;
+		padding-bottom: -20% !important;
 	}
 	.meeting .img-purple {
 		max-width: 23.68rem;
 	}
 	.meeting .img-black {
 		transform: rotate(90deg);
-		max-width: 14.8rem;
-		margin-bottom: -5.36rem;
-		margin-right: 2.4rem;
+		max-width: 20rem;
+		margin-bottom: 0% !important;
+		padding-bottom: 0% !important;
+		display: none;
+	}
+	.meeting .row.align-bottom {
+		align-items: flex-end;
 	}
 	.meeting-text-p {
 		color: #ffffff;
 		font-weight: bold;
-		margin-top: 15%;
-		margin-left: 15%;
-		margin-right: 15%;
 		line-height: 1;
 		text-align: center;
-		font-size: 2.4rem;
+		font-size: 2.25rem;
 	}
 
 	.meeting-text a.btn {
-		padding: 2% 3%;
-		margin: 5% 25% 5% 32%;
+		padding: 2% 2%;
+		margin: 10% !important;
 		font-weight: bold;
 		border: 2px solid #ffffff;
 		background: none;
 		color: #ffffff;
 		font-size: 1.8rem;
 	}
+
+	/* .meeting .img-black {
+		transform: rotate(90deg);
+		max-width: 23.125rem;
+		margin-bottom: -8.375rem;
+		margin-right: 3.75rem;
+	} */
 
 	/* Use cases */
 	.use-cases {
@@ -4396,6 +4607,16 @@ blockquote {
 	}
 	.usecase-box-new a.btn {
 		font-size: 1.6rem;
+	}
+	.img-fluid {
+		max-width: initial;
+		height: auto;
+		width: 100%;
+	}
+	.usecase-img-new {
+		overflow: hidden;
+		height: auto;
+		width: 100%;
 	}
 	/* Services */
 	.service-area h2 {
@@ -4450,6 +4671,21 @@ blockquote {
 		margin-bottom: 10%;
 		text-align: center;
 	}
+	/* Footer */
+	.footer-section h4 {
+		font-size: 1.8rem !important;
+	}
+	.footer-text p {
+		font-size: 1.6rem !important;
+	}
+	.footer-section h3 {
+		font-size: 2.2rem !important;
+	}
+	.footer-section .footer-logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
 	/* Contact */
 	.orange-box {
 		margin: -10% 0% 10% 0%;
@@ -4518,18 +4754,19 @@ blockquote {
 		padding: 1%;
 	}
 	/* Solutions */
+
 	.solutions-area p, .products-area p, .services-entity-area p {
 		font-size: 1.6rem;
 		color: black;
 		text-align: left;
-		margin: 2rem 1rem;
+		margin: 3rem 1rem;
 	}
 
 	.solutions-area h5, .products-area h5, .services-entity-area h5 {
 		font-size: 2.4rem;
 		color: black;
 		text-align: left;
-		margin: 2rem 1rem;
+		margin: 3rem 1rem;
 	}
 
 	.solutions-area a.btn, .products-area a.btn, .services-entity-area a.btn {
@@ -4594,7 +4831,7 @@ blockquote {
 		position: relative;
 		font-family: 'Lato', sans-serif;
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 0% 5% 10% 5%;
 	}
 
 	.service-detail .title-1::before {
@@ -4856,8 +5093,14 @@ blockquote {
 	.logo img {
 		margin-top: 20px;
 	}
+	/* Slider */
+	.slider-content {
+		margin-top: 15% !important;
+	}
+
 	.slider-content h1 {
 		font-size: 54px;
+		line-height: 1.2 !important;
 	}
 	.slider-content p {
 		font-size: 15px;
@@ -4940,7 +5183,7 @@ blockquote {
 	}
 
 	.intro .black-text {
-		font-size: 1.714rem;
+		font-size: 2.143rem;
 	}
 
 	.intro .grey-text {
@@ -5044,6 +5287,7 @@ blockquote {
 		margin-top: 0.714rem;
 		padding-top: 5.714rem;
 	}
+
 	.section-title.usecase-title h2 {
 		margin-bottom: 2.857rem;
 		font-size: 2.143rem;
@@ -5062,6 +5306,7 @@ blockquote {
 	.usecase-box-new a.btn {
 		font-size: 1.143rem;
 	}
+
 	/* Services */
 	.service-area h2 {
 		font-size: 2.143rem;
