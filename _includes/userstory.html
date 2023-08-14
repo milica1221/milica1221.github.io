@@ -7,7 +7,26 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-<section class="user-story pt-100 mb-50" style="background-color: #fbfbfb;">
+<section class="user-story" style="background-color: #fbfbfb;">
+    <script>
+        function setNavLinksHeight() {
+          const navLinks = document.querySelectorAll('.nav-link');
+          let maxHeight = 0;
+
+          navLinks.forEach(link => {
+            const linkHeight = link.getBoundingClientRect().height;
+            maxHeight = Math.max(maxHeight, linkHeight);
+          });
+
+          navLinks.forEach(link => {
+            link.style.height = `${maxHeight}px`;
+          });
+        }
+
+        window.addEventListener('DOMContentLoaded', setNavLinksHeight);
+        window.addEventListener('resize', setNavLinksHeight);
+    </script>
+
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -16,11 +35,10 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <br>
             <p class="black-text">Here are some of the user stories of the Nova Vector Industry 4.0 Platform.</p>
             </div>
         </div>
-        </div>
+    </div>
 
     <!-- Container for the image gallery -->
     <div class="container-fluid">
@@ -53,7 +71,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Smart <br> agriculture</h3>
-                                    <p>Nova Vector platform seamlessly integrates sensors, advanced analytics, and automation to empower agriculture companies to optimize their farming operations and achieve greater success and productivity - through our user-friendly and practical solutions.</p>
+                                    <p>Nova Vector offers seamless integration of sensors, analytics, and automation for optimized agriculture operations. Our user-friendly solutions empower farming companies to achieve productivity and success.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
@@ -62,7 +80,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Smart <br> industry</h3>
-                                    <p>In the era of Industry 4.0, Nova Vector is a valuable partner for the success of your business. Our IoT solutions seamlessly connect your existing systems with advanced technologies, enabling real-time data insights, predictive maintenance, and enhanced operational efficiency.</p>
+                                    <p>In the Industry 4.0 era, Nova Vector serves as your valuable partner, connecting existing systems with advanced technologies. Real-time data insights and enhanced operational efficiency are enabled through our IoT solutions.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
@@ -71,7 +89,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Service <br> providers</h3>
-                                    <p>Nova Vector empowers service providers with advanced IoT technology. Our comprehensive solutions enable smooth connectivity, data-driven decision-making, and enhanced service delivery, ensuring a remarkable customer experience and a competitive edge.</p>
+                                    <p>Service providers benefit from Nova Vector's advanced IoT technology, ensuring smooth connectivity and data-driven decision-making. This comprehensive approach enhances service delivery, leading to a competitive edge and exceptional customer experiences.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
@@ -80,7 +98,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Smart <br> retail</h3>
-                                    <p>At Nova Vector, we reshape the retail landscape through the power of IoT technology. Our forward-thinking solutions optimize inventory, personalize experiences, and streamline supply chains for growth and efficiency.</p>
+                                    <p>Reshaping the retail landscape, Nova Vector's IoT solutions optimize inventory, personalize customer experiences, and streamline supply chains. This growth-oriented strategy leverages the power of IoT technology.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
@@ -89,7 +107,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Smart <br> building</h3>
-                                    <p>Nova Vector transforms buildings into intelligent spaces using advanced IoT solutions. By integrating smart sensors and energy management systems, we enhance comfort, reduce energy usage, and enable predictive maintenance for sustainable and cost-effective operations.</p>
+                                    <p>Transforming buildings into intelligent spaces, Nova Vector integrates smart sensors and energy management systems. The result: enhanced comfort, reduced energy usage, and predictive maintenance for sustainable and cost-effective operations.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
@@ -98,7 +116,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                     <h3>Education</h3>
-                                    <p>Nova Vector empowers education with IoT solutions. Our integrated solutions facilitate interactive learning experiences, seamless campus management, and data-driven insights for personalized education and a brighter future.</p>
+                                    <p>Nova Vector empowers education through integrated IoT solutions that facilitate interactive learning experiences and seamless campus management. Data-driven insights contribute to personalized education and a brighter future.</p>
                                     <a href="#" class="btn">Coming Soon</a>
                             </div>
                     </div>
