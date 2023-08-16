@@ -8511,11 +8511,11 @@ blockquote {
 
 	/* Intro */
 	.intro {
-		margin-top: 10% !important;
-		margin-bottom: 10%;
+		margin-top: 5% !important;
+		margin-bottom: 5%;
 	}
 	.intro img {
-		margin: 10% auto;
+		margin: 7% auto;
 		max-width: 70%;
 		height: auto;
 	}
@@ -8532,8 +8532,8 @@ blockquote {
 
 	/* User story */
 	.user-story {
-		margin-top: 10% !important;
-		margin-bottom: 10% !important;
+		margin-top: 5% !important;
+		margin-bottom: 5% !important;
 		padding-top: 5%;
 	}
 	.user-story .container-box {
@@ -8607,7 +8607,7 @@ blockquote {
 	}
 	.container-white {
 		margin-left: 0% !important;
-		margin-top: 15% !important;
+		margin-top: 5% !important;
 		padding-left: 5% !important;
 	}
 	.container-purple h3{
@@ -8711,8 +8711,8 @@ blockquote {
 
 	/* Services */
 	.service-area {
-		margin-top: 10% !important;
-		padding-top: 10%;
+		margin-top: 5% !important;
+		padding-top: 5%;
 	}
 	.service-area h2 {
 		font-size: 1.5rem;
