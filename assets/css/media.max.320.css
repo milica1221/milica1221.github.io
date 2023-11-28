@@ -1,0 +1,1133 @@
+/* flip phones, extra small */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700|Lato:300,400,500,600,700');
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 6px;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+	html, body {
+		overflow-x: hidden;
+	}
+
+	h2 {
+		font-size: 3rem !important;
+	}
+
+	p {
+		font-size: 2.25rem !important;
+	}
+
+	a.btn {
+		padding: 3% 7% 3% 7% !important;
+		font-size: 2rem !important;
+		font-weight: normal !important;
+	}
+
+	/* Slider */
+	.slider-content {
+		margin: 30% auto auto auto !important;
+	}
+
+	.slider-content h1 {
+		line-height: 1.2 !important;
+	}
+
+    .slider-content p {
+        font-size: 3rem;
+        line-height: 4.667rem;
+        margin: auto auto 10% auto;
+    }
+
+	/* Intro */
+	.intro {
+		margin: 20% auto 10% auto !important;
+		margin-bottom: 10%;
+        position: relative;
+	}
+
+	.intro img {
+		margin: 10% auto;
+		max-width: 38.125rem;
+		height: auto;
+	}
+
+	.intro .orange-text {
+		font-size: 3rem !important;
+		line-height: 1.5rem;
+	}
+
+	.intro .black-text {
+        line-height: 2.6rem;
+		font-size: 3rem !important;
+	}
+
+	.intro .grey-text {
+        text-align: center;
+		font-size: 2.25rem !important;
+	}
+
+	/* User story */
+	.user-story {
+		margin: 10% auto 20% auto !important;
+		padding: 10% auto auto auto;
+	}
+
+	.user-story .container-box {
+		margin: 0% !important;
+		padding: 7% !important;
+		position: relative;
+		border: 1px solid;
+		border-spacing: 3%;
+	}
+
+	.user-story .container-fluid {
+		margin: 7% auto 20% auto !important;
+	}
+
+	.user-story h2 {
+		margin: auto auto 10% auto;
+		line-height: 1;
+	}
+
+	.user-story .black-text {
+		padding: 0 10%;
+		font-size: 2.25rem;
+		margin: auto auto 3% auto;
+	}
+
+	.tab-content .tab-pane {
+		height: 50rem !important;
+	}
+
+	.tab-content .tab-pane h3 {
+		font-size: 2.25rem;
+	}
+
+	.tab-content .tab-pane p {
+		font-size: 2rem;
+		margin: 10% auto auto auto !important;
+	}
+
+	.tab-content .tab-pane .col-xl-12 {
+		margin: 10% 5% auto 5% !important;
+	}
+
+	.tab-content .tab-pane a.btn {
+		font-size: 2rem;
+	}
+
+	.nav-tabs .nav-link {
+		width: 30% !important;
+		font-size: 2rem;
+		margin: auto 1% auto 1%;
+	}
+
+	.tab-content {
+		margin-top: 10% !important;
+	}
+
+	.container-box button {
+		font-size: 1.5rem;
+	}
+
+	.nav-tabs {
+		margin: auto auto 3% auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav-tabs .nav-link {
+		margin: auto 1% -1% 1%;
+		font-size: 2.25rem;
+		color: #363636;
+		flex: 1;
+	}
+
+	.tab-content .tab-pane .container {
+		padding: 2px 3px !important;
+		overflow-x: hidden;
+	}
+
+	.tab-content .tab-pane {
+		box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+	}
+
+	.tab-content .tab-pane h3 {
+		font-size: 2.5rem;
+		margin: 3% auto auto 2%;
+	}
+
+	.tab-content .tab-pane p {
+		font-size: 2rem;
+		line-height: 1.5;
+		margin: 3% auto auto 2%;
+	}
+
+	.tab-content .tab-pane a.btn {
+		padding: 1%;
+		margin: 10% auto 3% 1%;
+	}
+
+	/* Paragraphs */
+	.paragraphs {
+		margin: 20% auto 20% auto !important;
+		padding: 10% auto auto auto;
+	}
+
+	.container-white {
+		position: relative;
+		margin: 20% 5% 5% 5% !important;
+	}
+
+	.container-white img {
+		margin: 10% auto auto auto !important;
+		box-shadow: 10px 10px #B7A5BE;
+	}
+
+	.paragraphs .container-fluid {
+		margin: -20% auto -20% auto !important;
+		overflow-x: hidden;
+	}
+
+	.container-grey {
+		margin: 20% auto auto 0% !important;
+		padding: 5% 10% 10% 5% !important;
+		position: relative;
+	}
+
+	.container-grey img {
+		margin: 10% auto auto 5% !important;
+		box-shadow: -10px -10px #FF5A14;
+	}
+
+	.container-white h3 {
+		font-size: 3rem;
+		position: relative;
+		margin: auto auto 45px auto;
+		display: inline-block;
+	}
+
+	.container-grey h3 {
+		font-size: 3rem;
+		position: relative;
+		margin: auto auto 45px auto;
+		display: inline-block;
+	}
+
+	.container-white p {
+		margin: auto auto 4% 0% !important;
+		padding: auto auto auto 0% !important;
+		text-align: left;
+	}
+
+	.container-grey p {
+		text-align: left;
+	}
+
+	.container-white h3::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		height: 2px;
+		bottom: -20px;
+		width: 30rem;
+	}
+
+	.container-grey h3::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		height: 2px;
+		bottom: -20px;
+		width: 30rem;
+	}
+
+	.container-grey div:nth-child(1) {
+			order: 2;
+	}
+
+	.container-grey  div:nth-child(2) {
+			order: 1;
+	}
+
+	.paragraphs .container-fluid img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	/* Meeting */
+	.meeting {
+		margin: 40% auto 20% auto !important;
+		padding: 0;
+		position: relative;
+	}
+
+	.meeting .container-fluid {
+		padding: 0;
+	}
+
+	.meeting .img-purple {
+		max-width: 37rem;
+	}
+
+	.meeting .img-black {
+		transform: rotate(90deg);
+		max-width: 23.125rem;
+		margin: auto 3.75rem -8.375rem auto;
+	}
+
+	.meeting-text-p {
+		margin: 15% 15% auto 15%;
+		line-height: 1;
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	.meeting-text a.btn {
+		margin: 5% 25% 5% 25%;
+		font-weight: bold !important;
+	}
+
+	.meeting row {
+		display: flex !important;
+		justify-content: center !important;
+	}
+
+	/* Use cases */
+	.use-cases {
+		margin: 20% auto auto auto !important;
+	}
+
+	.section-title.usecase-title h2 {
+		margin: auto auto 5rem auto;
+		position: relative;
+		display: inline-block;
+	}
+
+	.section-title.usecase-title p {
+		margin: auto auto 1rem auto !important;
+	}
+
+	.card-text p {
+		font-size: 2rem !important;
+		margin: 0% auto auto 5% !important;
+		padding: auto auto 0% auto;
+	}
+
+	.usecase-box-new {
+		margin: auto auto 10% auto;
+		max-width: 100%;
+		height: max-content;
+	}
+
+	.usecase-box-new a.btn {
+		margin: auto auto 10% auto;
+	}
+
+	.section-title.usecase-title h2::before {
+		position: absolute;
+		left: 0;
+		width: 60px;
+		height: 2px;
+		bottom: -25px;
+	}
+
+	.usecase-img-new {
+		overflow: hidden;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.usecase-content-new {
+		padding: 10% 5% 5% 5%;
+	}
+
+	.usecase-content-new a.btn {
+		margin: 10% auto auto 5%;
+	}
+
+	.card-title-new h5 {
+		margin: 3% auto 6% 5%;
+		font-size: 2.25rem;
+	}
+
+	/* Services */
+	.service-area {
+		margin: 10% auto auto auto !important;
+		padding: 10% auto auto auto;
+	}
+
+	.service-area h2 {
+		font-size: 3rem !important;
+		margin: 20% auto auto auto;
+	}
+
+	.service-title h2::before {
+		position: absolute;
+		left: 0;
+		width: 7.5rem;
+		height: 2px;
+		bottom: -2rem;
+		right: 0;
+		margin: auto;
+	}
+
+	.services-paragraph p {
+		margin: 5% auto 15% auto;
+	}
+
+	.features-wrap a {
+		font-size: 2rem !important;
+		margin: auto auto 10% auto;
+		padding: 2%;
+		text-align: center;
+		position: relative;
+	}
+
+	.service-area a.btn {
+		margin: auto auto 10% auto;
+	}
+
+	.features-wrap h4 {
+		font-size: 2.25rem !important;
+		margin: auto auto 17px auto;
+		font-size: 28px;
+	}
+
+	.features-wrap {
+		position: relative;
+		display: block;
+		font-size: 2rem !important;
+		margin: auto auto 5% auto;
+		padding: 3.75rem 2rem;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.services-content {
+		padding: 0% 20px 20px 20px;
+	}
+
+	.service-title h2 {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.services-img {
+		margin: auto auto 25px auto;
+		overflow: hidden;
+	}
+
+	.card-title h5 {
+		margin: auto auto 15px auto;
+		font-size: 2.25rem;
+	}
+
+	.services-box a.btn {
+		padding: 11px 15px;
+		font-size: 1vw;
+	}
+
+	.white-text h3 {
+		font-size: 2.25rem;
+		margin: auto auto 20px auto;
+	}
+
+	.white-text a {
+		border-radius: 30px;
+	}
+
+	.service-details h3 {
+		font-size: 22px;
+	}
+
+	.features-icon span {
+		font-size: 2vw;
+		margin: auto auto 30px auto;
+		display: inline-block;
+	}
+
+	.features-wrap p {
+		font-size: 1.5rem;
+		margin: 5% auto 10% auto;
+	}
+
+	.features-icon {
+		margin: 10px auto 10px auto;
+	}
+
+
+	/* Partners */
+	.section-partners h2 {
+		margin: auto auto 5% auto;
+	}
+
+	.brands {
+		display: block;
+		justify-content: center;
+	}
+
+	.brands__item {
+		margin: auto auto 10% auto;
+		text-align: center;
+		padding: 10% !important;
+	}
+
+	.section-partners {
+		margin: 5% auto 5% auto;
+	}
+
+	.container-partners {
+		position: relative;
+		margin: auto 5% auto 5%;
+	}
+
+	.brands__item img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		object-fit: contain;
+		mix-blend-mode: multiply;
+	}
+
+	.brands__item a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	/* Footer */
+	.footer-section h4 {
+		font-size: 2.5rem !important;
+	}
+
+	.footer-text p {
+		font-size: 2.25rem !important;
+	}
+
+	.footer-section h3 {
+		font-size: 3rem !important;
+	}
+
+	/* Contact */
+	.orange-box {
+		margin: -10% 0% 10% 0%;
+		padding: auto 2% auto 2%;
+	}
+
+	.orange-box p {
+		font-size: 2.25rem;
+		text-align: center;
+	}
+
+	.orange-box-2 {
+		margin: 5% 0% -10% 0%;
+		padding: auto 0% auto 0%;
+	}
+
+	.orange-box-2 p {
+		font-size: 2.67rem !important;
+	}
+
+	.contact-form {
+		margin: 1px auto auto auto;
+		padding: 1px auto auto auto;
+	}
+
+	.contact-form p {
+		font-size: 3.33rem;
+	}
+
+	.contact-form button {
+		padding: 3% 7% 3% 7% !important;
+		font-size: 2rem !important;
+		font-weight: normal !important;
+		margin: auto auto 10% auto;
+	}
+
+	.contact-form .button:hover {
+		font-size: 2.67rem;
+	}
+
+	.contact-form-title h2 {
+		font-size: 4rem;
+		margin: 10% 0%;
+	}
+
+	.contact-form-title p {
+		font-size: 2.67rem;
+		margin: 10% 0%;
+	}
+
+	.contact-area .maps-area {
+		display: none !important;
+	}
+
+	.mobile-maps-area {
+		margin: 1%;
+		padding: 0%;
+	}
+
+	/* Products, services, solutions */
+	.solutions-area p, .products-area p, .services-entity-area p {
+		text-align: left;
+		margin: 10% 5% 10% 3% !important;
+	}
+
+	.products-content  {
+		margin: 20% auto auto auto !important;
+	}
+
+	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
+		margin: auto auto auto 3%;
+	}
+
+	.solutions-area h5, .products-area h5, .services-entity-area h5 {
+		font-size: 3rem;
+		text-align: left;
+		margin: 3rem 1rem;
+	}
+
+	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
+		box-shadow: none;
+	}
+
+	.services-entity-content {
+		margin: 20% auto auto auto !important;
+	}
+
+	.solutions-content {
+		margin: 20% auto auto auto !important;
+	}
+
+	.details-content h2 {
+		position: relative;
+		font-size: 3rem !important;
+		line-height: 28px;
+		margin: 65% auto auto auto;
+		padding: auto auto 2% auto;
+	}
+
+	.details-content p {
+		position: relative;
+		line-height: 29px;
+		margin: 15% auto auto auto;
+		padding: auto auto 10% auto;
+	}
+
+	/* NV Platform */
+	.service-detail .title-platform {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .paragraph-platform {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 15% 5% 0% 5%;
+	}
+
+	.service-detail .title-platform::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-platform {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .platform-order .title-1-platform {
+		padding: 5% auto auto auto !important;
+	}
+
+	.service-detail .title-1-platform::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-platform {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 15% 5% 0% 5%;
+	}
+
+	.img-platform-1 {
+		display: none;
+	}
+
+	.img-platform-2, .img-platform-3, .img-platform-4 {
+		width: 100%;
+		height: auto;
+		margin: 0% 5% 0% 5%;
+	}
+
+	.regular-platform {
+		display: none;
+	}
+
+	.mobile-platform {
+		margin: 5%;
+	}
+
+	.platform-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.platform-order  div:nth-child(2) {
+		order: 1;
+	}
+
+	/* NV Edge */
+	.service-detail .title-1-edge {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% 0% 5%;
+	}
+
+	.service-detail .title-1-edge::before {
+		position: absolute;
+		width: 60%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-edge-2 {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .title-1-edge-2::before {
+		position: absolute;
+		width: 60%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-edge {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.edge-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.edge-order  div:nth-child(2) {
+		order: 1;
+	}
+
+	/* Support */
+	.service-detail .title-1-support {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 0% 5% auto 5%;
+	}
+
+	.service-detail .title-1-support::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-support {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 20% 5%;
+	}
+
+	/* Professional services */
+	.service-detail .title-1-services {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% auto 5%;
+	}
+
+	.service-detail .title-1-services::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-services {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .list-1-services {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 10% 5% 0% 15%;
+	}
+
+	.service-detail .list-1-services li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	/* Training */
+	.service-detail .title-1-training {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 20% 5% auto 5%;
+	}
+
+	.service-detail .title-1-training::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-b-training {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .list-1-training {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 10% 5% 0% 15%;
+	}
+
+	.service-detail .list-1-training li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	/* Smart Agriculture */
+	.service-detail .title-agriculture {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .title-agriculture::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-agriculture {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 20% 5% auto 5%;
+	}
+
+	.service-detail .title-1-agriculture::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-agriculture {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .paragraph-1-agriculture {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	/* Smart Industry */
+	.service-detail .title-industry {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .title-industry::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-industry {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% auto 5%;
+	}
+
+	.service-detail .title-1-industry::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-industry {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .paragraph-industry {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 25% 5% 0% 5%;
+	}
+
+	.industry-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.industry-order  div:nth-child(2) {
+		order: 1;
+	}
+
+	.img-industry-2, .regular-agriculture, .regular-industry {
+		display: none;
+	}
+
+	#invisible-row {
+		display: none;
+	}
+
+	/* Smart providers */
+	.service-detail .title-1-providers {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% auto 5%;
+	}
+
+	.service-detail .title-1-providers::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+	.service-detail .paragraph-1-providers {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 25% 5% 0% 5%;
+	}
+
+	/* Smart retail */
+	.service-detail .title-1-retail {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% auto 5%;
+	}
+
+	.service-detail .title-1-retail::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+	.service-detail .paragraph-1-retail {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.retail-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.retail-order  div:nth-child(2) {
+		order: 1;
+	}
+
+	/* Smart Building */
+	.service-detail .title-building {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .title-building::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-building {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 5% 5% auto 5%;
+	}
+
+	.service-detail .title-1-building::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-building {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 25% 5% 0% 5%;
+	}
+
+	.service-detail .paragraph-1-building {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.building-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.building-order  div:nth-child(2) {
+		order: 1;
+	}
+
+	/* Education */
+	.service-detail .title-education {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: auto 5% auto 5%;
+	}
+
+	.service-detail .title-education::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-education {
+		font-size: 4rem;
+		position: relative;
+		text-align: left;
+		margin: 10% 5% auto 5%;
+	}
+
+	.service-detail .title-1-education::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-1-education {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .paragraph-education {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 20% 5% 0% 5%;
+	}
+
+	.service-detail .list-1-education {
+		font-size: 2.67rem;
+		text-align: left;
+		margin: 10% 5% 0% 15%;
+	}
+
+	.service-detail .list-1-education li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	/* Bottom boxes */
+	.service-detail .title-2 {
+		font-size: 3rem !important;
+		position: relative;
+		text-align: center;
+		margin: 5% 10%;
+	}
+
+	.service-detail .title-2::before {
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 20%;
+		height: 2px;
+		bottom: -20px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.service-detail .paragraph-2 {
+		font-size: 2.25rem !important;
+		opacity: 0.6;
+		text-align: center;
+		margin: 15% 10% 0% 10%;
+	}
+
+	.details-text {
+		margin: 10% 5%;
+	}
+
+	.mini-meeting {
+		margin: -20% auto auto auto;
+	}
+
+	.mini-meeting p {
+		line-height: 1.5;
+		text-align: center;
+		font-size: 3rem;
+		margin: 2% 25% 0% 25%;
+	}
+
+	.mini-meeting a.btn {
+		padding: 3% 7% 3% 7% !important;
+		margin: 5% 25% 5% 25%;
+		font-size: 2.4rem;
+	}
+}
