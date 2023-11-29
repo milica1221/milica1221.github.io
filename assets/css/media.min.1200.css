@@ -1,7 +1,7 @@
 /* my desktop, big tv */
 @media only screen and (min-width: 1201px) {
     html {
-        font-size: 20px;
+        font-size: 24px;
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -12,7 +12,7 @@
 	}
 
 	h1 {
-		font-size: 1.4rem !important;
+		font-size: 3rem !important;
 	}
 
 	h2 {
@@ -42,7 +42,7 @@
 	}
 
 	.nav-tabs .nav-link {
-		font-size: 0.9rem !important;
+		font-size: 0.75rem !important;
 	}
 
 	.contact-form .button:hover {
