@@ -1,8 +1,7 @@
-/* flip phones, extra small */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700|Lato:300,400,500,600,700');
-@media only screen and (max-width: 320px) {
+/* laptops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     html {
-        font-size: 6px;
+        font-size: 14px;
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -13,41 +12,41 @@
 	}
 
 	h1 {
-		font-size: 4.667rem !important;
+		font-size: 2rem !important;
 	}
 
 	h2 {
-		font-size: 4rem !important;
+		font-size: 1.714rem !important;
 	}
 
 	h3 {
-		font-size: 3.5rem !important;
+		font-size: 1.5rem !important;
 	}
 
 	h4 {
-		font-size: 3rem !important;
+		font-size: 1.286rem !important;
 	}
 
 	p {
-		font-size: 2.5rem !important;
+		font-size: 1.071rem !important;
 	}
 
 	a.btn {
-		padding: 3% 7% 3% 7% !important;
-		font-size: 2rem !important;
+		padding: 2% 6% 2% 6% !important;
+		font-size: 0.9rem !important;
 		font-weight: normal !important;
 	}
 
 	ul {
-		font-size: 2.5rem !important;
+		font-size: 1.071rem !important;
 	}
 
 	.nav-tabs .nav-link {
-		font-size: 2rem !important;
+		font-size: 1.071rem !important;
 	}
 
 	.contact-form .button:hover {
-		font-size: 4rem !important;
+		font-size: 2rem !important;
 	}
 
 	.logo img {
@@ -64,41 +63,40 @@
 	}
 
     .slider-content p {
-        line-height: 4.667rem;
+        line-height: 2rem;
         margin: 1% auto 5% auto;
     }
 
 	/* Intro */
 	.intro {
-		margin: 20% auto 10% auto;
-		margin-bottom: 10%;
+		margin: 10% auto 10% auto;
         position: relative;
 	}
 
 	.intro img {
-		margin: 10% auto;
+		margin: 5% auto 10% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
 
 	.intro .orange-text {
-		line-height: 4rem;
+		line-height: 2rem;
 		text-align: center;
 	}
 
 	.intro .black-text {
-        line-height: 4rem;
+        line-height: 2rem;
 		text-align: center;
 	}
 
 	.intro .grey-text {
-		margin: auto 5% 10% 5%;
+		margin: auto 5% 5% 5%;
         text-align: justify;
 	}
 
 	/* User story */
 	.user-story {
-		margin: 10% auto 20% auto;
+		margin: 10% auto 10% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -124,7 +122,7 @@
 	}
 
 	.tab-content .tab-pane {
-		height: 65rem;
+		height: 35rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -178,7 +176,7 @@
 
 	.tab-content .tab-pane a.btn {
 		padding: 1%;
-		margin: 10% auto 3% 1%;
+		margin: 5% auto 3% 1%;
 	}
 
 	/* Paragraphs */
@@ -193,7 +191,7 @@
 	}
 
 	.container-white img {
-		margin: 10% auto auto auto;
+		margin: 10% 15% auto 15%;
 		box-shadow: 1.667rem 1.667rem #B7A5BE;
 	}
 
@@ -209,7 +207,7 @@
 	}
 
 	.container-grey img {
-		margin: 10% auto auto 5%;
+		margin: 10% 15% auto 15%;
 		box-shadow: -1.667rem -1.667rem #FF5A14;
 	}
 
@@ -266,9 +264,10 @@
 		max-width: 100%;
 	}
 
+
 	/* Meeting */
 	.meeting {
-		margin: 40% auto 20% auto;
+		margin: 40% auto 10% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -278,13 +277,13 @@
 	}
 
 	.meeting .img-purple {
-		max-width: 37rem;
+		max-width: 17.857rem;
 	}
 
 	.meeting .img-black {
-		transform: rotate(90deg);
-		max-width: 23.125rem;
-		margin: auto 3.75rem -8.375rem auto;
+		transform: rotate(360deg);
+		max-width: 11rem;
+		margin: 0rem 0rem auto auto;
 	}
 
 	.meeting-text-p {
@@ -294,7 +293,7 @@
 	}
 
 	.meeting-text a.btn {
-		margin: 5% 25% 5% 20%;
+		margin: 5% 5% 5% 5% !important;
 		font-weight: bold;
 	}
 
@@ -392,8 +391,8 @@
 	.features-wrap {
 		position: relative;
 		display: block;
-		margin: auto auto 5% auto;
-		padding: 3.75rem 2rem;
+		margin: auto 2% 5% 2%;
+		padding: 3.75rem 1rem;
 		max-width: 100%;
 		height: auto;
 	}
@@ -427,12 +426,12 @@
 
 	.features-wrap p {
 		margin: 5% auto 10% auto;
+		text-align: center;
 	}
 
 	.features-icon {
 		margin: 1.667rem auto 1.667rem auto;
 	}
-
 
 	/* Partners */
 	.section-partners h3 {
@@ -440,23 +439,14 @@
 	}
 
 	.brands {
-		display: block;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 1rem;
 	}
-
 	.brands__item {
 		margin: auto auto 10% auto;
 		text-align: center;
-		padding: 10%;
-	}
-
-	.section-partners {
-		margin: 5% auto 5% auto;
-	}
-
-	.container-partners {
-		position: relative;
-		margin: auto 5% auto 5%;
+		padding: 5%;
 	}
 
 	.brands__item img {
@@ -476,9 +466,10 @@
 		height: 100%;
 	}
 
+
 	/* Contact */
 	.orange-box {
-		margin: -10% 0% 10% 0%;
+		margin: 5% 2% 10% 2%;
 		padding: auto 2% auto 2%;
 	}
 
@@ -510,23 +501,19 @@
 		margin: 10% 0%;
 	}
 
-	.contact-area .maps-area {
+	.contact-area .mobile-maps-area {
 		display: none;
 	}
 
-	.mobile-maps-area {
-		margin: 1%;
-		padding: 0%;
-	}
 
 	/* Products, services, solutions */
 	.solutions-area p, .products-area p, .services-entity-area p {
 		text-align: left;
-		margin: 1% 5% 10% 3%;
+		margin: -5% 5% 5% 3%;
 	}
 
 	.products-content  {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
@@ -535,7 +522,7 @@
 
 	.solutions-area h3, .products-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 0% 3%;
+		margin: 0% 5% 3% 3%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
@@ -543,24 +530,24 @@
 	}
 
 	.services-entity-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.solutions-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.details-content h4 {
 		position: relative;
-		line-height: 4.667rem;
-		margin: 65% auto auto auto;
+		line-height: 2.8rem;
+		margin: 40% auto auto auto;
 		padding: auto auto 2% auto;
 	}
 
 	.details-content p {
 		position: relative;
-		line-height: 4.833rem;
-		margin: 15% auto auto auto;
+		line-height: 2rem;
+		margin: 5% auto auto auto;
 		padding: auto auto 10% auto;
 	}
 
@@ -573,7 +560,7 @@
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .title-platform::before {
@@ -587,7 +574,7 @@
 	.service-detail .title-1-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .platform-order .title-1-platform {
@@ -604,7 +591,7 @@
 
 	.service-detail .paragraph-1-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.img-platform-1 {
@@ -614,24 +601,17 @@
 	.img-platform-2, .img-platform-3, .img-platform-4 {
 		width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.regular-platform {
 		display: none;
 	}
 
-	.mobile-platform {
-		margin: 5%;
+	.img-platform-3, .img-platform-4 {
+		margin-top: 5%;
 	}
 
-	.platform-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.platform-order  div:nth-child(2) {
-		order: 1;
-	}
 
 	/* NV Edge */
 	.service-detail .title-1-edge {
@@ -664,15 +644,7 @@
 
 	.service-detail .paragraph-1-edge {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
-	}
-
-	.edge-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.edge-order  div:nth-child(2) {
-		order: 1;
+		margin: 10% 5% 0% 5%;
 	}
 
 	/* Support */
@@ -692,14 +664,14 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 20% 5% 20% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	/* Professional services */
 	.service-detail .title-1-services {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-services::before {
@@ -712,12 +684,12 @@
 
 	.service-detail .paragraph-1-services {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 5% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -729,7 +701,7 @@
 	.service-detail .title-1-training {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-training::before {
@@ -742,12 +714,12 @@
 
 	.service-detail .paragraph-1-b-training {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 5% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-training li {
@@ -786,12 +758,12 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	/* Smart Industry */
@@ -825,29 +797,14 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
-	.industry-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.industry-order  div:nth-child(2) {
-		order: 1;
-	}
-
-	.img-industry-2, .regular-agriculture, .regular-industry {
-		display: none;
-	}
-
-	#invisible-row {
-		display: none;
-	}
 
 	/* Smart providers */
 	.service-detail .title-1-providers {
@@ -865,8 +822,9 @@
 	}
 	.service-detail .paragraph-1-providers {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
+
 
 	/* Smart retail */
 	.service-detail .title-1-retail {
@@ -882,17 +840,18 @@
 		bottom: -15px;
 		margin: 0%;
 	}
+
 	.service-detail .paragraph-1-retail {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 10% 5%;
 	}
 
-	.retail-order div:nth-child(1) {
-		order: 2;
+	.img-providers-1 {
+		margin: auto auto 10% auto;
 	}
 
-	.retail-order  div:nth-child(2) {
-		order: 1;
+	.img-providers-2 {
+		margin: 5% auto auto auto;
 	}
 
 	/* Smart Building */
@@ -926,20 +885,12 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
-	}
-
-	.building-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.building-order  div:nth-child(2) {
-		order: 1;
+		margin: 10% 5% 0% 5%;
 	}
 
 	/* Education */
@@ -973,17 +924,17 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 3% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-education li {
@@ -1020,9 +971,8 @@
 	}
 
 	.mini-meeting {
-		margin: -20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
-
 	.mini-meeting p {
 		line-height: 1.5;
 		text-align: center;
@@ -1032,4 +982,15 @@
 	.mini-meeting a.btn {
 		margin: 5% 25% 5% 25%;
 	}
+
+	.img-platform-2, .img-platform-3, .img-platform-4 {
+		max-width: 100%;
+		height: auto;
+		align-items: center;
+	}
+
+	.mobile-platform, .mobile-agriculture, .mobile-industry {
+		display: none;
+	}
+
 }

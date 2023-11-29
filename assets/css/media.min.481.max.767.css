@@ -1,8 +1,7 @@
-/* flip phones, extra small */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700|Lato:300,400,500,600,700');
-@media only screen and (max-width: 320px) {
+/* bigger phones, tablets */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
     html {
-        font-size: 6px;
+        font-size: 10px;
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -13,50 +12,51 @@
 	}
 
 	h1 {
-		font-size: 4.667rem !important;
+		font-size: 2.8rem !important;
 	}
 
 	h2 {
-		font-size: 4rem !important;
+		font-size: 2.4rem !important;
 	}
 
 	h3 {
-		font-size: 3.5rem !important;
+		font-size: 2.1rem !important;
 	}
 
 	h4 {
-		font-size: 3rem !important;
+		font-size: 1.8rem !important;
 	}
 
 	p {
-		font-size: 2.5rem !important;
+		font-size: 1.5rem !important;
 	}
 
 	a.btn {
-		padding: 3% 7% 3% 7% !important;
-		font-size: 2rem !important;
+		padding: 2% 6% 2% 6% !important;
+		font-size: 1.2rem !important;
 		font-weight: normal !important;
 	}
 
 	ul {
-		font-size: 2.5rem !important;
+		font-size: 1.5rem !important;
 	}
 
 	.nav-tabs .nav-link {
-		font-size: 2rem !important;
+		font-size: 1.5rem !important;
 	}
 
 	.contact-form .button:hover {
-		font-size: 4rem !important;
+		font-size: 2.8rem !important;
 	}
 
 	.logo img {
 		max-width: fit-content;
 	}
 
+
 	/* Slider */
 	.slider-content {
-		margin: 25% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.slider-content h1 {
@@ -64,19 +64,18 @@
 	}
 
     .slider-content p {
-        line-height: 4.667rem;
+        line-height: 3.5rem;
         margin: 1% auto 5% auto;
     }
 
 	/* Intro */
 	.intro {
-		margin: 20% auto 10% auto;
-		margin-bottom: 10%;
+		margin: 10% auto 10% auto;
         position: relative;
 	}
 
 	.intro img {
-		margin: 10% auto;
+		margin: 5% auto 10% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -98,7 +97,7 @@
 
 	/* User story */
 	.user-story {
-		margin: 10% auto 20% auto;
+		margin: 10% auto 10% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -124,7 +123,7 @@
 	}
 
 	.tab-content .tab-pane {
-		height: 65rem;
+		height: 55rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -168,7 +167,7 @@
 	}
 
 	.tab-content .tab-pane h4 {
-		margin: 3% auto auto 2%;
+		margin: 10% auto auto 2%;
 	}
 
 	.tab-content .tab-pane p {
@@ -180,6 +179,7 @@
 		padding: 1%;
 		margin: 10% auto 3% 1%;
 	}
+
 
 	/* Paragraphs */
 	.paragraphs {
@@ -193,7 +193,7 @@
 	}
 
 	.container-white img {
-		margin: 10% auto auto auto;
+		margin: 10% 10% 10% 5%;
 		box-shadow: 1.667rem 1.667rem #B7A5BE;
 	}
 
@@ -209,7 +209,7 @@
 	}
 
 	.container-grey img {
-		margin: 10% auto auto 5%;
+		margin: 10% 10% 10% 5%;
 		box-shadow: -1.667rem -1.667rem #FF5A14;
 	}
 
@@ -232,6 +232,8 @@
 	}
 
 	.container-grey p {
+		margin: auto auto 4% 0%;
+		padding: auto auto auto 0%;
 		text-align: left;
 	}
 
@@ -278,13 +280,14 @@
 	}
 
 	.meeting .img-purple {
-		max-width: 37rem;
+		max-width: 23.68rem;
 	}
 
 	.meeting .img-black {
+		margin: auto auto -8.375rem auto;
+		padding: auto auto 0% auto;
 		transform: rotate(90deg);
 		max-width: 23.125rem;
-		margin: auto 3.75rem -8.375rem auto;
 	}
 
 	.meeting-text-p {
@@ -294,7 +297,7 @@
 	}
 
 	.meeting-text a.btn {
-		margin: 5% 25% 5% 20%;
+		margin: 5% 20% 5% 20%;
 		font-weight: bold;
 	}
 
@@ -343,7 +346,10 @@
 
 	.usecase-img-new {
 		overflow: hidden;
-		max-width: 100%;
+	}
+
+	.usecase-img-new img {
+		width: 100%;
 		height: auto;
 	}
 
@@ -433,7 +439,6 @@
 		margin: 1.667rem auto 1.667rem auto;
 	}
 
-
 	/* Partners */
 	.section-partners h3 {
 		margin: auto auto 5% auto;
@@ -522,11 +527,11 @@
 	/* Products, services, solutions */
 	.solutions-area p, .products-area p, .services-entity-area p {
 		text-align: left;
-		margin: 1% 5% 10% 3%;
+		margin: -5% 5% 10% 3%;
 	}
 
 	.products-content  {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
@@ -535,7 +540,7 @@
 
 	.solutions-area h3, .products-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 0% 3%;
+		margin: 0% 5% 3% 3%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
@@ -543,24 +548,24 @@
 	}
 
 	.services-entity-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.solutions-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.details-content h4 {
 		position: relative;
-		line-height: 4.667rem;
-		margin: 65% auto auto auto;
+		line-height: 2.8rem;
+		margin: 50% auto auto auto;
 		padding: auto auto 2% auto;
 	}
 
 	.details-content p {
 		position: relative;
-		line-height: 4.833rem;
-		margin: 15% auto auto auto;
+		line-height: 2.8rem;
+		margin: 5% auto auto auto;
 		padding: auto auto 10% auto;
 	}
 
@@ -573,7 +578,7 @@
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .title-platform::before {
@@ -587,7 +592,7 @@
 	.service-detail .title-1-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .platform-order .title-1-platform {
@@ -604,7 +609,7 @@
 
 	.service-detail .paragraph-1-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.img-platform-1 {
@@ -651,7 +656,7 @@
 	.service-detail .title-1-edge-2 {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .title-1-edge-2::before {
@@ -664,7 +669,7 @@
 
 	.service-detail .paragraph-1-edge {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.edge-order div:nth-child(1) {
@@ -692,14 +697,14 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 20% 5% 20% 5%;
+		margin: 5% 5% 20% 5%;
 	}
 
 	/* Professional services */
 	.service-detail .title-1-services {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-services::before {
@@ -712,12 +717,12 @@
 
 	.service-detail .paragraph-1-services {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 5% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -729,7 +734,7 @@
 	.service-detail .title-1-training {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 
 	.service-detail .title-1-training::before {
@@ -742,18 +747,19 @@
 
 	.service-detail .paragraph-1-b-training {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 5% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-training li {
 		display: list-item;
 		list-style-type: disc;
 	}
+
 
 	/* Smart Agriculture */
 	.service-detail .title-agriculture {
@@ -786,12 +792,12 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	/* Smart Industry */
@@ -825,12 +831,12 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.industry-order div:nth-child(1) {
@@ -865,7 +871,7 @@
 	}
 	.service-detail .paragraph-1-providers {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	/* Smart retail */
@@ -884,7 +890,7 @@
 	}
 	.service-detail .paragraph-1-retail {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.retail-order div:nth-child(1) {
@@ -926,12 +932,12 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.building-order div:nth-child(1) {
@@ -973,12 +979,12 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 10% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-education {
@@ -1031,5 +1037,16 @@
 
 	.mini-meeting a.btn {
 		margin: 5% 25% 5% 25%;
+	}
+	.img-platform-1 {
+		display: none;
+	}
+	.img-platform-2, .img-platform-3, .img-platform-4 {
+		width: 307px;
+		height: auto;
+		margin: 0% 5% 0% 5%;
+	}
+	.regular-platform {
+		display: none;
 	}
 }

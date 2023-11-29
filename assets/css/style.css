@@ -37,8 +37,8 @@ New CSS Index
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700|Lato:300,400,500,600,700');
 @import url('media.max.320.css');
 @import url('media.min.321.max.480.css');
-@import url('media.min.481.max.768.css');
-@import url('media.min.768.max.1024.css');
+@import url('media.min.481.max.767.css');
+@import url('media.min.768.max.1023.css');
 @import url('media.min.1024.max.1200.css');
 @import url('media.min.1200.css');
 /* body {
@@ -640,6 +640,7 @@ label {
 .post-comments .section-title h2 {
 	margin-bottom: 15px;
 }
+
 .section-title h2::before {
 	content: "";
 	position: absolute;
@@ -1891,7 +1892,7 @@ blockquote {
 	border-color: #707070;
 }
 
-.user-story h2 {
+.user-story h3 {
 	text-transform: capitalize;
 	color: #363636;
 }
@@ -1941,12 +1942,12 @@ blockquote {
 	border-bottom: 2px solid #ff5a14 !important;
 }
 
-.tab-content .tab-pane h3 {
+.tab-content .tab-pane h4 {
 	color: #ffffff;
 	font-weight: bold;
 }
 
-.tab-content .tab-pane h3::before {
+.tab-content .tab-pane h4::before {
 	color: transparent;
 }
 
@@ -2007,12 +2008,12 @@ blockquote {
 
 .meeting-text a.btn {
 	font-weight: bold;
-	border: 2px solid #ffffff;
+	border: 1px solid #ffffff;
 	background: none;
 	color: #ffffff;
 }
 
-.section-title.usecase-title h2 {
+.section-title.usecase-title h3 {
 	color: #FF5A14;
 	font-weight: bold;
 }
@@ -2033,7 +2034,7 @@ blockquote {
 	color: #ff5e14;
 }
 
-.section-title.usecase-title h2::before {
+.section-title.usecase-title h3::before {
 	content: "";
 	background: #ffffff;
 }
@@ -2056,14 +2057,14 @@ blockquote {
 	color: #D8D8D8;
 }
 
-.card-title-new h5 {
+.card-title-new h4 {
 	background-color: #363636;
 	color: #D8D8D8;
 }
 
-.service-title h2::before {
+.service-title h3::before {
 	content: "";
-	background: #ff5e14;
+	background: transparent;
 }
 
 .services-paragraph p {
@@ -2327,7 +2328,7 @@ blockquote {
 	height: auto;
 }
 
-.section-partners h2 {
+.section-partners h3 {
 	font-weight: bold;
 	color: #363636;
 }
@@ -2546,30 +2547,6 @@ blockquote {
 	margin: 10% 5%;
 }
 
-.mini-meeting {
-	margin-top: 5%;
-}
-
-.mini-meeting p {
-	color: #ffffff;
-	font-weight: bold;
-	line-height: 1;
-	text-align: center;
-	font-size: 1.5rem;
-
-}
-
-.mini-meeting a.btn {
-	padding: 2% 3%;
-	margin: 5% 25% 5% 10%;
-	font-weight: bold;
-	border: 2px solid #ffffff;
-	background: none;
-	color: #ffffff;
-	font-size: 1.25rem;
-}
-
-
 /* Contact */
 
 .orange-box p {
@@ -2608,12 +2585,10 @@ blockquote {
 
 .service-detail .title-1-edge {
 	color: #363636;
-	font-size: 1.5rem;
 	font-weight: bold;
 	position: relative;
 	font-family: 'Lato', sans-serif;
 	text-align: left;
-	margin: 10% 5%;
 }
 
 .service-detail .title-1-edge::before {
@@ -2632,7 +2607,7 @@ blockquote {
 	color: black !important;
 }
 
-.solutions-area h5, .products-area h5, .services-entity-area h5 {
+.solutions-area h3, .products-area h3, .services-entity-area h3 {
 	color: black;
 }
 
@@ -2646,7 +2621,7 @@ blockquote {
 	box-shadow: none;
 }
 
-.details-content h2 {
+.details-content h4 {
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -2969,12 +2944,11 @@ blockquote {
 
 .mini-meeting p {
 	color: #ffffff;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .mini-meeting a.btn {
-	font-weight: bold;
-	border: 2px solid #ffffff;
+	border: 1px solid #ffffff;
 	background: none;
 	color: #ffffff;
 }
