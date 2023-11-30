@@ -40,7 +40,9 @@ New CSS Index
 @import url('media.min.481.max.767.css');
 @import url('media.min.768.max.1023.css');
 @import url('media.min.1024.max.1200.css');
-@import url('media.min.1200.css');
+@import url('media.min.1200.max.1799.css');
+@import url('media.min.1800.max.2999.css');
+@import url('media.min.3000.css');
 /* body {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;

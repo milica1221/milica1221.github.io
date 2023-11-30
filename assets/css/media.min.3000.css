@@ -1,7 +1,7 @@
 /* my desktop, big tv */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 3000px) {
     html {
-        font-size: 24px;
+        font-size: 32px;
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -482,6 +482,14 @@
 		padding: 0.05rem auto auto auto;
 	}
 
+	#contact-form .col-xl-12 {
+		margin: auto auto 3% auto;
+	}
+
+	#contact-form .col-xl-6 {
+		margin: auto auto 3% auto;
+	}
+
 	.contact-form button {
 		margin: auto auto 10% auto;
 	}
@@ -499,6 +507,19 @@
 	}
 
 	/* Products, services, solutions */
+
+	.products-area, .services-entity-area, .solutions-area {
+		margin: 5% auto 5% auto;
+	}
+
+	.products-area .col-xl-12 {
+		margin: auto auto 5% auto;
+	}
+
+	.solutions-area .col-xl-4 {
+		margin: auto auto 5% auto;
+	}
+
 	.solutions-area p, .services-entity-area p {
 		text-align: left;
 		margin: -11% 5% 5% 3%;
@@ -555,15 +576,27 @@
 	}
 
 	/* NV Platform */
+	#container-fluid-platform {
+		margin: auto auto 0% auto;
+	}
+
 	.service-detail .title-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 2% 5% 0% 5%;
+		margin: 2% 5% 5% 5%;
+	}
+
+	#platform-row {
+		background-color: #fbfbfb;
+	}
+
+	#platform-bottom-box {
+		margin: 5% auto 5% auto;
 	}
 
 	.service-detail .title-platform::before {
@@ -600,27 +633,36 @@
 	.img-platform-1 {
 		max-width: 100%;
 		height: auto;
-		margin: 0% 0% 0% 2%;
+		margin: 5% 0% 5% 2%;
 	}
 
 	.img-platform-2 {
 		max-width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 0%;
+		margin: 5% 5% 5% 0%;
 	}
 
 	.img-platform-3, .img-platform-4 {
 		max-width: 100%;
 		height: auto;
-		margin: 10% auto auto auto;
+		margin: 10% auto 5% auto;
 	}
 
 
 	/* NV Edge */
+
+	#container-fluid-edge-computing {
+		margin: auto auto 0% auto;
+	}
+
 	.service-detail .title-1-edge {
 		position: relative;
 		text-align: left;
 		margin: 10% 5% 0% 5%;
+	}
+
+	.service-detail .img-edge-1 {
+		margin: 5% auto 5% auto;
 	}
 
 	.service-detail .title-1-edge::before {
@@ -647,14 +689,19 @@
 
 	.service-detail .paragraph-1-edge {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 10% 5%;
 	}
 
 	/* Support */
+
+	#support {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-support {
 		position: relative;
 		text-align: left;
-		margin: 0% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-support::before {
@@ -671,10 +718,15 @@
 	}
 
 	/* Professional services */
+
+	#professional-services {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-services {
 		position: relative;
 		text-align: left;
-		margin: 1% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-services::before {
@@ -701,6 +753,11 @@
 	}
 
 	/* Training */
+
+	#training {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-training {
 		position: relative;
 		text-align: left;
@@ -731,10 +788,23 @@
 	}
 
 	/* Smart Agriculture */
+
+	#smart-agriculture {
+		margin: 0% auto 0% auto;
+	}
+
+	#agriculture-row {
+		background-color: #fbfbfb;
+	}
+
+	.regular-agriculture {
+		margin: auto auto 5% auto;
+	}
+
 	.service-detail .title-agriculture {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-agriculture::before {
@@ -761,18 +831,28 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 3% 5% 0% 5%;
+		margin: 3% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
+	}
+
+	/* Smart industry */
+
+	#smart-industry {
+		margin: 0% auto 0% auto;
+	}
+
+	#industry-row {
+		background-color: #fbfbfb;
 	}
 
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-industry::before {
@@ -799,29 +879,44 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 3% 5% 0% 5%;
+		margin: 3% 5% 5% 5%;
 	}
 
 	.img-industry-1, .img-industry-2 {
 		max-width: 100%;
 		height: auto;
 		align-items: center;
+		margin: 5% auto 5% auto;
 	}
 
 	.img-industry-3, .img-industry-4 {
 		max-width: 100%;
 		height: auto;
 		align-items: center;
-		margin: 5% auto auto auto;
+		margin: 5% auto 5% auto;
+	}
+
+	.img-industry-5 {
+		margin: 10% auto auto auto;
+	}
+
+	#bottom-box-industry {
+		background-color: #fbfbfb;
+		padding: 5% auto 5% auto;
 	}
 
 
 	/* Smart providers */
+
+	#smart-providers {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-providers {
 		position: relative;
 		text-align: left;
@@ -837,11 +932,19 @@
 	}
 	.service-detail .paragraph-1-providers {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
+	}
+
+	.img-providers-1 {
+		margin: 5% auto 5% auto;
 	}
 
 
 	/* Smart retail */
+	#smart-retail {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-retail {
 		position: relative;
 		text-align: left;
@@ -857,22 +960,27 @@
 	}
 	.service-detail .paragraph-1-retail {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
-	}
-
-	.img-providers-1 {
-		margin: auto auto 10% auto;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.img-providers-2 {
-		margin: 5% auto auto auto;
+		margin: 5% auto 5% auto;
 	}
 
 	/* Smart Building */
+
+	#smart-building {
+		margin: 0% auto 0% auto;
+	}
+
+	#building-row {
+		background-color: #fbfbfb;
+	}
+
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-building::before {
@@ -899,19 +1007,32 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
+	}
+
+	.img-building-1, .img-building-2, .img-building-3 {
+		margin: 5% auto 5% auto;
 	}
 
 	/* Education */
+
+	.service-detail {
+		margin: 0% auto 5% auto;
+	}
+
 	.service-detail .title-education {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
+	}
+
+	#education-color-row {
+		background-color: #fbfbfb;
 	}
 
 	.service-detail .title-education::before {
@@ -938,17 +1059,17 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 3% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 3% 5% 0% 5%;
+		margin: 3% 5% 2% 5%;
 	}
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 3% 5% 0% 15%;
+		margin: 0% 5% 5% 15%;
 	}
 
 	.service-detail .list-1-education li {
@@ -956,11 +1077,25 @@
 		list-style-type: disc;
 	}
 
+	.service-detail .img-education-1 {
+		margin: 5% auto auto auto;
+	}
+
 	/* Bottom boxes */
+
+	#bottom-box {
+		background-color: #fbfbfb;
+		padding: 5% auto 5% auto;
+	}
+
+	.img-edge-3 {
+		margin: 5% auto auto auto;
+	}
+
 	.service-detail .title-2 {
 		position: relative;
 		text-align: center;
-		margin: 5% 10%;
+		margin: 5% 10% 5% 10%;
 	}
 
 	.service-detail .title-2::before {
@@ -984,8 +1119,10 @@
 		margin: 5% 5%;
 	}
 
+	/* Mini meeting */
+
 	.mini-meeting {
-		margin: 0% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 	.mini-meeting p {
 		line-height: 1.5;

@@ -1,7 +1,7 @@
-/* bigger phones, tablets */
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+/* my desktop, big tv */
+@media only screen and (min-width: 1800px) and (max-width: 2999px) {
     html {
-        font-size: 10px;
+        font-size: 28px;
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -12,51 +12,59 @@
 	}
 
 	h1 {
-		font-size: 2.8rem !important;
+		font-size: 3rem !important;
 	}
 
 	h2 {
-		font-size: 2.4rem !important;
+		font-size: 1.2rem !important;
 	}
 
 	h3 {
-		font-size: 2.1rem !important;
+		font-size: 1.05rem !important;
 	}
 
 	h4 {
-		font-size: 1.8rem !important;
+		font-size: 0.9rem !important;
 	}
 
 	p {
-		font-size: 1.5rem !important;
+		font-size: 0.75rem !important;
 	}
 
 	a.btn {
-		padding: 2% 6% 2% 6% !important;
-		font-size: 1.2rem !important;
+		padding: 1% 3% 1% 4% !important;
+		font-size: 0.6rem !important;
 		font-weight: normal !important;
 	}
 
 	ul {
-		font-size: 1.5rem !important;
+		font-size: 0.75rem !important;
 	}
 
 	.nav-tabs .nav-link {
-		font-size: 1.5rem !important;
+		font-size: 0.75rem !important;
 	}
 
 	.contact-form .button:hover {
-		font-size: 2.8rem !important;
+		font-size: 1.4rem !important;
 	}
 
 	.logo img {
 		max-width: fit-content;
 	}
+/*
+	.transparent-bg.sticky {
+		height: 8%;
+	}
 
-
+	.menu-area {
+		padding: 0% 0% 0% 0%;
+		margin: auto auto 0% auto;
+	}
+*/
 	/* Slider */
 	.slider-content {
-		margin: 10% auto auto auto;
+		margin: 25% auto auto auto;
 	}
 
 	.slider-content h1 {
@@ -64,13 +72,13 @@
 	}
 
     .slider-content p {
-        line-height: 3.5rem;
+        line-height: 1rem;
         margin: 1% auto 5% auto;
     }
 
 	/* Intro */
 	.intro {
-		margin: 10% auto 10% auto;
+		margin: 5% auto 5% auto;
         position: relative;
 	}
 
@@ -81,56 +89,50 @@
 	}
 
 	.intro .orange-text {
-		line-height: 4rem;
-		text-align: center;
+		line-height: 1rem;
 	}
 
 	.intro .black-text {
-        line-height: 4rem;
-		text-align: center;
+        line-height: 1rem;
 	}
 
 	.intro .grey-text {
-		margin: auto 5% 10% 5%;
-        text-align: justify;
+		margin: auto 5% 5% 5%;
+        text-align: center;
 	}
 
 	/* User story */
 	.user-story {
-		margin: 10% auto 10% auto;
-		padding: 10% auto auto auto;
+		margin: 5% 0% 20% 0%;
+		padding: 3% 7% 1% 7% !important;
 	}
 
 	.user-story .container-box {
 		margin: 0%;
-		padding: 7%;
+		padding: 3%;
 		position: relative;
-		border: 0.167rem solid;
+		border: 0.1rem solid;
 		border-spacing: 3%;
 	}
 
 	.user-story .container-fluid {
-		margin: 7% auto 20% auto;
+		margin: 7% auto 7% auto;
 	}
 
 	.user-story h3 {
-		margin: auto auto 10% auto;
+		margin: 5% auto 10% auto;
 	}
 
 	.user-story .black-text {
-		margin: auto auto 3% auto;
+		margin: auto auto auto auto;
 		text-align: center;
 	}
 
 	.tab-content .tab-pane {
-		height: 55rem;
+		height: 17rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
-	}
-
-	.tab-content .tab-pane p {
-		margin: 10% auto auto auto;
 	}
 
 	.tab-content .tab-pane .col-xl-12 {
@@ -143,11 +145,11 @@
 	}
 
 	.tab-content {
-		margin-top: 10%;
+		margin: 5% auto auto auto;
 	}
 
 	.nav-tabs {
-		margin: auto auto 3% auto;
+		margin: auto auto 1% auto;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -158,7 +160,7 @@
 	}
 
 	.tab-content .tab-pane .container {
-		padding: 0.333rem 0.5rem;
+		padding: 0.111rem 0.2rem;
 		overflow-x: hidden;
 	}
 
@@ -167,34 +169,32 @@
 	}
 
 	.tab-content .tab-pane h4 {
-		margin: 10% auto auto 2%;
+		margin: 1% auto auto 2%;
 	}
 
 	.tab-content .tab-pane p {
 		line-height: 1.5;
-		margin: 3% auto auto 2%;
+		margin: 3% 4% auto 2%;
 	}
 
 	.tab-content .tab-pane a.btn {
-		padding: 1%;
-		margin: 10% auto 3% 1%;
+		margin: 3% auto 3% 1%;
 	}
-
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 20% auto;
+		margin: 15% auto 5% auto;
 		padding: 10% auto auto auto;
 	}
 
 	.container-white {
 		position: relative;
-		margin: 20% 5% 5% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.container-white img {
-		margin: 10% 10% 10% 5%;
-		box-shadow: 1.667rem 1.667rem #B7A5BE;
+		margin: 5% auto auto auto;
+		box-shadow: 1rem 1rem #B7A5BE;
 	}
 
 	.paragraphs .container-fluid {
@@ -203,25 +203,25 @@
 	}
 
 	.container-grey {
-		margin: 20% auto auto 0%;
-		padding: 5% 10% 10% 5%;
+		margin: 3% auto auto 0%;
+		padding: 5% 10% 5% 5%;
 		position: relative;
 	}
 
 	.container-grey img {
-		margin: 10% 10% 10% 5%;
-		box-shadow: -1.667rem -1.667rem #FF5A14;
+		margin: 5% auto auto 5%;
+		box-shadow: -1rem -1rem #FF5A14;
 	}
 
 	.container-white h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 3rem auto;
 		display: inline-block;
 	}
 
 	.container-grey h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 3rem 5%;
 		display: inline-block;
 	}
 
@@ -232,45 +232,39 @@
 	}
 
 	.container-grey p {
-		margin: auto auto 4% 0%;
-		padding: auto auto auto 0%;
 		text-align: left;
+		margin-left: 5%;
 	}
 
 	.container-white h3::before {
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
-		width: 30rem;
+		height: 0.15rem;
+		bottom: -1rem;
+		width: 21rem;
 	}
 
 	.container-grey h3::before {
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
-		width: 30rem;
+		height: 0.15rem;
+		bottom: -1rem;
+		width: 21rem;
 	}
 
 	.container-grey div:nth-child(1) {
-			order: 2;
+		order: 1;
 	}
 
 	.container-grey  div:nth-child(2) {
-			order: 1;
-	}
-
-	.paragraphs .container-fluid img {
-		height: auto;
-		max-width: 100%;
+		order: 2;
 	}
 
 	/* Meeting */
 	.meeting {
-		margin: 40% auto 20% auto;
+		margin: 20% auto 5% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -280,14 +274,13 @@
 	}
 
 	.meeting .img-purple {
-		max-width: 23.68rem;
+		max-width: 17.857rem;
 	}
 
 	.meeting .img-black {
-		margin: auto auto -8.375rem auto;
-		padding: auto auto 0% auto;
-		transform: rotate(90deg);
-		max-width: 23.125rem;
+		transform: rotate(360deg);
+		max-width: 11rem;
+		margin: 0rem 0rem auto auto;
 	}
 
 	.meeting-text-p {
@@ -297,7 +290,7 @@
 	}
 
 	.meeting-text a.btn {
-		margin: 5% 20% 5% 20%;
+		margin: 5% 5% 5% 5%;
 		font-weight: bold;
 	}
 
@@ -308,11 +301,11 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
-		margin: auto auto 5rem auto;
+		margin: auto auto 2rem auto;
 		position: relative;
 		display: inline-block;
 	}
@@ -346,10 +339,7 @@
 
 	.usecase-img-new {
 		overflow: hidden;
-	}
-
-	.usecase-img-new img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 	}
 
@@ -362,21 +352,21 @@
 	}
 
 	.card-title-new h4 {
-		margin: 3% auto 6% 5%;
+		margin: 1% auto 6% 5%;
 	}
 
 	/* Services */
 	.service-area {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 		padding: 10% auto auto auto;
 	}
 
 	.service-area h3 {
-		margin: 20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.services-paragraph p {
-		margin: 5% auto 15% auto;
+		margin: 2% auto 7% auto;
 		text-align: justify;
 	}
 
@@ -392,16 +382,16 @@
 	}
 
 	.features-wrap h4 {
-		margin: auto auto 2.833rem auto;
+		margin: auto auto 2rem auto;
 	}
 
 	.features-wrap {
 		position: relative;
 		display: block;
 		margin: auto auto 5% auto;
-		padding: 3.75rem 2rem;
+		padding: 1rem 0.8rem 1rem 0.8rem;
 		max-width: 100%;
-		height: auto;
+		height: 90%;
 	}
 
 	.services-content {
@@ -436,7 +426,7 @@
 	}
 
 	.features-icon {
-		margin: 1.667rem auto 1.667rem auto;
+		margin: 0.5rem auto 1rem auto;
 	}
 
 	/* Partners */
@@ -445,23 +435,14 @@
 	}
 
 	.brands {
-		display: block;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 1rem;
 	}
-
 	.brands__item {
 		margin: auto auto 10% auto;
 		text-align: center;
-		padding: 10%;
-	}
-
-	.section-partners {
-		margin: 5% auto 5% auto;
-	}
-
-	.container-partners {
-		position: relative;
-		margin: auto 5% auto 5%;
+		padding: 5%;
 	}
 
 	.brands__item img {
@@ -483,7 +464,7 @@
 
 	/* Contact */
 	.orange-box {
-		margin: -10% 0% 10% 0%;
+		margin: 5% 2% 10% 2%;
 		padding: auto 2% auto 2%;
 	}
 
@@ -497,8 +478,8 @@
 	}
 
 	.contact-form {
-		margin: 0.167rem auto auto auto;
-		padding: 0.167rem auto auto auto;
+		margin: 0.05rem auto auto auto;
+		padding: 0.05rem auto auto auto;
 	}
 
 	#contact-form .col-xl-12 {
@@ -510,8 +491,6 @@
 	}
 
 	.contact-form button {
-		padding: 3% 7% 3% 7%;
-		font-weight: normal;
 		margin: auto auto 10% auto;
 	}
 
@@ -523,32 +502,51 @@
 		margin: 10% 0%;
 	}
 
-	.contact-area .maps-area {
+	.contact-area .mobile-maps-area {
 		display: none;
 	}
 
-	.mobile-maps-area {
-		margin: 1%;
-		padding: 0%;
+	/* Products, services, solutions */
+
+	.products-area, .services-entity-area, .solutions-area {
+		margin: 5% auto 5% auto;
 	}
 
-	/* Products, services, solutions */
-	.solutions-area p, .products-area p, .services-entity-area p {
+	.products-area .col-xl-12 {
+		margin: auto auto 5% auto;
+	}
+
+	.solutions-area .col-xl-4 {
+		margin: auto auto 5% auto;
+	}
+
+	.solutions-area p, .services-entity-area p {
 		text-align: left;
-		margin: -5% 5% 10% 3%;
+		margin: -11% 5% 5% 3%;
+	}
+	.products-area p {
+		text-align: left;
+		margin: -3% 5% 3% 0%;
 	}
 
 	.products-content  {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
-	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
+	.services-entity-content a.btn, .solutions-content a.btn {
 		margin: auto auto auto 3%;
 	}
+	.products-content a.btn {
+		margin: auto auto auto 0%;
+	}
 
-	.solutions-area h3, .products-area h3, .services-entity-area h3 {
+	.solutions-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 3% 3%;
+		margin: 0% 5% 1% 3%;
+	}
+	.products-area h3 {
+		text-align: left;
+		margin: 0% 5% 1% 0%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
@@ -566,33 +564,45 @@
 	.details-content h4 {
 		position: relative;
 		line-height: 2.8rem;
-		margin: 50% auto auto auto;
+		margin: 20% auto auto auto;
 		padding: auto auto 2% auto;
 	}
 
 	.details-content p {
 		position: relative;
-		line-height: 2.8rem;
+		line-height: 1.2rem;
 		margin: 5% auto auto auto;
 		padding: auto auto 10% auto;
 	}
 
 	/* NV Platform */
+	#container-fluid-platform {
+		margin: auto auto 0% auto;
+	}
+
 	.service-detail .title-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 2% 5% 5% 5%;
+	}
+
+	#platform-row {
+		background-color: #fbfbfb;
+	}
+
+	#platform-bottom-box {
+		margin: 5% auto 5% auto;
 	}
 
 	.service-detail .title-platform::before {
 		position: absolute;
 		width: 100%;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -600,7 +610,7 @@
 	.service-detail .title-1-platform {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 14% 5% auto 5%;
 	}
 
 	.service-detail .platform-order .title-1-platform {
@@ -621,36 +631,38 @@
 	}
 
 	.img-platform-1 {
-		display: none;
-	}
-
-	.img-platform-2, .img-platform-3, .img-platform-4 {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 5%;
+		margin: 5% 0% 5% 2%;
 	}
 
-	.regular-platform {
-		display: none;
+	.img-platform-2 {
+		max-width: 100%;
+		height: auto;
+		margin: 5% 5% 5% 0%;
 	}
 
-	.mobile-platform {
-		margin: 5%;
+	.img-platform-3, .img-platform-4 {
+		max-width: 100%;
+		height: auto;
+		margin: 10% auto 5% auto;
 	}
 
-	.platform-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.platform-order  div:nth-child(2) {
-		order: 1;
-	}
 
 	/* NV Edge */
+
+	#container-fluid-edge-computing {
+		margin: auto auto 0% auto;
+	}
+
 	.service-detail .title-1-edge {
 		position: relative;
 		text-align: left;
 		margin: 10% 5% 0% 5%;
+	}
+
+	.service-detail .img-edge-1 {
+		margin: 5% auto 5% auto;
 	}
 
 	.service-detail .title-1-edge::before {
@@ -677,22 +689,19 @@
 
 	.service-detail .paragraph-1-edge {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
-	}
-
-	.edge-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.edge-order  div:nth-child(2) {
-		order: 1;
+		margin: 5% 5% 10% 5%;
 	}
 
 	/* Support */
+
+	#support {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-support {
 		position: relative;
 		text-align: left;
-		margin: 0% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-support::before {
@@ -705,10 +714,15 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 5% 5% 20% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	/* Professional services */
+
+	#professional-services {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-services {
 		position: relative;
 		text-align: left;
@@ -725,12 +739,12 @@
 
 	.service-detail .paragraph-1-services {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 3% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 5% 5% 0% 15%;
+		margin: 3% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -739,10 +753,15 @@
 	}
 
 	/* Training */
+
+	#training {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-training {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-training::before {
@@ -755,12 +774,12 @@
 
 	.service-detail .paragraph-1-b-training {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 3% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 5% 5% 0% 15%;
+		margin: 3% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-training li {
@@ -768,12 +787,24 @@
 		list-style-type: disc;
 	}
 
-
 	/* Smart Agriculture */
+
+	#smart-agriculture {
+		margin: 0% auto 0% auto;
+	}
+
+	#agriculture-row {
+		background-color: #fbfbfb;
+	}
+
+	.regular-agriculture {
+		margin: auto auto 5% auto;
+	}
+
 	.service-detail .title-agriculture {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-agriculture::before {
@@ -787,7 +818,7 @@
 	.service-detail .title-1-agriculture {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-agriculture::before {
@@ -800,19 +831,28 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 3% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
-	/* Smart Industry */
+	/* Smart industry */
+
+	#smart-industry {
+		margin: 0% auto 0% auto;
+	}
+
+	#industry-row {
+		background-color: #fbfbfb;
+	}
+
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-industry::before {
@@ -839,31 +879,44 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 3% 5% 5% 5%;
 	}
 
-	.industry-order div:nth-child(1) {
-		order: 2;
+	.img-industry-1, .img-industry-2 {
+		max-width: 100%;
+		height: auto;
+		align-items: center;
+		margin: 5% auto 5% auto;
 	}
 
-	.industry-order  div:nth-child(2) {
-		order: 1;
+	.img-industry-3, .img-industry-4 {
+		max-width: 100%;
+		height: auto;
+		align-items: center;
+		margin: 5% auto 5% auto;
 	}
 
-	.img-industry-2, .regular-agriculture, .regular-industry {
-		display: none;
+	.img-industry-5 {
+		margin: 10% auto auto auto;
 	}
 
-	#invisible-row {
-		display: none;
+	#bottom-box-industry {
+		background-color: #fbfbfb;
+		padding: 5% auto 5% auto;
 	}
+
 
 	/* Smart providers */
+
+	#smart-providers {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-providers {
 		position: relative;
 		text-align: left;
@@ -879,10 +932,19 @@
 	}
 	.service-detail .paragraph-1-providers {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
+	.img-providers-1 {
+		margin: 5% auto 5% auto;
+	}
+
+
 	/* Smart retail */
+	#smart-retail {
+		margin: 0% auto 0% auto;
+	}
+
 	.service-detail .title-1-retail {
 		position: relative;
 		text-align: left;
@@ -898,22 +960,27 @@
 	}
 	.service-detail .paragraph-1-retail {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
-	.retail-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.retail-order  div:nth-child(2) {
-		order: 1;
+	.img-providers-2 {
+		margin: 5% auto 5% auto;
 	}
 
 	/* Smart Building */
+
+	#smart-building {
+		margin: 0% auto 0% auto;
+	}
+
+	#building-row {
+		background-color: #fbfbfb;
+	}
+
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-building::before {
@@ -940,20 +1007,16 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
-	.building-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.building-order  div:nth-child(2) {
-		order: 1;
+	.img-building-1, .img-building-2, .img-building-3 {
+		margin: 5% auto 5% auto;
 	}
 
 	/* Education */
@@ -962,18 +1025,14 @@
 		margin: 0% auto 5% auto;
 	}
 
-	#education-color-row {
-		background-color: #fbfbfb;
-	}
-
-	.service-detail .img-education-1 {
-		margin: 5% auto auto auto;
-	}
-
 	.service-detail .title-education {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
+	}
+
+	#education-color-row {
+		background-color: #fbfbfb;
 	}
 
 	.service-detail .title-education::before {
@@ -1000,17 +1059,17 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 3% 5% 2% 5%;
 	}
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 0% 5% 5% 15%;
 	}
 
 	.service-detail .list-1-education li {
@@ -1018,11 +1077,25 @@
 		list-style-type: disc;
 	}
 
+	.service-detail .img-education-1 {
+		margin: 5% auto auto auto;
+	}
+
 	/* Bottom boxes */
+
+	#bottom-box {
+		background-color: #fbfbfb;
+		padding: 5% auto 5% auto;
+	}
+
+	.img-edge-3 {
+		margin: 5% auto auto auto;
+	}
+
 	.service-detail .title-2 {
 		position: relative;
 		text-align: center;
-		margin: 5% 10%;
+		margin: 5% 10% 5% 10%;
 	}
 
 	.service-detail .title-2::before {
@@ -1039,17 +1112,18 @@
 	.service-detail .paragraph-2 {
 		opacity: 0.6;
 		text-align: center;
-		margin: 15% 10% 0% 10%;
+		margin: 5% 10% 0% 10%;
 	}
 
 	.details-text {
-		margin: 10% 5%;
+		margin: 5% 5%;
 	}
+
+	/* Mini meeting */
 
 	.mini-meeting {
-		margin: -20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
-
 	.mini-meeting p {
 		line-height: 1.5;
 		text-align: center;
@@ -1059,15 +1133,14 @@
 	.mini-meeting a.btn {
 		margin: 5% 25% 5% 25%;
 	}
-	.img-platform-1 {
-		display: none;
-	}
+
 	.img-platform-2, .img-platform-3, .img-platform-4 {
-		width: 307px;
+		max-width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 5%;
+		align-items: center;
 	}
-	.regular-platform {
+
+	.mobile-platform, .mobile-agriculture, .mobile-industry {
 		display: none;
 	}
 }

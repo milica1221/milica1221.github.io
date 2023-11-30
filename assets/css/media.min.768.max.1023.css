@@ -487,6 +487,14 @@
 		padding: 0.167rem auto auto auto;
 	}
 
+	#contact-form .col-xl-12 {
+		margin: auto auto 3% auto;
+	}
+
+	#contact-form .col-xl-6 {
+		margin: auto auto 3% auto;
+	}
+
 	.contact-form button {
 		padding: 3% 7% 3% 7%;
 		font-weight: normal;
@@ -894,6 +902,19 @@
 	}
 
 	/* Education */
+
+	.service-detail {
+		margin: 0% auto 5% auto;
+	}
+
+	#education-color-row {
+		background-color: #fbfbfb;
+	}
+
+	.service-detail .img-education-1 {
+		margin: 5% auto auto auto;
+	}
+
 	.service-detail .title-education {
 		position: relative;
 		text-align: left;
