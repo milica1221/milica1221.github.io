@@ -78,7 +78,7 @@
 
 	/* Intro */
 	.intro {
-		margin: 5% auto 5% auto;
+		margin: 5% auto 3% auto;
         position: relative;
 	}
 
@@ -103,7 +103,7 @@
 
 	/* User story */
 	.user-story {
-		margin: 5% 0% 20% 0%;
+		margin: 3% 0% 20% 0%;
 		padding: 3% 7% 1% 7% !important;
 	}
 
@@ -116,7 +116,7 @@
 	}
 
 	.user-story .container-fluid {
-		margin: 7% auto 7% auto;
+		margin: 5% auto 7% auto;
 	}
 
 	.user-story h3 {
@@ -169,16 +169,16 @@
 	}
 
 	.tab-content .tab-pane h4 {
-		margin: 1% auto auto 2%;
+		margin: -5% auto auto 0%;
 	}
 
 	.tab-content .tab-pane p {
 		line-height: 1.5;
-		margin: 3% 4% auto 2%;
+		margin: 3% 10% auto 0%;
 	}
 
 	.tab-content .tab-pane a.btn {
-		margin: 3% auto 3% 1%;
+		margin: 3% auto 3% 0%;
 	}
 
 	/* Paragraphs */
@@ -193,7 +193,7 @@
 	}
 
 	.container-white img {
-		margin: 5% auto auto auto;
+		margin: 5% 15% auto auto;
 		box-shadow: 1rem 1rem #B7A5BE;
 	}
 
@@ -209,7 +209,7 @@
 	}
 
 	.container-grey img {
-		margin: 5% auto auto 5%;
+		margin: 5% auto auto 15%;
 		box-shadow: -1rem -1rem #FF5A14;
 	}
 
@@ -465,7 +465,7 @@
 	/* Contact */
 	.orange-box {
 		margin: 5% 2% 10% 2%;
-		padding: auto 2% auto 2%;
+		padding: 2% 2% 2% 2%;
 	}
 
 	.orange-box p {
@@ -942,7 +942,7 @@
 
 	/* Smart retail */
 	#smart-retail {
-		margin: 0% auto 0% auto;
+		margin: 0% auto 4% auto;
 	}
 
 	.service-detail .title-1-retail {
@@ -980,7 +980,7 @@
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 
 	.service-detail .title-building::before {
@@ -1015,9 +1015,14 @@
 		margin: 5% 5% 5% 5%;
 	}
 
-	.img-building-1, .img-building-2, .img-building-3 {
+	.img-building-1 {
+		margin: 10% auto 5% auto;
+	}
+
+	.img-building-2, .img-building-3 {
 		margin: 5% auto 5% auto;
 	}
+
 
 	/* Education */
 
