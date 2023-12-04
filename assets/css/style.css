@@ -1889,7 +1889,7 @@ blockquote {
 /* 3. User story */
 
 .user-story {
-	background-color: #fbfbfb;
+	background-color: #F7F6F6;
 }
 
 .user-story .container-box {
@@ -2571,7 +2571,7 @@ blockquote {
 }
 .breadcrumb-area-services {
 	height: auto;
-	padding-bottom: 100px;
+	padding-bottom: 75px;
 	margin-bottom: 0%;
 }
 

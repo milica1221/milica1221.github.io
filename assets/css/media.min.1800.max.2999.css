@@ -52,16 +52,16 @@
 	.logo img {
 		max-width: fit-content;
 	}
-/*
-	.transparent-bg.sticky {
-		height: 8%;
+	
+	#sticky-header {
+
 	}
 
-	.menu-area {
-		padding: 0% 0% 0% 0%;
-		margin: auto auto 0% auto;
+	#menu-items {
+	margin-top: -1%;
+	margin-bottom: -1%;
 	}
-*/
+
 	/* Slider */
 	.slider-content {
 		margin: 25% auto auto auto;
@@ -83,7 +83,7 @@
 	}
 
 	.intro img {
-		margin: 5% auto 10% auto;
+		margin: 3% auto 7% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -97,14 +97,14 @@
 	}
 
 	.intro .grey-text {
-		margin: auto 5% 5% 5%;
+		margin: auto 5% 3% 5%;
         text-align: center;
 	}
 
 	/* User story */
 	.user-story {
-		margin: 3% 0% 20% 0%;
-		padding: 3% 7% 1% 7% !important;
+		margin: 0% 0% 20% 0%;
+		padding: 2% 7% 1% 7% !important;
 	}
 
 	.user-story .container-box {
@@ -116,11 +116,11 @@
 	}
 
 	.user-story .container-fluid {
-		margin: 5% auto 7% auto;
+		margin: 3% auto 5% auto;
 	}
 
 	.user-story h3 {
-		margin: 5% auto 10% auto;
+		margin: 3% auto 8% auto;
 	}
 
 	.user-story .black-text {
@@ -183,13 +183,13 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 15% auto 5% auto;
+		margin: 0% auto 5% auto;
 		padding: 10% auto auto auto;
 	}
 
 	.container-white {
 		position: relative;
-		margin: 5% 5% 5% 5%;
+		margin: 3% 8% 5% 10%;
 	}
 
 	.container-white img {
@@ -203,8 +203,8 @@
 	}
 
 	.container-grey {
-		margin: 3% auto auto 0%;
-		padding: 5% 10% 5% 5%;
+		margin: 3% auto 0% 0%;
+		padding: 4% 12% 4% 7%;
 		position: relative;
 	}
 
@@ -264,7 +264,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 20% auto 5% auto;
+		margin: 20% auto 4% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -301,17 +301,17 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 5% auto auto auto;
+		margin: 0% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
-		margin: auto auto 2rem auto;
+		margin: auto auto 1.5rem auto;
 		position: relative;
 		display: inline-block;
 	}
 
 	.section-title.usecase-title p {
-		margin: auto auto 1rem auto;
+		margin: auto auto 0.5rem auto;
 	}
 
 	.card-text p {
@@ -357,7 +357,7 @@
 
 	/* Services */
 	.service-area {
-		margin: 5% auto auto auto;
+		margin: 4% auto auto auto;
 		padding: 10% auto auto auto;
 	}
 
