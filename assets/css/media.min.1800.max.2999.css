@@ -51,10 +51,7 @@
 
 	.logo img {
 		max-width: fit-content;
-	}
-	
-	#sticky-header {
-
+		margin-top: -6%;
 	}
 
 	#menu-items {
