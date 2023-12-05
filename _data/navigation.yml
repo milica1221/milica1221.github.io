@@ -32,18 +32,18 @@
 - text: Solutions
   url: /pages/solutions
   submenu:
-  - text: Smart Agriculture
-    url: /pages/smart-agriculture
   - text: Smart Industry
     url: /pages/smart-industry
-  - text: Smart Providers
-    url: /pages/smart-providers
-  - text: Smart Retail
-    url: /pages/smart-retail
-  - text: Smart Building
-    url: /pages/smart-building
   - text: Education
     url: /pages/education
+  - text: Smart Building
+    url: /pages/smart-building
+  - text: Smart Agriculture
+    url: /pages/smart-agriculture
+#  - text: Smart Providers
+#    url: /pages/smart-providers
+#  - text: Smart Retail
+#    url: /pages/smart-retail
 # - text: Pages
 #   url: /
   # submenu:
