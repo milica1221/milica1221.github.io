@@ -52,10 +52,42 @@
 	.contact-form .button:hover {
 		font-size: 1.4rem !important;
 	}
-
+	/* menu-area */
 	.logo img {
 		max-width: fit-content;
 		margin-top: -6%;
+	}
+
+	.second-menu-area {
+		margin: 0 0 -94px 0;
+	}
+
+	.main-menu ul li {
+		margin-left: 30px;
+	}
+
+	.main-menu ul li a {
+		padding: 35px 0 35px 0;
+	}
+
+	.main-menu.second-menu ul li a {
+		padding: 22px 0 22px 0;
+	}
+
+	.main-menu ul li .sub-menu {
+		margin: -16% 0 0 0;
+	}
+
+	.main-menu ul li .sub-menu li {
+		margin: 0;
+	}
+
+	.main-menu ul li .sub-menu li a {
+		padding: 10px 15px 10px 15px;
+	}
+
+	.main-menu ul li .sub-menu li:hover a {
+		padding: 0px 0px 0px 20px;
 	}
 
 	#menu-items {
