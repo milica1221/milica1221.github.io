@@ -289,7 +289,6 @@ label {
 	background: #fff;
 }
 .second-menu-area {
-	margin-bottom: -94px;
 	position: relative;
 	z-index: 999;
 }
@@ -309,19 +308,16 @@ label {
 .main-menu ul li {
 	display: inline-block;
 	position: relative;
-	margin-left: 30px;
 }
 .main-menu ul li a {
 	color: #020d26;
 	font-size: 15px;
-	padding: 35px 0 35px 0;
 	display: block;
 	font-weight: 600;
 	position: relative;
 }
 .main-menu.second-menu ul li a {
 	color: #ffffff;
-	padding: 22px 0;
 }
 .main-menu.second-menu ul li:hover a {
 	color: #ffffff;
@@ -335,7 +331,6 @@ label {
 .main-menu ul li .sub-menu {
 	position: absolute;
 	top: 110%;
-	margin: -16% 0 0 0;
 	left: 0;
 	background: #fff;
 	z-index: 1;
@@ -362,7 +357,6 @@ label {
 	border: none;
 }
 .main-menu ul li .sub-menu li a {
-	padding: 10px 15px;
 	text-align: left;
 	font-weight: 600;
 	position: relative;
@@ -386,7 +380,6 @@ label {
 	opacity: 0;
 }
 .main-menu ul li .sub-menu li:hover a{
-	padding-left: 20px;
 }
 .main-menu ul li .sub-menu li:hover a:before{
 	opacity: 1;
