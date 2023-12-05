@@ -69,7 +69,7 @@
 
 	/* Intro */
 	.intro {
-		margin: 15% auto 15% auto;
+		margin: 15% auto 0% auto;
 		margin-bottom: 10%;
         position: relative;
 	}
@@ -91,14 +91,14 @@
 	}
 
 	.intro .grey-text {
-		margin: auto 5% 10% 5%;
+		margin: auto 5% 0% 5%;
         text-align: justify;
 	}
 
 
 	/* User story */
 	.user-story {
-		margin: 15% auto 15% auto;
+		margin: 0% auto 15% auto;
 		padding: 5% auto auto auto;
 	}
 
@@ -111,20 +111,20 @@
 	}
 
 	.user-story .container-fluid {
-		margin: 7% auto 20% auto;
+		margin: 7% auto 0% auto;
 	}
 
 	.user-story h3 {
-		margin: auto auto 10% auto;
+		margin: 7% auto 8% auto;
 	}
 
 	.user-story .black-text {
-		margin: auto auto 3% auto;
+		margin: auto auto 0% auto;
 		text-align: center;
 	}
 
 	.tab-content .tab-pane {
-		height: 60rem;
+		height: 50rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -183,7 +183,7 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 20% auto;
+		margin: 15% auto 20% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -239,7 +239,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
+		height: 0.2rem;
 		bottom: -3.333rem;
 		width: 30rem;
 	}
@@ -248,7 +248,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
+		height: 0.2rem;
 		bottom: -3.333rem;
 		width: 30rem;
 	}
@@ -268,7 +268,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 40% auto 20% auto;
+		margin: 40% auto 15% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -305,11 +305,11 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
-		margin: auto auto 5rem auto;
+		margin: auto auto 3rem auto;
 		position: relative;
 		display: inline-block;
 	}
@@ -324,7 +324,7 @@
 	}
 
 	.usecase-box-new {
-		margin: auto auto 10% auto;
+		margin: auto auto 5% auto;
 		max-width: 100%;
 		height: max-content;
 	}
@@ -364,16 +364,16 @@
 
 	/* Services */
 	.service-area {
-		margin: 10% auto auto auto;
+		margin: 4% auto auto auto;
 		padding: 10% auto auto auto;
 	}
 
 	.service-area h3 {
-		margin: 20% auto auto auto;
+		margin: 15% auto auto auto;
 	}
 
 	.services-paragraph p {
-		margin: 5% auto 15% auto;
+		margin: 0% auto 15% auto;
 		text-align: justify;
 	}
 
@@ -530,20 +530,46 @@
 	}
 
 	/* Products, services, solutions */
-	.solutions-area p, .products-area p, .services-entity-area p {
+	.products-area {
+		margin: 7% 0% 0% 0%;
+	}
+	
+	.services-entity-area {
+		margin: 10% 0% 0% 0%;
+	}
+	
+	.solutions-area {
+		margin: 10% 0% 0% 0%;
+	}
+
+	.products-area p {
+		text-align: left;
+		margin: -5% 5% 10% 3%;
+	}
+
+	.solutions-area p, .services-entity-area p {
 		text-align: left;
 		margin: -5% 5% 10% 3%;
 	}
 
 	.products-content  {
-		margin: 10% auto auto auto;
+		margin: 10% auto 10% auto;
 	}
 
-	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
+	.products-content a.btn {
 		margin: auto auto auto 3%;
 	}
 
-	.solutions-area h3, .products-area h3, .services-entity-area h3 {
+	.services-entity-content a.btn, .solutions-content a.btn {
+		margin: auto auto auto 3%;
+	}
+
+	.products-area h3 {
+		text-align: left;
+		margin: 0% 5% 0% 3%;
+	}
+
+	.solutions-area h3, .services-entity-area h3 {
 		text-align: left;
 		margin: 0% 5% 0% 3%;
 	}
@@ -553,11 +579,11 @@
 	}
 
 	.services-entity-content {
-		margin: 15% auto auto auto;
+		margin: 15% auto 10% auto;
 	}
 
 	.solutions-content {
-		margin: 15% auto auto auto;
+		margin: 15% auto 10% auto;
 	}
 
 	.details-content h4 {
@@ -577,7 +603,7 @@
 	.service-detail .title-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 
 	.service-detail .paragraph-platform {
@@ -587,7 +613,7 @@
 
 	.service-detail .title-platform::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 0.333rem;
 		bottom: -15px;
 		margin: 0%;
@@ -646,7 +672,7 @@
 	.service-detail .title-1-edge {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 8% 5% 0% 5%;
 	}
 
 	.service-detail .title-1-edge::before {
@@ -660,7 +686,7 @@
 	.service-detail .title-1-edge-2 {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 8% 5% 0% 5%;
 	}
 
 	.service-detail .title-1-edge-2::before {
