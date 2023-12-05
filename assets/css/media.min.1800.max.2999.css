@@ -325,9 +325,7 @@
 		height: max-content;
 	}
 
-	.usecase-box-new a.btn {
-		margin: auto auto 10% auto;
-	}
+
 
 	.section-title.usecase-title h3::before {
 		position: absolute;
@@ -536,9 +534,7 @@
 	.services-entity-content a.btn, .solutions-content a.btn {
 		margin: auto auto auto 3%;
 	}
-	.products-content a.btn {
-		margin: auto auto auto 0%;
-	}
+
 
 	.solutions-area h3, .services-entity-area h3 {
 		text-align: left;
