@@ -598,7 +598,7 @@
 
 	.service-detail .title-platform::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
@@ -806,7 +806,7 @@
 
 	.service-detail .title-agriculture::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
@@ -854,7 +854,7 @@
 
 	.service-detail .title-industry::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
@@ -982,7 +982,7 @@
 
 	.service-detail .title-building::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
@@ -1039,7 +1039,7 @@
 
 	.service-detail .title-education::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
