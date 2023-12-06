@@ -53,6 +53,16 @@
 		font-size: 1.4rem !important;
 	}
 	/* menu-area */
+	.menu-area {
+		padding: 0% 0% 0% 0%;
+		margin: auto auto 0% auto;
+		background-color: transparent;
+	}
+	.breadcrumb-area-services {
+		height: auto;
+		padding-bottom: 50px;
+		margin-bottom: 0%;
+	}
 	.logo img {
 		max-width: fit-content;
 		margin-top: -6%;
@@ -91,8 +101,8 @@
 	}
 
 	#menu-items {
-	margin-top: -1%;
-	margin-bottom: -1%;
+	margin-top: -2%;
+	margin-bottom: -2%;
 	}
 
 	/* Slider */
@@ -543,7 +553,7 @@
 	/* Products, services, solutions */
 
 	.products-area, .services-entity-area, .solutions-area {
-		margin: 5% auto 5% auto;
+		margin: 3% auto 3% auto;
 	}
 
 	.products-area .col-xl-12 {

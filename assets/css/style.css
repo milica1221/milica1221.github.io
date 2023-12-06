@@ -2559,14 +2559,7 @@ blockquote {
 
 /* Menu */
 .menu-area {
-	padding: 0% 0% 0% 0%;
-	margin: auto auto 0% auto;
 	background-color: transparent;
-}
-.breadcrumb-area-services {
-	height: auto;
-	padding-bottom: 75px;
-	margin-bottom: 0%;
 }
 
 .img-platform-2, .img-platform-3, .img-platform-4 {
