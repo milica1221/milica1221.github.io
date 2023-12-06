@@ -378,8 +378,7 @@ label {
 	transition: .3s;
 	opacity: 0;
 }
-.main-menu ul li .sub-menu li:hover a{
-}
+
 .main-menu ul li .sub-menu li:hover a:before{
 	opacity: 1;
 	left: 10px;
@@ -2306,6 +2305,18 @@ blockquote {
 	background-position: center center;
 	background-attachment: local;
 	transition: all .5s;
+}
+
+.features-wrap:hover #support-icon {
+	content: url(../img/icons/support-white.png);
+}
+
+.features-wrap:hover #services-icon {
+	content: url(../img/icons/services-white.png);
+}
+
+.features-wrap:hover #training-icon {
+	content: url(../img/icons/training-white.png);
 }
 
 .features-wrap:hover h4,.features-wrap:hover p{
