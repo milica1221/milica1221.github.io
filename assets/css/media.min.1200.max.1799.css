@@ -82,6 +82,7 @@
 
 	.main-menu ul li .sub-menu {
 		margin: -16% 0 0 0;
+		width: 240px;
 	}
 
 	.main-menu ul li .sub-menu li {
