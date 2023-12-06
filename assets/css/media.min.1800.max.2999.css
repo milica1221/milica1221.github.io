@@ -32,9 +32,13 @@
 	}
 
 	a.btn {
-		padding: 2% 3% 2% 4% !important;
+		padding: 3% 4% 3% 4% !important;
 		font-size: 0.6rem !important;
 		font-weight: normal !important;
+	}
+
+	#bigbtn {
+		padding: 1% 3% 1% 4% !important;
 	}
 
 	ul {
@@ -48,15 +52,58 @@
 	.contact-form .button:hover {
 		font-size: 1.4rem !important;
 	}
-
+	/* menu-area */
+	.menu-area {
+		padding: 0% 0% 0% 0%;
+		margin: auto auto 0% auto;
+		background-color: transparent;
+	}
+	.breadcrumb-area-services {
+		height: auto;
+		padding-bottom: 50px;
+		margin-bottom: 0%;
+	}
 	.logo img {
 		max-width: fit-content;
 		margin-top: -6%;
 	}
 
+	.second-menu-area {
+		margin: 0 0 -94px 0;
+	}
+
+	.main-menu ul li {
+		margin: 0 0 0 30px;
+	}
+
+	.main-menu ul li a {
+		padding: 35px 0 35px 0;
+	}
+
+	.main-menu.second-menu ul li a {
+		padding: 22px 0 22px 0;
+	}
+
+	.main-menu ul li .sub-menu {
+		margin: -30% 0 0 0;
+		width: 200px;
+	}
+
+	.main-menu ul li .sub-menu li {
+		margin: 0;
+	}
+
+	.main-menu ul li .sub-menu li a {
+		padding: 10px 15px 10px 15px;
+	}
+
+	.main-menu ul li .sub-menu li:hover a {
+		padding: 0px 0px 0px 20px;
+	}
+
 	#menu-items {
-	margin-top: -1%;
-	margin-bottom: -1%;
+	margin-top: -2%;
+	margin-bottom: -2%;
 	}
 
 	/* Slider */
@@ -101,7 +148,7 @@
 	/* User story */
 	.user-story {
 		margin: 0% 0% 20% 0%;
-		padding: 2% 10% 1% 10% !important;
+		padding: 1% 10% 1% 10% !important;
 	}
 
 	.user-story .container-box {
@@ -186,7 +233,7 @@
 
 	.container-white {
 		position: relative;
-		margin: 2% 8% 4% 10%;
+		margin: 2% 8% 4% 11%;
 	}
 
 	.container-white img {
@@ -507,7 +554,7 @@
 	/* Products, services, solutions */
 
 	.products-area, .services-entity-area, .solutions-area {
-		margin: 5% auto 5% auto;
+		margin: 3% auto 3% auto;
 	}
 
 	.products-area .col-xl-12 {
