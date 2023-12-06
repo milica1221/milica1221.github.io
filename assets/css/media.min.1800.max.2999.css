@@ -1037,7 +1037,7 @@
 	.service-detail .title-1-building {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 
 	.service-detail .title-1-building::before {
