@@ -2357,6 +2357,10 @@ blockquote {
 	color: #ffffff;
 }
 
+.orange-box, .orange-box-2 {
+	background-color: #ff5a14;
+}
+
 .contact-form .button:hover {
 	color: #363636;
 	background-color: #2e2e2e;
@@ -2953,3 +2957,8 @@ blockquote {
 	color: #ffffff;
 }
 
+
+/* Contact Area */
+.contact-area {
+	margin: 3% auto 3% auto;
+}
