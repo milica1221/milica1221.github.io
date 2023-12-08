@@ -329,7 +329,6 @@
 	}
 
 	.meeting-text-p {
-		margin: 15% 15% auto 15%;
 		line-height: 1;
 		text-align: center;
 	}
@@ -551,8 +550,13 @@
 		margin: 10% 0%;
 	}
 
-	.contact-area .mobile-maps-area {
+	.contact-area .maps-area {
 		display: none;
+	}
+	
+	.contact-area .mobile-maps-area {
+		margin: 1%;
+		padding: 0%;
 	}
 
 
