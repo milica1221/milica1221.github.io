@@ -571,11 +571,11 @@
 	/* Products, services, solutions */
 	.solutions-area p, .products-area p, .services-entity-area p {
 		text-align: left;
-		margin: 1% 5% 10% 3%;
+		margin: -10% 5% 10% 3%;
 	}
 
 	.products-content  {
-		margin: 20% auto auto auto;
+		margin: 10% auto 10% auto;
 	}
 
 	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
@@ -587,16 +587,26 @@
 		margin: 0% 5% 0% 3%;
 	}
 
-	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
+	.products-area .products-box {
 		box-shadow: none;
 	}
 
+	.services-entity-area .services-entity-box {
+		box-shadow: none;
+		margin: 0% 0% 8% 0%;
+	}
+
+	.solutions-area .solutions-box {
+		box-shadow: none;
+		margin: 0% 0% 8% 0%;		
+	}
+
 	.services-entity-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.solutions-content {
-		margin: 20% auto auto auto;
+		margin: 10% auto auto auto;
 	}
 
 	.details-content h4 {
@@ -617,12 +627,12 @@
 	.service-detail .title-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 11% 5% 5% 5%;
 	}
 
 	.service-detail .title-platform::before {
@@ -640,7 +650,7 @@
 	}
 
 	.service-detail .platform-order .title-1-platform {
-		padding: 5% auto auto auto;
+		padding: 7% auto auto auto;
 	}
 
 	.service-detail .title-1-platform::before {
@@ -653,7 +663,7 @@
 
 	.service-detail .paragraph-1-platform {
 		text-align: left;
-		margin: 15% 5% 0% 5%;
+		margin: 11% 5% 2% 5%;
 	}
 
 	.img-platform-1 {
@@ -663,7 +673,7 @@
 	.img-platform-2, .img-platform-3, .img-platform-4 {
 		width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 5%;
+		margin: 2% 5% 5% 5%;
 	}
 
 	.regular-platform {
@@ -686,7 +696,7 @@
 	.service-detail .title-1-edge {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 7% 5% 0% 5%;
 	}
 
 	.service-detail .title-1-edge::before {
@@ -700,7 +710,7 @@
 	.service-detail .title-1-edge-2 {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .title-1-edge-2::before {
@@ -713,7 +723,15 @@
 
 	.service-detail .paragraph-1-edge {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin:11% 5% 5% 5%;
+	}
+
+	.img-edge-1 {
+		margin: 3% 0% 3% 0%;
+	}
+
+	.img-edge-2 {
+		margin: 3% 0% 3% 0%;
 	}
 
 	.edge-order div:nth-child(1) {
@@ -728,7 +746,7 @@
 	.service-detail .title-1-support {
 		position: relative;
 		text-align: left;
-		margin: 0% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-support::before {
@@ -741,14 +759,14 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 20% 5% 20% 5%;
+		margin: 11% 5% 20% 5%;
 	}
 
 	/* Professional services */
 	.service-detail .title-1-services {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-services::before {
@@ -761,12 +779,12 @@
 
 	.service-detail .paragraph-1-services {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 10% 5% 23% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -778,7 +796,7 @@
 	.service-detail .title-1-training {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-training::before {
@@ -791,12 +809,12 @@
 
 	.service-detail .paragraph-1-b-training {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 10% 5% 23% 15%;
 	}
 
 	.service-detail .list-1-training li {
@@ -808,7 +826,7 @@
 	.service-detail .title-agriculture {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-agriculture::before {
@@ -822,7 +840,7 @@
 	.service-detail .title-1-agriculture {
 		position: relative;
 		text-align: left;
-		margin: 20% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-agriculture::before {
@@ -835,19 +853,23 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
+	}
+
+	.img-agri-3 {
+		margin: 0% 0% 5% 0%;
 	}
 
 	/* Smart Industry */
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-industry::before {
@@ -861,7 +883,7 @@
 	.service-detail .title-1-industry {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-industry::before {
@@ -874,12 +896,12 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
 	}
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
 	}
 
 	.industry-order div:nth-child(1) {
@@ -948,7 +970,7 @@
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-building::before {
@@ -962,7 +984,7 @@
 	.service-detail .title-1-building {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-building::before {
@@ -975,12 +997,16 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 25% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 7% 5%;
+	}
+
+	.img-building-3 {
+		margin: 0% 0% 7% 0%;
 	}
 
 	.building-order div:nth-child(1) {
@@ -994,7 +1020,7 @@
 	/* Education */
 
 	.service-detail {
-		margin: 0% auto 5% auto;
+		margin: 0% auto 0% auto;
 	}
 
 	#education-color-row {
@@ -1008,7 +1034,7 @@
 	.service-detail .title-education {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-education::before {
@@ -1022,7 +1048,7 @@
 	.service-detail .title-1-education {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 7% 5% auto 5%;
 	}
 
 	.service-detail .title-1-education::before {
@@ -1035,17 +1061,17 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 5% 5%;
 	}
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 20% 5% 0% 5%;
+		margin: 11% 5% 0% 5%;
 	}
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 10% 5% 0% 15%;
+		margin: 10% 5% 4% 15%;
 	}
 
 	.service-detail .list-1-education li {
@@ -1082,7 +1108,7 @@
 	}
 
 	.mini-meeting {
-		margin: -20% auto auto auto;
+		margin: -13% auto auto auto;
 	}
 
 	.mini-meeting p {
