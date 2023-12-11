@@ -318,12 +318,12 @@
 	}
 
 	.meeting .img-purple {
-		max-width: 100%;
+		max-width: 60%;
 	}
 
 	.meeting .img-black {
 		transform: rotate(360deg);
-		max-width: 60%;
+		max-width: 36%;
 		margin: 0rem 0rem auto auto;
 	}
 
