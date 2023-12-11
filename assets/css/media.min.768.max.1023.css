@@ -112,12 +112,12 @@
 
 	/* Intro */
 	.intro {
-		margin: 10% auto 10% auto;
+		margin: 5% auto 2% auto;
         position: relative;
 	}
 
 	.intro img {
-		margin: 5% auto 10% auto;
+		margin: 0% auto 7% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -139,7 +139,7 @@
 
 	/* User story */
 	.user-story {
-		margin: 10% auto 10% auto;
+		margin: 0% auto 8% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -152,20 +152,20 @@
 	}
 
 	.user-story .container-fluid {
-		margin: 7% auto 20% auto;
+		margin: 3% auto 5% auto;
 	}
 
 	.user-story h3 {
-		margin: auto auto 10% auto;
+		margin: 7% auto 0% auto;
 	}
 
 	.user-story .black-text {
-		margin: auto auto 3% auto;
+		margin: -3% auto 0% auto;
 		text-align: center;
 	}
 
 	.tab-content .tab-pane {
-		height: 35rem;
+		height: 25rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -185,7 +185,7 @@
 	}
 
 	.tab-content {
-		margin-top: 10%;
+		margin-top: 7%;
 	}
 
 	.nav-tabs {
@@ -223,17 +223,17 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 20% auto;
+		margin: 20% auto 0% auto;
 		padding: 10% auto auto auto;
 	}
 
 	.container-white {
 		position: relative;
-		margin: 20% 5% 5% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.container-white img {
-		margin: 10% 15% auto 15%;
+		margin: 3% 15% 3% 7%;
 		box-shadow: 1.667rem 1.667rem #B7A5BE;
 	}
 
@@ -243,8 +243,8 @@
 	}
 
 	.container-grey {
-		margin: 20% auto auto 0%;
-		padding: 5% 10% 10% 5%;
+		margin: 5% auto auto 0%;
+		padding: 5% 10% 5% 5%;
 		position: relative;
 	}
 
@@ -255,13 +255,13 @@
 
 	.container-white h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 5% auto;
 		display: inline-block;
 	}
 
 	.container-grey h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 5% auto;
 		display: inline-block;
 	}
 
@@ -279,8 +279,8 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
+		height: 0.2rem;
+		bottom: -1rem;
 		width: 30rem;
 	}
 
@@ -288,8 +288,8 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
+		height: 0.2rem;
+		bottom: -1rem;
 		width: 30rem;
 	}
 
@@ -309,7 +309,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 40% auto 10% auto;
+		margin: 20% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -345,11 +345,11 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
-		margin: auto auto 5rem auto;
+		margin: auto auto 3% auto;
 		position: relative;
 		display: inline-block;
 	}
