@@ -227,7 +227,7 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 0% auto 5% auto;
+		margin: 0% auto 20% auto;
 		padding: 8% auto auto auto;
 	}
 
@@ -308,7 +308,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 20% auto 3% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -344,7 +344,7 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 0% auto auto auto;
+		margin: 3% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
@@ -786,7 +786,7 @@
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 3% 5% 0% 15%;
+		margin: 3% 5% 4% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -821,7 +821,7 @@
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 3% 5% 0% 15%;
+		margin: 3% 5% 4% 15%;
 	}
 
 	.service-detail .list-1-training li {

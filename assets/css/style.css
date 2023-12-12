@@ -2951,3 +2951,14 @@ blockquote {
 .contact-area {
 	margin: 3% auto 3% auto;
 }
+
+/* Small meeting settings */
+@media (min-width: 768px) and (max-width: 2999px) {
+	#training .meeting .img-black, #support .meeting .img-black, #professional-services .meeting .img-black  {
+		max-width: 24%;
+	}
+
+	#training .meeting .img-purple, #support .meeting .img-purple, #professional-services .meeting .img-purple  {
+		max-width: 40%;
+	}
+}
