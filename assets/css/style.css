@@ -1959,6 +1959,13 @@ blockquote {
 	background-color: transparent;
 }
 
+.tab-content .tab-pane a.btn:hover {
+	border: 1px solid #fff;
+	color:#000;
+	font-weight: bold;
+	background-color: #fff;
+}
+
 .container-white {
 	background-color: #ffffff;
 }
