@@ -2946,18 +2946,6 @@ blockquote {
 	opacity: .7;
 }
 
-.mini-meeting p {
-	color: #ffffff;
-	font-weight: normal;
-}
-
-.mini-meeting a.btn {
-	border: 1px solid #ffffff;
-	background: none;
-	color: #ffffff;
-}
-
-
 /* Contact Area */
 .contact-area {
 	margin: 3% auto 3% auto;

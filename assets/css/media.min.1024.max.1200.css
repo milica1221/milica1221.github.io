@@ -1023,19 +1023,6 @@
 		margin: 10% 5%;
 	}
 
-	.mini-meeting {
-		margin: 5% auto auto auto;
-	}
-	.mini-meeting p {
-		line-height: 1.5;
-		text-align: center;
-		margin: 2% 25% 0% 25%;
-	}
-
-	.mini-meeting a.btn {
-		margin: 5% 35% 5% 0%;
-	}
-
 	.img-platform-2, .img-platform-3, .img-platform-4 {
 		max-width: 100%;
 		height: auto;
