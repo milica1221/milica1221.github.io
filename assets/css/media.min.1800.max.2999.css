@@ -291,7 +291,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.15rem;
+		height: 0.1rem;
 		bottom: -1rem;
 		width: 21rem;
 	}
@@ -300,7 +300,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.15rem;
+		height: 0.1rem;
 		bottom: -1rem;
 		width: 21rem;
 	}
@@ -514,6 +514,11 @@
 	}
 
 	/* Contact */
+
+	.contact-area {
+		margin: 0% auto 0% auto;
+	}
+
 	.orange-box {
 		margin: 5% 2% 10% 2%;
 		padding: 2% 2% 2% 2%;
@@ -559,8 +564,12 @@
 
 	/* Products, services, solutions */
 
-	.products-area, .services-entity-area, .solutions-area {
+	.services-entity-area, .solutions-area {
 		margin: 3% auto 3% auto;
+	}
+
+	.products-area {
+		margin: 0% 0% 0% 0%;
 	}
 
 	.products-area .col-xl-12 {
@@ -656,6 +665,10 @@
 		margin: 0%;
 	}
 
+	#left-paragraph-in-row .title-1-platform, #left-paragraph-in-row .paragraph-1-platform {
+		margin: 5% 5% 0% 10%;
+	}
+
 	.service-detail .title-1-platform {
 		position: relative;
 		text-align: left;
@@ -669,7 +682,7 @@
 	.service-detail .title-1-platform::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -730,6 +743,14 @@
 		position: relative;
 		text-align: left;
 		margin: 10% 5% 0% 5%;
+	}
+
+	#left-paragraph-in-row .title-1-edge, #left-paragraph-in-row .title-1-edge-2 {
+		margin: 10% 5% 0% 10%;
+	}
+
+	#left-paragraph-in-row .paragraph-1-edge {
+		margin: 5% 5% 10% 10%;
 	}
 
 	.service-detail .title-1-edge-2::before {
@@ -873,6 +894,9 @@
 		text-align: left;
 		margin: 5% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-agriculture {
+		margin: 5% 5% auto 10%;
+	}
 
 	.service-detail .title-1-agriculture::before {
 		position: absolute;
@@ -890,6 +914,9 @@
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
 		margin: 5% 5% 5% 5%;
+	}
+	#left-paragraph-in-row .paragraph-1-agriculture {
+		margin: 5% 5% 5% 10%;
 	}
 
 	/* Smart industry */
@@ -920,6 +947,14 @@
 		position: relative;
 		text-align: left;
 		margin: 10% 5% auto 5%;
+	}
+
+	#left-paragraph-in-row .title-1-industry {
+		margin: 10% 5% auto 10%;
+	}
+	
+	#left-paragraph-in-row .paragraph-1-industry {
+		margin: 5% 5% 5% 10%;
 	}
 
 	.service-detail .title-1-industry::before {
@@ -1035,6 +1070,9 @@
 		text-align: left;
 		margin: 10% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-building {
+		margin: 10% 5% auto 10%;
+	}
 
 	.service-detail .title-building::before {
 		position: absolute;
@@ -1049,6 +1087,9 @@
 		text-align: left;
 		margin: 10% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-building {
+		margin: 10% 5% auto 10%;
+	}
 
 	.service-detail .title-1-building::before {
 		position: absolute;
@@ -1062,10 +1103,17 @@
 		text-align: left;
 		margin: 5% 5% 5% 5%;
 	}
+	#left-paragraph-in-row .paragraph-building {
+		margin: 5% 5% 5% 10%;
+	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
 		margin: 5% 5% 5% 5%;
+	}
+	
+	#left-paragraph-in-row .paragraph-1-building {
+		margin: 5% 5% 5% 10%;
 	}
 
 	.img-building-1 {

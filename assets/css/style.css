@@ -2986,11 +2986,6 @@ blockquote {
 	opacity: .7;
 }
 
-/* Contact Area */
-.contact-area {
-	margin: 3% auto 3% auto;
-}
-
 /* Small meeting settings */
 @media (min-width: 768px) and (max-width: 2999px) {
 	#training .meeting .img-black, #support .meeting .img-black, #professional-services .meeting .img-black  {

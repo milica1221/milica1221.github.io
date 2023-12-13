@@ -509,6 +509,11 @@
 
 
 	/* Contact */
+
+	.contact-area {
+		margin: 3% auto 3% auto;
+	}
+	
 	.orange-box {
 		margin: 5% 2% 10% 2%;
 		padding: auto 2% auto 2%;
