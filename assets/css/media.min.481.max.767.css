@@ -224,7 +224,7 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 0% auto;
+		margin: 20% auto 25% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -256,13 +256,13 @@
 
 	.container-white h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 8% auto;
 		display: inline-block;
 	}
 
 	.container-grey h3 {
 		position: relative;
-		margin: auto auto 7.5rem auto;
+		margin: auto auto 8% auto;
 		display: inline-block;
 	}
 
@@ -282,8 +282,8 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
+		height: 0.2rem;
+		bottom: -2rem;
 		width: 30rem;
 	}
 
@@ -291,8 +291,8 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
-		bottom: -3.333rem;
+		height: 0.2rem;
+		bottom: -2rem;
 		width: 30rem;
 	}
 
@@ -311,7 +311,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 25% auto 0% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -592,16 +592,21 @@
 		margin: 0% 5% 3% 3%;
 	}
 
-	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
+	.solutions-area .solutions-box, .services-entity-area .services-entity-box {
+		box-shadow: none;
+		margin: 0% 0% 5% 0%;
+	}
+
+	.products-area .products-box {
 		box-shadow: none;
 	}
 
 	.services-entity-content {
-		margin: 7% auto 5% auto;
+		padding: 10% 5% 5% 5%
 	}
 
 	.solutions-content {
-		margin: 7% auto 5% auto;
+		padding: 10% 5% 5% 5%
 	}
 
 	.details-content h4 {
@@ -632,8 +637,8 @@
 
 	.service-detail .title-platform::before {
 		position: absolute;
-		width: 100%;
-		height: 0.333rem;
+		width: 50%;
+		height: 0.2rem;
 		bottom: -15px;
 		margin: 0%;
 	}

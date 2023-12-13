@@ -224,7 +224,7 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 15% auto 10% auto;
+		margin: 15% auto 25% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -309,7 +309,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 25% auto 8% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -576,11 +576,11 @@
 	}
 	
 	.services-entity-area {
-		margin: 10% 0% 0% 0%;
+		margin: 5% 0% 0% 0%;
 	}
 	
 	.solutions-area {
-		margin: 10% 0% 0% 0%;
+		margin: 5% 0% 0% 0%;
 	}
 
 	.products-area p {
@@ -615,16 +615,21 @@
 		margin: 0% 5% 0% 3%;
 	}
 
-	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
+	.solutions-area .solutions-box, .services-entity-area .services-entity-box {
+		box-shadow: none;
+		margin: 0% 0% 5% 0%;
+	}
+
+	.products-area .products-box {
 		box-shadow: none;
 	}
 
 	.services-entity-content {
-		margin: 15% auto 10% auto;
+		padding: 10% 5% 5% 5%;
 	}
 
 	.solutions-content {
-		margin: 15% auto 10% auto;
+		padding: 10% 5% 5% 5%;
 	}
 
 	.details-content h4 {
@@ -774,7 +779,7 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 10% 5% 40% 5%;
+		margin: 10% 5% 17% 5%;
 	}
 
 	/* Professional services */
@@ -799,7 +804,7 @@
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 10% 5% 40% 15%;
+		margin: 10% 5% 17% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -829,7 +834,7 @@
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 10% 5% 40% 15%;
+		margin: 10% 5% 17% 15%;
 	}
 
 	.service-detail .list-1-training li {
@@ -1024,6 +1029,10 @@
 		margin: 10% 5% 5% 5%;
 	}
 
+	.img-building-3 {
+		margin: 0% 0% 5% 0%;
+	}
+
 	.building-order div:nth-child(1) {
 		order: 2;
 	}
@@ -1076,7 +1085,7 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 10% 5% 5% 5%;
+		margin: 10% 5% 10% 5%;
 	}
 
 	.service-detail .paragraph-education {

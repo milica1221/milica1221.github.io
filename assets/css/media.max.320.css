@@ -309,7 +309,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 40% auto 20% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}
@@ -346,7 +346,7 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 20% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
@@ -602,11 +602,11 @@
 	}
 
 	.services-entity-content {
-		margin: 10% auto auto auto;
+		padding: 10% 5% 5% 5%;
 	}
 
 	.solutions-content {
-		margin: 10% auto auto auto;
+		padding: 10% 5% 5% 5%;
 	}
 
 	.details-content h4 {

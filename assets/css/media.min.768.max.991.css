@@ -223,7 +223,7 @@
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 0% auto;
+		margin: 20% auto 25% auto;
 		padding: 10% auto auto auto;
 	}
 
@@ -309,7 +309,7 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 20% auto 0% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
 	}

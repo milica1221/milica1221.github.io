@@ -56,6 +56,11 @@ html {
 html, body {
 	overflow-x: hidden;
 }
+
+#img-border {
+	border: 1px solid #555;
+}
+
 .img {
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
@@ -2615,21 +2620,48 @@ blockquote {
 
 /* added */
 
-.solutions-area p, .products-area p, .services-entity-area p {
+
+
+.solutions-area p, .services-entity-area p {
+	color: #D8D8D8 !important;
+}
+
+.products-area p {
 	color: black !important;
 }
 
-.solutions-area h3, .products-area h3, .services-entity-area h3 {
+.solutions-area h3, .services-entity-area h3 {
+	color: #D8D8D8;
+}
+
+.products-area h3 {
 	color: black;
 }
 
-.solutions-area a.btn, .products-area a.btn, .services-entity-area a.btn {
+.solutions-area a.btn, .services-entity-area a.btn {
+	color: #D8D8D8;
+	background-color: transparent;
+	border: 1px solid #D8D8D8;
+}
+
+.solutions-area a.btn:hover, .services-entity-area a.btn:hover {
+	background: #fff;
+	border: 1px solid #fff;
+	color: #000;
+}
+
+.products-area a.btn {
 	color: #363636;
 	background-color: transparent;
 	border: 1px solid #363636;
 }
 
-.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
+.solutions-area .solutions-box, .services-entity-area .services-entity-box {
+	box-shadow: none;
+	background-color: #363636;
+}
+
+.products-area .products-box {
 	box-shadow: none;
 }
 
