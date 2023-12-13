@@ -564,8 +564,12 @@
 
 	/* Products, services, solutions */
 
-	.services-entity-area, .solutions-area {
+	.services-entity-area {
 		margin: 3% auto 3% auto;
+	}
+
+	.solutions-area {
+		margin: 3% auto 0% auto;
 	}
 
 	.products-area {
@@ -864,7 +868,7 @@
 	/* Smart Agriculture */
 
 	#smart-agriculture {
-		margin: 0% auto 0% auto;
+		margin: 0% auto 3% auto;
 	}
 
 	#agriculture-row {
