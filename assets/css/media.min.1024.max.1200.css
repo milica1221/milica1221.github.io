@@ -348,7 +348,9 @@
 	.section-title.usecase-title p {
 		margin: auto auto 1rem auto;
 	}
-
+	#card-text-paragraph {
+		height: 130px;
+	}
 	.card-text p {
 		margin: 0% auto auto 5%;
 		padding: auto auto 0% auto;
