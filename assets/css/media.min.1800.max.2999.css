@@ -291,7 +291,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.1rem;
+		height: 2px;
 		bottom: -1rem;
 		width: 21rem;
 	}
@@ -300,7 +300,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.1rem;
+		height: 2px;
 		bottom: -1rem;
 		width: 21rem;
 	}
@@ -664,7 +664,7 @@
 	.service-detail .title-platform::before {
 		position: absolute;
 		width: 50%;
-		height: 0.1rem;
+		height: 2px;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -686,7 +686,7 @@
 	.service-detail .title-1-platform::before {
 		position: absolute;
 		width: 50%;
-		height: 0.1rem;
+		height: 2px;
 		bottom: -15px;
 		margin: 0%;
 	}
