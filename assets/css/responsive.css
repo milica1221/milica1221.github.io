@@ -177,6 +177,12 @@ blockquote {
 .comments-reply {
 	padding-left: 130px;
 }
+#sticky-header {
+	margin: 5% 0% 0% 0%;
+}
+.sticky {
+	position: static;
+}
 
 
 }
