@@ -1047,6 +1047,9 @@ label {
 	width: 50px;
 	background: #ff5e14;
 }
+.footer-widget-heading h4 {
+	color:#fff;
+}
 .footer-widget ul li {
 	display: inline-block;
 	float: left;
