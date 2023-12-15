@@ -2595,7 +2595,6 @@ blockquote {
 .img-platform-2, .img-platform-3, .img-platform-4 {
 	max-width: 100%;
 	height: auto;
-	margin: 5% 0% 5% 0%;
 	align-items: center;
 }
 
@@ -2989,13 +2988,3 @@ blockquote {
 	opacity: .7;
 }
 
-/* Small meeting settings */
-@media (min-width: 768px) and (max-width: 2999px) {
-	#training .meeting .img-black, #support .meeting .img-black, #professional-services .meeting .img-black  {
-		max-width: 24%;
-	}
-
-	#training .meeting .img-purple, #support .meeting .img-purple, #professional-services .meeting .img-purple  {
-		max-width: 40%;
-	}
-}

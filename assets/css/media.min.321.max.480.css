@@ -577,7 +577,7 @@
 
 	/* Products, services, solutions */
 	.products-area {
-		margin: 7% 0% 0% 0%;
+		margin: 0% 0% 0% 0%;
 	}
 	
 	.services-entity-area {
@@ -694,7 +694,7 @@
 
 	.service-detail .paragraph-1-platform {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 10% 5% 5% 5%;
 	}
 
 	.img-platform-1 {

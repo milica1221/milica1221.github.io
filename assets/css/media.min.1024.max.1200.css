@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 	html {
         font-size: 20px;
         font-family: 'Lato', sans-serif;
@@ -27,7 +27,7 @@
 	}
 
 	p {
-		font-size: 1rem !important;
+		font-size: 0.85rem !important;
 	}
 
 	a.btn {
@@ -60,9 +60,15 @@
 	}
 	.breadcrumb-area-services {
 		height: auto;
-		padding-bottom: 75px;
+		padding-bottom: 55px;
 		margin-bottom: 0%;
 	}
+	
+	#sticky-header {
+		margin: -2% 0% 0% 0%;
+		height: 75px;
+	}
+	
 	.second-menu-area {
 		margin: 0 0 -94px 0;
 	}
@@ -80,7 +86,7 @@
 	}
 
 	.main-menu ul li .sub-menu {
-		margin: -16% 0 0 0;
+		margin: -26% 0 0 0;
 		width: 240px;
 	}
 
@@ -93,7 +99,7 @@
 	}
 
 	.main-menu ul li .sub-menu li:hover a {
-		padding: 0px 0px 0px 20px;
+		padding: 10px 0px 10px 20px;
 	}
 	/* Slider */
 	.slider-content {
@@ -111,12 +117,12 @@
 
 	/* Intro */
 	.intro {
-		margin: 10% auto 10% auto;
+		margin: 5% auto 0% auto;
         position: relative;
 	}
 
 	.intro img {
-		margin: 5% auto 10% auto;
+		margin: 0% auto 5% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -130,30 +136,30 @@
 	}
 
 	.intro .grey-text {
-		margin: auto 5% 10% 5%;
+		margin: auto 5% 5% 5%;
         text-align: center;
 	}
 
 	/* User story */
 	.user-story {
-		margin: 10% auto 10% auto;
+		margin: 0% auto 10% auto;
 		padding: 10% auto auto auto;
 	}
 
 	.user-story .container-box {
-		margin: 0%;
-		padding: 7%;
+		margin: 3%;
+		padding: 5%;
 		position: relative;
 		border: 0.167rem solid;
 		border-spacing: 3%;
 	}
 
 	.user-story .container-fluid {
-		margin: 7% auto 20% auto;
+		margin: 3% auto 20% auto;
 	}
 
 	.user-story h3 {
-		margin: auto auto 10% auto;
+		margin: 5% auto 5% auto;
 	}
 
 	.user-story .black-text {
@@ -162,7 +168,7 @@
 	}
 
 	.tab-content .tab-pane {
-		height: 25rem;
+		height: 20rem;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -173,7 +179,7 @@
 	}
 
 	.tab-content .tab-pane .col-xl-12 {
-		margin: 10% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.nav-tabs .nav-link {
@@ -215,18 +221,18 @@
 	}
 
 	.tab-content .tab-pane a.btn {
-		margin: 10% auto 3% 1%;
+		margin: 8% auto 3% 1%;
 	}
 
 	/* Paragraphs */
 	.paragraphs {
-		margin: 20% auto 10% auto;
+		margin: 20% auto 17% auto;
 		padding: 10% auto auto auto;
 	}
 
 	.container-white {
 		position: relative;
-		margin: 10% 5% 5% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.container-white img {
@@ -240,8 +246,8 @@
 	}
 
 	.container-grey {
-		margin: 10% auto 15% 0%;
-		padding: 5% 10% 10% 5%;
+		margin: 5% auto 5% 0%;
+		padding: 5% 10% 5% 5%;
 		position: relative;
 	}
 
@@ -252,13 +258,13 @@
 
 	.container-white h3 {
 		position: relative;
-		margin: auto auto 5rem auto;
+		margin: auto auto 3rem auto;
 		display: inline-block;
 	}
 
 	.container-grey h3 {
 		position: relative;
-		margin: auto auto 5rem auto;
+		margin: auto auto 3rem auto;
 		display: inline-block;
 	}
 
@@ -276,7 +282,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: -1.333rem;
 		width: 22rem;
 	}
@@ -285,7 +291,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: -1.333rem;
 		width: 22rem;
 	}
@@ -300,9 +306,16 @@
 
 	/* Meeting */
 	.meeting {
-		margin: 10% auto 10% auto;
+		margin: 0% auto 0% auto;
 		padding: 0;
 		position: relative;
+	}
+	#training .meeting .img-black, #support .meeting .img-black, #professional-services .meeting .img-black  {
+		max-width: 34%;
+	}
+
+	#training .meeting .img-purple, #support .meeting .img-purple, #professional-services .meeting .img-purple  {
+		max-width: 57%;
 	}
 
 	.meeting .container-fluid {
@@ -315,9 +328,10 @@
 
 	.meeting .img-black {
 		transform: rotate(360deg);
-		max-width: 60%;
+		max-width: 30%;
 		margin: 0rem 0rem auto auto;
 	}
+
 
 	.meeting-text-p {
 		line-height: 1;
@@ -325,8 +339,10 @@
 	}
 
 	.meeting-text a.btn {
-		margin: 5% 5% 5% 5%;
+		top: 30%;
+		margin: 0% 5% 0% 5%;
 		font-weight: bold;
+		position: relative;
 	}
 
 	.meeting row {
@@ -336,11 +352,11 @@
 
 	/* Use cases */
 	.use-cases {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.section-title.usecase-title h3 {
-		margin: auto auto 5rem auto;
+		margin: auto auto 5% auto;
 		position: relative;
 		display: inline-block;
 	}
@@ -370,7 +386,7 @@
 		position: absolute;
 		left: 0;
 		width: 10rem;
-		height: 0.333rem;
+		height: 1rem;
 		bottom: 4.167rem;
 	}
 
@@ -394,16 +410,16 @@
 
 	/* Services */
 	.service-area {
-		margin: 10% auto auto auto;
+		margin: 3% auto auto auto;
 		padding: 10% auto auto auto;
 	}
 
 	.service-area h3 {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.services-paragraph p {
-		margin: 5% auto 15% auto;
+		margin: 0% auto 5% auto;
 		text-align: justify;
 	}
 
@@ -551,22 +567,29 @@
 	}
 
 	/* Products, services, solutions */
-	.solutions-area p, .products-area p, .services-entity-area p {
+	.solutions-area p, .products-area p {
 		text-align: left;
-		margin: -2% 5% 5% 3%;
+		margin: -2% 5% 5% 0%;
 	}
 
 	.products-content  {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
-		margin: auto auto 5% 3%;
+		margin: auto auto 5% 0%;
 	}
 
 	.solutions-area h3, .products-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 3% 3%;
+		margin: 0% 0% 0% 0%;
+	}
+
+	.services-entity-area {
+		margin: 5% 0% 5% 0%;
+	}
+	.services-entity-area p {
+		margin: -10% 5% 5% 0%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
@@ -574,11 +597,11 @@
 	}
 
 	.services-entity-content {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto 5%;
 	}
 
 	.solutions-content {
-		margin: 10% auto auto auto;
+		margin: 5% auto auto auto;
 	}
 
 	.details-content h4 {
@@ -599,18 +622,18 @@
 	.service-detail .title-platform {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .paragraph-platform {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 4% 5% 4% 5%;
 	}
 
 	.service-detail .title-platform::before {
 		position: absolute;
 		width: 100%;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -620,9 +643,16 @@
 		text-align: left;
 		margin: 10% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-platform {
+		margin: 5% 5% auto 10%;
+	}
 
 	.service-detail .platform-order .title-1-platform {
 		padding: 5% auto auto auto;
+	}
+
+	.service-detail .platform-order {
+		margin: 0% 0% 0% 3%;
 	}
 
 	.service-detail .title-1-platform::before {
@@ -637,6 +667,12 @@
 		text-align: left;
 		margin: 5% 5% 0% 5%;
 	}
+	#left-paragraph-in-row .paragraph-1-platform {
+		margin: 5% 5% 0% 10%;
+	}
+	#platform-row {
+		margin: 0% 2% 4% 2%;
+	}
 
 	.img-platform-1 {
 		width: 100%;
@@ -647,10 +683,15 @@
 	.img-platform-2 {
 		width: 100%;
 		height: auto;
-		margin: 0% 5% 0% 0%;
+		margin: 0% 5% 0% 0% !important;
 	}
 
-	.img-platform-3, .img-platform-4 {
+	.img-platform-3 {
+		width: 100%;
+		height: auto;
+		margin: 10% auto auto auto;
+	}
+	.img-platform-4 {
 		width: 100%;
 		height: auto;
 		margin: 10% auto auto auto;
@@ -658,6 +699,9 @@
 
 
 	/* NV Edge */
+	.service-detail .container-fluid .img-edge-1 {
+		margin: 5% 0% 0% 0%;
+	}
 	.service-detail .title-1-edge {
 		position: relative;
 		text-align: left;
@@ -695,7 +739,7 @@
 	.service-detail .title-1-support {
 		position: relative;
 		text-align: left;
-		margin: 0% 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-1-support::before {
@@ -708,7 +752,7 @@
 
 	.service-detail .paragraph-1-support {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
 	}
 
 	/* Professional services */
@@ -733,7 +777,7 @@
 
 	.service-detail .list-1-services {
 		text-align: left;
-		margin: 5% 5% 0% 15%;
+		margin: 5% 5% 5% 15%;
 	}
 
 	.service-detail .list-1-services li {
@@ -763,7 +807,7 @@
 
 	.service-detail .list-1-training {
 		text-align: left;
-		margin: 5% 5% 0% 15%;
+		margin: 5% 5% 5% 15%;
 	}
 
 	.service-detail .list-1-training li {
@@ -775,7 +819,7 @@
 	.service-detail .title-agriculture {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-agriculture::before {
@@ -791,6 +835,9 @@
 		text-align: left;
 		margin: 5% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-agriculture {
+		margin: 5% 5% auto 10%;
+	}
 
 	.service-detail .title-1-agriculture::before {
 		position: absolute;
@@ -802,18 +849,22 @@
 
 	.service-detail .paragraph-agriculture {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 4%;
 	}
 
 	.service-detail .paragraph-1-agriculture {
 		text-align: left;
 		margin: 10% 5% 10% 5%;
 	}
+	#left-paragraph-in-row .paragraph-1-agriculture {
+		margin: 10% 5% 10% 10%;
+	}
 
+	/* smart-industry */
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-industry::before {
@@ -829,6 +880,9 @@
 		text-align: left;
 		margin: 10% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-industry {
+		margin: 10% 5% auto 10%;
+	}
 
 	.service-detail .title-1-industry::before {
 		position: absolute;
@@ -840,12 +894,17 @@
 
 	.service-detail .paragraph-1-industry {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 6% 5% 0% 5%;
 	}
-
+	#left-paragraph-in-row .paragraph-1-industry {
+		margin: 6% 5% 0% 10%;
+	}
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 3% 5% 5% 5%;
+	}
+	.service-detail #bottom-box {
+		margin: 5% 0% 0% 0%;
 	}
 
 
@@ -898,10 +957,16 @@
 	}
 
 	/* Smart Building */
+	#smart-building {
+		margin: 0% 0% 4% 0%;
+	}
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 7% 5% auto 5%;
+	}
+	#left-paragraph-in-row .title-building {
+		margin: 7% 5% auto 10%;
 	}
 
 	.service-detail .title-building::before {
@@ -917,6 +982,9 @@
 		text-align: left;
 		margin: 5% 5% auto 5%;
 	}
+	#left-paragraph-in-row .title-1-building {
+		margin: 5% 5% auto 10%;
+	}
 
 	.service-detail .title-1-building::before {
 		position: absolute;
@@ -928,18 +996,28 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 4% 5%;
+	}
+	#left-paragraph-in-row .paragraph-building {
+		margin: 5% 5% 4% 10%;
+	}
+	#left-paragraph-in-row .paragraph-1-building {
+		margin: 5% 5% 4% 10%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 4% 5%;
 	}
 
 	/* Education */
 
+	#education-content {
+		margin: 0% 0% 3% 0%;
+	}
+
 	.service-detail {
-		margin: 0% auto 5% auto;
+		margin: 0% auto 0% auto;
 	}
 
 	#education-color-row {
@@ -953,7 +1031,7 @@
 	.service-detail .title-education {
 		position: relative;
 		text-align: left;
-		margin: auto 5% auto 5%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-education::before {
@@ -980,7 +1058,7 @@
 
 	.service-detail .paragraph-1-education {
 		text-align: left;
-		margin: 10% 5% 0% 5%;
+		margin: 5% 5% 0% 5%;
 	}
 
 	.service-detail .paragraph-education {
@@ -990,7 +1068,7 @@
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 5% 5% 0% 15%;
+		margin: 3% 5% 3% 15%;
 	}
 
 	.service-detail .list-1-education li {

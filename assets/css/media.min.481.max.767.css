@@ -33,7 +33,7 @@
 
 	a.btn {
 		padding: 2% 6% 2% 6% !important;
-		font-size: 1.2rem !important;
+		font-size: 1.5rem !important;
 		font-weight: normal !important;
 	}
 
@@ -671,7 +671,10 @@
 
 	.service-detail .paragraph-1-platform {
 		text-align: left;
-		margin: 5% 5% 0% 5%;
+		margin: 5% 5% 5% 5%;
+	}
+	#platform-bottom-box {
+		margin: 5% 0% 0% 0%;
 	}
 
 	.img-platform-1 {

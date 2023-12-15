@@ -320,6 +320,14 @@
 		position: relative;
 	}
 
+	#training .meeting .img-black, #support .meeting .img-black, #professional-services .meeting .img-black  {
+		max-width: 24%;
+	}
+
+	#training .meeting .img-purple, #support .meeting .img-purple, #professional-services .meeting .img-purple  {
+		max-width: 40%;
+	}
+
 	.meeting .container-fluid {
 		padding: 0;
 	}
@@ -715,7 +723,7 @@
 	.img-platform-3, .img-platform-4 {
 		max-width: 100%;
 		height: auto;
-		margin: 10% auto 5% auto;
+		margin: 8% auto 5% auto;
 	}
 
 
