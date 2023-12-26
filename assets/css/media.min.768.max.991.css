@@ -279,7 +279,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.2rem;
+		height: 0.1rem;
 		bottom: -1rem;
 		width: 30rem;
 	}
@@ -288,7 +288,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		height: 0.2rem;
+		height: 0.1rem;
 		bottom: -1rem;
 		width: 30rem;
 	}
@@ -380,7 +380,7 @@
 		position: absolute;
 		left: 0;
 		width: 10rem;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: 4.167rem;
 	}
 
@@ -632,7 +632,7 @@
 	.service-detail .title-platform::before {
 		position: absolute;
 		width: 100%;
-		height: 0.333rem;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -653,7 +653,7 @@
 	.service-detail .title-1-platform::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -713,7 +713,7 @@
 	.service-detail .title-1-edge-2::before {
 		position: absolute;
 		width: 60%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -739,7 +739,7 @@
 	.service-detail .title-1-support::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -759,7 +759,7 @@
 	.service-detail .title-1-services::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -789,7 +789,7 @@
 	.service-detail .title-1-training::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -822,7 +822,7 @@
 	.service-detail .title-agriculture::before {
 		position: absolute;
 		width: 100%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -836,7 +836,7 @@
 	.service-detail .title-1-agriculture::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -861,7 +861,7 @@
 	.service-detail .title-industry::before {
 		position: absolute;
 		width: 100%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -878,7 +878,7 @@
 	.service-detail .title-1-industry::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -907,7 +907,7 @@
 	.service-detail .title-1-providers::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -927,7 +927,7 @@
 	.service-detail .title-1-retail::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -961,7 +961,7 @@
 	.service-detail .title-building::before {
 		position: absolute;
 		width: 100%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -978,7 +978,7 @@
 	.service-detail .title-1-building::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -1019,7 +1019,7 @@
 	.service-detail .title-education::before {
 		position: absolute;
 		width: 100%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -1033,7 +1033,7 @@
 	.service-detail .title-1-education::before {
 		position: absolute;
 		width: 50%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -15px;
 		margin: 0%;
 	}
@@ -1070,7 +1070,7 @@
 		left: 0;
 		right: 0;
 		width: 20%;
-		height: 2px;
+		height: 0.1rem;
 		bottom: -20px;
 		margin: auto;
 		text-align: center;
