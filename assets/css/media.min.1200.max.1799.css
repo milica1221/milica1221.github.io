@@ -127,7 +127,7 @@
 	}
 
 	.intro img {
-		margin: 0% auto 5% auto;
+		margin: 4% auto 5% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -164,7 +164,7 @@
 	}
 
 	.user-story h3 {
-		margin: 0% auto 8% auto;
+		margin: 0% auto 4% auto;
 	}
 
 	.user-story .black-text {
@@ -602,11 +602,11 @@
 
 	.solutions-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 1% 3%;
+		margin: 0% 5% 20% 3%;
 	}
 	.products-area h3 {
 		text-align: left;
-		margin: 0% 5% 1% 0%;
+		margin: 0% 5% 6% 0%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
@@ -882,7 +882,7 @@
 
 	.service-detail .title-agriculture::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
@@ -923,6 +923,9 @@
 	#smart-industry {
 		margin: 0% auto 0% auto;
 	}
+	.industry-list-section {
+		padding: 0% 0% 0% 4%;
+	}
 
 	#industry-row {
 		background-color: #fbfbfb;
@@ -932,6 +935,9 @@
 		position: relative;
 		text-align: left;
 		margin: 5% 5% auto 5%;
+	}
+		.img-production-lines-1 {
+		margin: 5% 0% 0% 0%;
 	}
 
 	.service-detail .title-industry::before {
@@ -1061,19 +1067,30 @@
 	#building-row {
 		background-color: #fbfbfb;
 	}
+	.img-building-1 {
+		margin: 5% 0% 5% 0%;
+	}
+
+	.img-building-2 {
+		margin: 5% 0% 5% 0%;
+	}
+
+	.img-building-3 {
+		margin: 10% 0% 5% 0%;
+	}
 
 	.service-detail .title-building {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 	#left-paragraph-in-row .title-building {
-		margin: 5% 5% auto 10%;
+		margin: 10% 5% auto 10%;
 	}
 
 	.service-detail .title-building::before {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
@@ -1082,10 +1099,10 @@
 	.service-detail .title-1-building {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 10% 5% auto 5%;
 	}
 	#left-paragraph-in-row .title-1-building {
-		margin: 5% 5% auto 10%;
+		margin: 10% 5% auto 10%;
 	}
 
 	.service-detail .title-1-building::before {
@@ -1098,23 +1115,20 @@
 
 	.service-detail .paragraph-building {
 		text-align: left;
-		margin: 5% 5% 5% 5%;
+		margin: 5% 5% 10% 5%;
 	}
 	#left-paragraph-in-row .paragraph-building {
-		margin: 5% 5% 5% 10%;
+		margin: 5% 5% 10% 10%;
 	}
 
 	.service-detail .paragraph-1-building {
 		text-align: left;
-		margin: 5% 5% 5% 5%;
+		margin: 5% 5% 10% 5%;
 	}
 	#left-paragraph-in-row .paragraph-1-building {
-		margin: 5% 5% 5% 10%;
+		margin: 5% 5% 10% 10%;
 	}
 
-	.img-building-1, .img-building-2, .img-building-3 {
-		margin: 5% auto 5% auto;
-	}
 
 	/* Education */
 
@@ -1209,7 +1223,7 @@
 	.service-detail .paragraph-2 {
 		opacity: 0.6;
 		text-align: center;
-		margin: 5% 10% 0% 10%;
+		margin: 10% 10% 10% 10%;
 	}
 
 	.details-text {
@@ -1222,7 +1236,223 @@
 		align-items: center;
 	}
 
-	.mobile-platform, .mobile-agriculture, .mobile-industry {
+	.mobile-platform, .mobile-agriculture, .mobile-industry, .mobile-city {
 		display: none;
+	}
+	/* Smart City */
+
+	#smart-city {
+		margin: 0% auto 0% auto;
+	}
+
+	#city-row {
+		background-color: #fbfbfb;
+	}
+
+	.regular-city {
+		margin: auto auto 1% auto;
+	}
+
+	.service-detail .title-city {
+		position: relative;
+		text-align: left;
+		margin: 5% 5% auto 5%;
+	}
+
+	.service-detail .title-city::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-city {
+		position: relative;
+		text-align: left;
+		margin: 5% 5% auto 5%;
+	}
+	#left-paragraph-in-row .title-1-city {
+		margin: 5% 5% auto 10%;
+	}
+
+	.service-detail .title-1-city::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-city {
+		text-align: left;
+		margin: 3% 5% 5% 5%;
+	}
+
+	.service-detail .paragraph-1-city {
+		text-align: left;
+		margin: 5% 5% 5% 5%;
+	}
+	#left-paragraph-in-row .paragraph-1-city {
+		margin: 5% 5% 5% 10%;
+	}
+	.service-detail .list-1-city {
+		text-align: left;
+		margin: 0% 5% 5% 15%;
+	}
+
+	.service-detail .list-1-city li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	/* Tutorials */
+
+	.tutorials-area .card-title h1 {
+		margin: 0% 0% 5% 0%;
+	}
+
+	.tutorials-area .col-xl-12 {
+		margin: auto auto auto auto;
+	}
+
+	.tutorials-area {
+		margin: 0% auto 0% auto;
+	}
+
+	.tutorials-content a.btn {
+		margin: auto auto auto 0%;
+	}
+
+	.tutorials-area h3 {
+		text-align: left;
+		margin: 0% 5% 3% 0%;
+	}
+
+	.tutorials-body-section {
+		margin: 0% 0% 3% 0%;
+	}
+
+	.tutorials-img  {	
+		margin: 5% 0% 7% 0%;	
+	}
+
+
+	.tutorials-area .tutorials-box {
+		box-shadow: none;
+	}
+
+	.tutorials-area p {
+		text-align: left;
+		margin: -3% 5% 3% 0%;
+	}
+
+	.tutorials-content  {
+		margin: 5% auto auto auto;
+	}
+
+	.tutorials-list {
+		margin: 2% 0% 0% 0%;
+	}
+
+	.tutorials-table {
+		margin: 5% 0% 5% 0%;
+		font-size: 14px;
+	}
+
+	.tutorials-cells {
+		padding: 8px;
+	}
+
+	.tutorials-container-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.tutorials-container-item {
+		margin: 20px 0;
+		border-radius: 8px;
+	}
+
+	.tutorials-sub-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.tutorials-sub-item {
+		padding: 15px;
+	}
+
+	.tutorials-sub-item:last-child {
+		border-bottom: none;
+	}
+
+	.tutorials-sub-item strong {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 1.2em;
+	}
+
+	.tutorials-inner-list {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	.tutorials-inner-item {
+		margin-bottom: 8px;
+		color: #555;
+	}
+
+	.admonition {
+		border-left: 6px;
+		padding: 15px;
+		margin: 20px 0;
+		border-radius: 5px;
+	  }
+
+
+	.admonition-title {
+		padding: 8px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	  }
+	  
+	.admonition a:hover {
+		text-decoration: underline;
+	  }
+
+	.install-list {
+		padding: 0;
+		margin: 0% 0% 5% 0%;
+	  }
+	  
+	.install-item {
+		margin-bottom: 1%;
+	  }
+	  
+	.install-item::before {
+		font-size: 1.2em;
+		margin-right: 10px;
+	  }
+
+	pre {
+		background-color: #f4f4f4;
+		border: 1px;
+		border-left: 3px;
+		margin: 0% 0% 6% 0%;
+		padding: 0% 0% 0% 5%;
+		font-size: 14px;
+		max-width: 100%;
+		word-wrap: break-word; 
+		text-indent: 0;
+		max-height: 500px;
+		position: relative; 
+	  }
+
+	.copy-button {
+		top: 5px;
+		right: 5px;
+		padding: 5px 10px;
 	}
 }

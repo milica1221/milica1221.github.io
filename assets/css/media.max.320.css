@@ -589,7 +589,7 @@
 
 	.solutions-area h3, .products-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 0% 3%;
+		margin: 0% 5% 15% 3%;
 	}
 
 	.products-area .products-box {
@@ -1088,7 +1088,7 @@
 	.service-detail .title-2 {
 		position: relative;
 		text-align: center;
-		margin: 5% 10%;
+		margin: 10% 10%;
 	}
 
 	.service-detail .title-2::before {
@@ -1105,10 +1105,222 @@
 	.service-detail .paragraph-2 {
 		opacity: 0.6;
 		text-align: center;
-		margin: 15% 10% 0% 10%;
+		margin: 10% 10% 10% 10%;
 	}
 
 	.details-text {
 		margin: 10% 5%;
 	}
+
+	/* Smart city */
+	.service-detail .title-city {
+		position: relative;
+		text-align: left;
+		margin: 7% 5% auto 5%;
+	}
+
+	.service-detail .title-city::before {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .title-1-city {
+		position: relative;
+		text-align: left;
+		margin: 7% 5% auto 5%;
+	}
+
+	.service-detail .title-1-city::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-city {
+		text-align: left;
+		margin: 11% 5% 7% 5%;
+	}
+
+	.service-detail .paragraph-1-city {
+		text-align: left;
+		margin: 11% 5% 7% 5%;
+	}
+	.service-detail .list-1-city {
+		text-align: left;
+		margin: 10% 5% 4% 15%;
+	}
+
+	.service-detail .list-1-city li {
+		display: list-item;
+		list-style-type: disc;
+	}
+	.city-order div:nth-child(1) {
+		order: 2;
+	}
+
+	.city-order  div:nth-child(2) {
+		order: 1;
+	}
+	.city-img-1 {
+		margin: 0% 0% 5% 0%;
+	}
+
+	/* Tutorials */
+
+	.tutorials-area .card-title h1 {
+		margin: 0% 0% 5% 0%;
+	}
+
+	.tutorials-area .col-xl-12 {
+		margin: auto auto auto auto;
+	}
+
+	.tutorials-area {
+		margin: 0% auto 0% auto;
+	}
+
+	.tutorials-content a.btn {
+		margin: auto auto auto 0%;
+	}
+
+	.tutorials-area h3 {
+		text-align: left;
+		margin: 0% 5% 3% 0%;
+	}
+
+	.tutorials-body-section {
+		margin: 0% 0% 3% 0%;
+	}
+
+	.tutorials-img  {	
+		margin: 5% 0% 5% 0%;	
+	}
+
+
+	.tutorials-area .tutorials-box {
+		box-shadow: none;
+	}
+
+	.tutorials-area p {
+		text-align: left;
+		margin: 0% 5% 0% 0%;
+	}
+
+	.tutorials-content  {
+		margin: 5% auto auto auto;
+	}
+
+	.tutorials-list {
+		margin: 2% 0% 0% 0%;
+	}
+
+	.tutorials-table {
+		margin: 5% 0% 5% 0%;
+		font-size: 12px;
+	}
+
+	.tutorials-cells {
+		padding: 8px;
+	}
+
+	.tutorials-container-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.regular-tutorials {
+		display: none;
+	}
+
+	.tutorials-container-item {
+		margin: 20px 0;
+		border-radius: 8px;
+	}
+
+	.tutorials-sub-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.tutorials-sub-item {
+		padding: 15px;
+	}
+
+	.tutorials-sub-item:last-child {
+		border-bottom: none;
+	}
+
+	.tutorials-sub-item strong {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 1.2em;
+	}
+
+	.tutorials-inner-list {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	.tutorials-inner-item {
+		margin-bottom: 8px;
+		color: #555;
+	}
+
+	.admonition {
+		border-left: 6px;
+		padding: 15px;
+		margin: 20px 0;
+		border-radius: 5px;
+	}
+    .admonition-title  {
+		padding: 8px;
+		margin-bottom: 5%;
+		border-radius: 5px;
+	  }
+	  
+	.admonition a:hover {
+		text-decoration: underline;
+	  }
+
+	.install-list {
+		padding: 0;
+		margin: 2% 0% 2% 0%;
+	  }
+	  
+	.install-item {
+		margin-bottom: 1%;
+	  }
+	  
+	.install-item::before {
+		font-size: 1.2em;
+		margin-right: 10px;
+	  }
+
+	pre {
+		background-color: #f4f4f4;
+		border: 1px;
+		border-left: 3px;
+		margin: 0% 0% 6% 0%;
+		padding: 0% 0% 0% 5%;
+		font-size: 7px;
+		max-width: 100%;
+		word-wrap: break-word; 
+		text-indent: 0;
+		max-height: 300px;
+		position: relative; 
+	  }
+
+	.copy-button {
+		top: 5px;
+		right: 5px;
+		padding: 5px 10px;
+		font-size: 20px;
+	}
+
 }
