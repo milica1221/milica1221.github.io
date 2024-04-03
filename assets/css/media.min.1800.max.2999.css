@@ -130,7 +130,7 @@
 	}
 
 	.intro img {
-		margin: 3% auto 5% auto;
+		margin: 5% auto 5% auto;
 		max-width: 38.125rem;
 		height: auto;
 	}
@@ -167,7 +167,7 @@
 	}
 
 	.user-story h3 {
-		margin: 3% auto 8% auto;
+		margin: 3% auto 4% auto;
 	}
 
 	.user-story .black-text {
@@ -570,7 +570,7 @@
 		display: none;
 	}
 
-	/* Products, services, solutions */
+	/* Products, services, solutions, tutorials */
 
 	.services-entity-area {
 		margin: 3% auto 3% auto;
@@ -584,8 +584,17 @@
 		margin: 0% 0% 0% 0%;
 	}
 
+	.tutorials-area {
+		margin: 3% 0% 0% 0%;
+		display: flex;
+	}
+
 	.products-area .col-xl-12 {
 		margin: auto auto 5% auto;
+	}
+
+	.tutorials-area .col-xl-12 {
+		margin: 0% 0% 0% 0%;
 	}
 
 	.solutions-area .col-xl-4 {
@@ -601,8 +610,20 @@
 		margin: -3% 5% 3% 0%;
 	}
 
+	.tutorials-area p {
+		text-align: left;
+		margin: 0% 0% 0% 0%;
+	}
+
 	.products-content  {
 		margin: 5% auto auto auto;
+	}
+
+	.tutorials-content  {
+		margin: auto auto auto auto;
+	}
+	.tutorials-content .card-text p  {
+		margin: 0% auto auto auto;
 	}
 
 	.services-entity-content a.btn, .solutions-content a.btn {
@@ -612,19 +633,35 @@
 
 	.solutions-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 1% 5%;
+		margin: 0% 5% 20% 5%;
 	}
 	.products-area h3 {
 		text-align: left;
-		margin: 0% 5% 1% 0%;
+		margin: 0% 5% 6% 0%;
+	}
+
+	.tutorials-area h3 {
+		text-align: left;
+		margin: 0% 0% 0% 0%;
 	}
 
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
 		box-shadow: none;
 	}
 
+	.tutorials-area .tutorials-box {
+		margin: 0% 0% 5% 0%;
+	}
 	.services-entity-content {
 		margin: 10% auto auto auto;
+	}
+
+	.tutorials-body-section {
+		margin: 0% 0% 5% 0%;
+	}
+
+	.tutorials-img  {	
+		margin: 5% 0% 5% 0%;	
 	}
 
 	.solutions-content {
@@ -940,11 +977,19 @@
 	#industry-row {
 		background-color: #fbfbfb;
 	}
-
+	.img-production-lines-1 {
+		margin: 5% 0% 0% 0%;
+	}
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: 5% 5% auto 5%;
+		margin: 3% 5% auto 5%;
+	}
+	.img-industry-planning{
+		margin: 0% 0% 5% 0%;
+	}
+	.industry-list-section {
+		padding: 0% 0% 0% 3%;
 	}
 
 	.service-detail .title-industry::before {
@@ -958,7 +1003,7 @@
 	.service-detail .title-1-industry {
 		position: relative;
 		text-align: left;
-		margin: 10% 5% auto 5%;
+		margin: 8% 5% auto 5%;
 	}
 
 	#left-paragraph-in-row .title-1-industry {
@@ -984,7 +1029,7 @@
 
 	.service-detail .paragraph-industry {
 		text-align: left;
-		margin: 3% 5% 5% 5%;
+		margin: 3% 5% 4% 5%;
 	}
 
 	.img-industry-1, .img-industry-2 {
@@ -1230,7 +1275,7 @@
 	.service-detail .paragraph-2 {
 		opacity: 0.6;
 		text-align: center;
-		margin: 5% 10% 0% 10%;
+		margin: 10% 10% 10% 10%;
 	}
 
 	.details-text {
@@ -1243,7 +1288,184 @@
 		align-items: center;
 	}
 
-	.mobile-platform, .mobile-agriculture, .mobile-industry {
+	.mobile-platform, .mobile-agriculture, .mobile-industry, .mobile-city {
 		display: none;
+	}
+	/* Smart City */
+
+	#smart-city {
+		margin: 0% auto 0% auto;
+	}
+
+	#city-row {
+		background-color: #fbfbfb;
+	}
+
+	.regular-city {
+		margin: auto auto 1% auto;
+	}
+
+	.service-detail .title-city {
+		position: relative;
+		text-align: left;
+		margin: 5% 5% auto 5%;
+	}
+
+	.service-detail .title-city::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+	.img-city-1 {
+		margin: 5% 0% 5% 0%;
+	}
+
+	.service-detail .title-1-city {
+		position: relative;
+		text-align: left;
+		margin: 5% 5% auto 5%;
+	}
+	#left-paragraph-in-row .title-1-city {
+		margin: 5% 5% auto 10%;
+	}
+
+	.service-detail .title-1-city::before {
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		bottom: -15px;
+		margin: 0%;
+	}
+
+	.service-detail .paragraph-city {
+		text-align: left;
+		margin: 3% 5% 2% 5%;
+	}
+
+	.service-detail .paragraph-1-city {
+		text-align: left;
+		margin: 5% 5% 5% 5%;
+	}
+	#left-paragraph-in-row .paragraph-1-city {
+		margin: 5% 5% 5% 10%;
+	}
+	.service-detail .list-1-city {
+		text-align: left;
+		margin: 5% 5% 5% 15%;
+	}
+
+	.service-detail .list-1-city li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	/* Tutorials */
+
+	.tutorials-area .card-title h1 {
+		margin: 0% 0% 5% 0%;
+	}
+
+
+	.tutorials-list {
+		margin: 2% 0% 0% 0%;
+	}
+
+	.tutorials-table {
+		margin: 2% 0% 0% 0%;
+		font-size: 14px;
+	}
+
+	.tutorials-cells {
+		padding: 8px;
+	}
+
+	.tutorials-container-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.tutorials-container-item {
+		margin: 20px 0;
+		border-radius: 8px;
+	}
+
+	.tutorials-sub-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.tutorials-sub-item {
+		padding: 15px;
+	}
+
+	.tutorials-sub-item:last-child {
+		border-bottom: none;
+	}
+
+	.tutorials-sub-item strong {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 1.2em;
+	}
+
+	.tutorials-inner-list {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	.tutorials-inner-item {
+		margin-bottom: 8px;
+		color: #555;
+	}
+
+	.admonition {
+		border-left: 6px;
+		padding: 15px;
+		margin: 20px 0;
+		border-radius: 5px;
+	  }
+	  .admonition-title {
+		padding: 8px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	  }
+	  
+	  .admonition a:hover {
+		text-decoration: underline;
+	  }
+
+	  .install-list {
+		padding: 0;
+	  }
+	  
+	  .install-item {
+		margin-bottom: 1%;
+	  }
+	  
+	  .install-item::before {
+		font-size: 1.2em;
+		margin-right: 10px;
+	  }
+
+	  pre {
+		background-color: #f4f4f4;
+		border: 1px;
+		border-left: 3px;
+		padding: 0% 0% 0% 5%;
+		font-size: 14px;
+		max-width: 100%;
+		word-wrap: break-word; 
+		text-indent: 0;
+		max-height: 500px;
+		position: relative; 
+	  }
+
+	  .copy-button {
+		top: 5px;
+		right: 5px;
+		padding: 5px 10px;
 	}
 }

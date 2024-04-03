@@ -40,6 +40,8 @@
     url: /pages/smart-building
   - text: Smart Agriculture
     url: /pages/smart-agriculture
+  - text: Smart City
+    url: /pages/smart-city    
 #  - text: Smart Providers
 #    url: /pages/smart-providers
 #  - text: Smart Retail
@@ -61,5 +63,10 @@
   #   url: /pages/contact
   # - text: 404
   #   url: /pages/404
+- text: Tutorials
+  url: /pages/tutorials
+  submenu:
+  - text: Edge Devices With Portainer
+    url: /pages/nova-edge-tutorial
 - text: Contact
   url: /pages/contact

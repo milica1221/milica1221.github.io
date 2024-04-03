@@ -1,0 +1,1109 @@
+---
+layout: page
+title: Tutorials
+---
+
+<!-- services-area -->
+<section class="tutorials-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                <div class="tutorials-box">
+                    <div class="tutorials-content">
+                        <div class="card-title">
+                            <h1>Nova Edge Configuration</h1>
+                        </div>
+                        <div class="card-title">
+                            <h3>About EdgeX</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                EdgeX Foundry, an open-source platform hosted by the Linux Foundation,
+                                 presents a standardized framework for industrial IoT edge computing.
+                                  Enjoy the compatibility and scalability advantages of combining Nova Vector and EdgeX Foundry,
+                                   delivering seamless IoT edge computing for your enterprise. Janko Isidorovic, the founder of Nova Vector,
+                                    was Chair of the Application Working Group in the Linux Foundation EdgeX Foundry from the project start until the release of EdgeX Foundry v1.0.    
+                                    </p>
+                            </div>
+                        <div class="tutorials-img">
+                            <img src="{{site.baseurl}}/assets/img/products/edge-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Nova Vector leverages the Linux Foundation's EdgeX Foundry project to deliver an advanced Edge Computing solution. 
+                                By adopting a modular, microservice architecture similar to the Nova Vector Platform, Nova Edge excels in device management through Device Services, 
+                                Core Services, and Supporting Services. 
+                                Noteworthy features include real-time data processing using a rules engine with SQL-like language, allowing transformative actions on device data streams. 
+                                The platform's Application Services offer standard functions like compression, conversion, encryption, and filtering export. 
+                                This integration ensures seamless IoT edge computing, optimizing efficiency and addressing diverse challenges in data processing, security, 
+                                and device management for enterprises.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                <div class="tutorials-box">
+                    <div class="tutorials-content">
+                        <div class="card-title">
+                            <h3>About Portainer</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Portainer, a powerful open-source container management tool, serves as a key component in enhancing the manageability and orchestration of containers within Nova Vector IoT platform. 
+                                With its user-friendly interface and robust feature set, Portainer simplifies the deployment and monitoring of containerized applications across various servers. 
+                                On the picture below we can see list of servers that are connected to our platform as well as all options available on the left side. We will go through some of them later on.   
+                            </p>
+                        </div>
+                        <div class="tutorials-img">
+                            <img src="{{site.baseurl}}/assets/img/tutorials/portainer.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Key features of Portainer include a comprehensive container deployment interface, real-time monitoring of container performance, and easy access to logs and statistics. 
+                                With Portainer's support for various container runtimes, including Docker and Kubernetes, it offers flexibility and compatibility with diverse environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="tutorials-box">
+                        <div class="tutorials-content">
+                            <div class="card-title">
+                                <h3>Portainer Configuration</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Under the 'Environments' tab, you can view all existing environments and also manipulate and add new ones. 
+                                    In this tutorial, we will demonstrate how to add a new environment that represents the server on which we will install EdgeX. 
+                                    Later, we will show you how to configure EdgeX and how to send data to the platform. 
+                                    To begin, click the '+ Add environment' button to start the wizard for creating a new environment.
+                                </p>
+                            </div>
+                            <div class="tutorials-img">
+                                <img src="{{site.baseurl}}/assets/img/tutorials/portainer-add-environment.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After pressing the 'Add environment' button, you will be presented with the available environments. 
+                            Choose 'Docker standalone'. 
+                            Each environment serves a specific use-case, and we will provide a simplified explanation in the section below.
+                        </p>
+                        <ul class="tutorials-list">
+                            <li class="tutorials-item">
+                                <ul class="tutorials-sub-list">
+                                    <li class="tutorials-sub-item">
+                                        <strong>Docker Standalone:</strong>
+                                        <ul class="tutorials-inner-list">
+                                            <li class="tutorials-inner-item">Use Portainer to manage individual Docker hosts without orchestration.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="tutorials-sub-item">
+                                        <strong>Docker Swarm:</strong>
+                                        <ul class="tutorials-inner-list">
+                                            <li class="tutorials-inner-item">Choose Docker Swarm as your orchestration solution for simplicity and easier management.</li>
+                                            <li class="tutorials-inner-item">Utilize Portainer for a user-friendly interface to manage Docker Swarm.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="tutorials-sub-item">
+                                        <strong>Kubernetes:</strong>
+                                        <ul class="tutorials-inner-list">
+                                            <li class="tutorials-inner-item">Choose Kubernetes for advanced orchestration features and scalability.</li>
+                                            <li class="tutorials-inner-item">Utilize Portainer for Kubernetes to simplify cluster management.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="tutorials-sub-item">
+                                        <strong>Azure Container Instances:</strong>
+                                        <ul class="tutorials-inner-list">
+                                            <li class="tutorials-inner-item">Choose ACI for serverless container deployment in the Azure cloud.</li>
+                                            <li class="tutorials-inner-item">Use Portainer for managing ACI deployments.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>              
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/portainer-select-environment.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Afterward, you will be prompted to choose a connection method. 
+                            The selection of the connection method hinges on your specific use case and the architecture of your Docker environment. 
+                            Each method offers a solution tailored to various scenarios, including centralized management across multiple hosts, 
+                            local management, integration with custom applications, or edge computing scenarios.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            <table class="tutorials-table">
+                                <caption>Connection Methods for Portainer</caption>
+                                <tr class="tutorial-rows">
+                                    <th class="tutorials-cells">Connection Method</th>
+                                    <th class="tutorials-cells">Scenario</th>
+                                    <th class="tutorials-cells">Use Case</th>
+                                </tr>
+                                <tr class="tutorials-rows">
+                                    <td class="tutorials-cells">Agent</td>
+                                    <td class="tutorials-cells">You have multiple Docker hosts distributed across different machines or servers.</td>
+                                    <td class="tutorials-cells">Install the Portainer Agent on each Docker host to facilitate centralized management through the Portainer interface. The Agent communicates with the Portainer server, allowing you to control and monitor Docker resources on those remote hosts.</td>
+                                </tr>
+                                <tr class="tutorials-rows">
+                                    <td class="tutorials-cells">API</td>
+                                    <td class="tutorials-cells">You have a custom script, application, or automation tool that needs to interact with Docker resources.</td>
+                                    <td class="tutorials-cells">Use the Docker API exposed by the standalone environment to programmatically manage containers, images, networks, and other Docker entities. This allows you to integrate Docker management into your own applications or scripts.</td>
+                                </tr>
+                                <tr class="tutorials-rows">
+                                    <td class="tutorials-cells">Socket</td>
+                                    <td class="tutorials-cells">You want to control Docker locally on the machine where Portainer is running.</td>
+                                    <td class="tutorials-cells">Connect to the Docker daemon using the Unix socket. This is useful when Portainer and Docker are on the same host, allowing Portainer to communicate with the Docker daemon directly through the socket without network overhead.</td>
+                                </tr>
+                                <tr class="tutorials-rows">
+                                    <td class="tutorials-cells">Edge Agent Standard</td>
+                                    <td class="tutorials-cells">You are managing Docker containers in edge computing scenarios, such as IoT devices or remote locations with limited connectivity.</td>
+                                    <td class="tutorials-cells">Deploy the Portainer Edge Agent on edge devices to enable local management and orchestration of Docker containers. The Edge Agent standard allows you to efficiently manage containers in environments where continuous connectivity to a central server may not be guaranteed.</td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                    <div class="admonition note">
+                    <p class="admonition-title">Note</p>
+                    <p>
+                        We selected <strong>Edge Agent Standard</strong> to simulate a real-life scenario of IoT devices sending data to our platform. 
+                        Through EdgeX, configured using Portainer, we will achieve this capability. 
+                        Further clarification will be provided later in the tutorial.
+                    </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/portainer-connect-to-env.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            The final step is to select the operating system of the server and copy the automatically generated code into the terminal. 
+                            This code will initiate the Portainer service on the server, establishing a connection with our platform. 
+                            If necessary, you can find the option to add another environment in the bottom right corner.       
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/portainer-docker-run.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After successfully starting the Portainer service on the server, you should see an indication on the homepage of 
+                            Portainer confirming that the connection has been established.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/portainer-connection.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="admonition note">
+                        <p class="admonition-title">Note</p>
+                        <p>
+                            The server on which we intend to deploy EdgeX must either be visible on the internet or be within the same network as the deployed platform. 
+                            Failure to meet this requirement will result in the inability to access the server using Portainer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="edgex-content">
+                        <div class="card-title">
+                            <h3>EdgeX Configuration - Quick Start</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Install the following:</p>
+                            <ul class="install-list">
+                                <li class="install-item">
+                                    <a href="https://docs.docker.com/install/" class="install-link">https://docs.docker.com/install/</a>
+                                </li>
+                                <li class="install-item">
+                                    <a href="https://docs.docker.com/compose/install/" class="install-link">https://docs.docker.com/compose/install/</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+
+                            After installing the latest versions of Docker and Docker Compose, 
+                            we can proceed with managing everything else in Portainer directly from the platform. 
+                            Essentially, our next step involves defining a stack (docker-compose.yml) for our server. 
+                            To accomplish this, we will access our server through the Portainer homepage and navigate to the Stack section.
+                        </p>
+                    </div>   
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createstack1.png" class="img-fluid" alt="">
+                    </div>                           
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Now, we will create new stack for selected environment. 
+                            Tap 'Add stack' button.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createstack2.png" class="img-fluid" alt="">
+                    </div>  
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Here, you will need to provide the URL of the GitHub repository. We are using Docker Compose provided by EdgeX. 
+                            The URL is <a href="https://github.com/edgexfoundry/edgex-compose">https://github.com/edgexfoundry/edgex-compose</a>. 
+                            Leave the repository reference box empty if you want to use Docker Compose from the main branch. 
+                            However, if you want to use a different branch, simply write refs/heads/(branch name) in the repository reference box. 
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                            <img src="{{site.baseurl}}/assets/img/tutorials/createstack3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Finally, press the 'Deploy the stack' button located at the end of the page.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createstack4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Now that the stack has been successfully deployed, 
+                            you can see the list of running containers by accessing the environment from the home dashboard.        
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createstack5.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="admonition note">
+                        <p class="admonition-title">Note</p>
+                        <p>
+                            Indeed, one of the great features of Portainer is the ability to configure services running on remote servers directly 
+                            from our platform. 
+                            For instance, if you encounter difficulties executing a docker-compose file or encounter other issues with Docker, 
+                            having the latest versions of Docker and Docker Compose installed enables you to configure services that will be 
+                            executed on the server directly from Portainer. 
+                            This can be a helpful solution for troubleshooting and managing services more efficiently. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-title">
+                        <h3>Create thing and channel on Nova Vector platform</h3>
+                    </div>
+                    <div class="card-text">
+                        <p>
+
+                            In this section, the plan is to create a 'Thing' on the platform to represent a virtual device. 
+                            Following that, we'll create a channel that will serve as a means of receiving data from the server. 
+                            Then, in the subsequent section, we'll add the MQTT service to the stack of our TestServer, 
+                            as it is required to send data to the platform from EdgeX via the MQTT protocol. 
+                            Finally, we'll verify on our platform whether the data is arriving without any issues.
+                        </p>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            To start, we will create a thing called 'TestThing' on our platform. 
+                            To do this, you will need to click on Devices -> Things -> New Thing.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/creatething1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Now, we just need to name our thing, choose the thing group (default), enable data, and simply click on the 'SAVE THING' button at the end.                        
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/creatething2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            We are following similar steps to create a channel. 
+                            Here, we navigate to Devices -> Channels -> New Channel.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createchannel1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Now, we simply need to name our channel, choose the channel group (default), enable data, and then press the 'SAVE CHANNEL' button at the end.</p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createchannel.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            The final step on the platform side is to establish a connection between the channel and the thing we created earlier. 
+                            There are two ways to do this: one is to establish the connection from the thing, 
+                            and the other is to do it from the channel section. In this case, we will do it from the thing section. 
+                            Click on the newly created thing 'TestThing'. 
+                            If you have already created a lot of 'Things', you can search for 'TestThing' in the textbox highlighted in the picture below.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createchannel2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After entering 'TestThing', navigate to the 'CONNECTIONS' section. From the dropdown list, choose 'TestChannel', and then press the "CONNECT" button.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/establishconnection.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-title">
+                        <h3>
+                            Configure EdgeX - Sending data via MQTT protocol
+                        </h3>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            We've completed the configuration on the Nova Vector platform, 
+                            and now the channel and thing are ready to receive data. 
+                            Next, we'll need to reconfigure the TestServer stack. 
+                            While importing docker-compose directly from Git can be useful, 
+                            this time we'll use already written code to save time.
+                            The first step is to detach our stack from Git. 
+                            Whenever you create a new stack on Portainer directly from a Git repository, 
+                            you'll need to detach it from Git to make additional configurations. 
+                            Luckily, Portainer has this option implemented in the UI.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/detachfromgit.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After detaching the stack from Git, you should see an 'EDITOR' option. 
+                            Tap on it to open the stack editor. Here, you can delete all the existing content and paste the code we provide below. 
+                            Simply click on the 'Copy' button next to the code and paste it into the editor.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/portainereditor.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <pre id="code-stack">
+networks:
+edgex-network:
+    driver: bridge
+services:
+    app-service-mqtt:
+        container_name: edgex-app-mqtt
+        depends_on:
+        - consul
+        - data
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASE_HOST: edgex-redis
+        EDGEX_PROFILE: mqtt-export
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-app-mqtt
+        TRIGGER_EDGEXMESSAGEBUS_PUBLISHHOST_HOST: edgex-redis
+        TRIGGER_EDGEXMESSAGEBUS_SUBSCRIBEHOST_HOST: edgex-redis
+        WRITABLE_PIPELINE_FUNCTIONS_MQTTEXPORT_PARAMETERS_BROKERADDRESS: tcp://localhost:1883
+        TRIGGER_EDGEXMESSAGEBUS_SUBSCRIBEHOST_SUBSCRIBETOPICS: edgex/events/#/#/Random-Integer-Device/Int8
+        WRITABLE_PIPELINE_FUNCTIONS_MQTTEXPORT_PARAMETERS_TOPIC: /HERE YOU PROVIDE TESTCHANNEL ID/
+        WRITABLE_PIPELINE_FUNCTIONS_MQTTEXPORT_PARAMETERS_AUTHMODE: usernamepassword 
+        WRITABLE_INSECURESECRETS_MQTT_SECRETS_USERNAME: HERE YOU PROVIDE TESTTHING ID
+        WRITABLE_INSECURESECRETS_MQTT_SECRETS_PASSWORD: HERE YOU PROVIDE TESTTHING KEY ID
+        hostname: edgex-app-mqtt
+        image: edgexfoundry/app-service-configurable:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59702:59702/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    app-service-rules:
+        container_name: edgex-app-rules-engine
+        depends_on:
+        - consul
+        - data
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_PROFILE: rules-engine
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-app-rules-engine
+        TRIGGER_EDGEXMESSAGEBUS_PUBLISHHOST_HOST: edgex-redis
+        TRIGGER_EDGEXMESSAGEBUS_SUBSCRIBEHOST_HOST: edgex-redis
+        hostname: edgex-app-rules-engine
+        image: edgexfoundry/app-service-configurable:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59701:59701/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    command:
+        container_name: edgex-core-command
+        depends_on:
+        - consul
+        - database
+        - metadata
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-core-command
+        hostname: edgex-core-command
+        image: edgexfoundry/core-command:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59882:59882/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+
+    consul:
+        container_name: edgex-core-consul
+        hostname: edgex-core-consul
+        image: consul:1.9.5
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:8500:8500/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: root:root
+        volumes:
+        - consul-config:/consul/config:z
+        - consul-data:/consul/data:z
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    data:
+        container_name: edgex-core-data
+        depends_on:
+        - consul
+        - database
+        - metadata
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-core-data
+        hostname: edgex-core-data
+        image: edgexfoundry/core-data:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:5563:5563/tcp
+        - 127.0.0.1:59880:59880/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    database:
+        container_name: edgex-redis
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        hostname: edgex-redis
+        image: redis:6.2.4-alpine
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:6379:6379/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: root:root
+        volumes:
+        - db-data:/data:z
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    device-rest:
+        container_name: edgex-device-rest
+        depends_on:
+        - consul
+        - data
+        - metadata
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-device-rest
+        hostname: edgex-device-rest
+        image: edgexfoundry/device-rest:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59986:59986/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    device-virtual:
+        container_name: edgex-device-virtual
+        depends_on:
+        - consul
+        - data
+        - metadata
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-device-virtual
+        hostname: edgex-device-virtual
+        image: edgexfoundry/device-virtual:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59900:59900/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    metadata:
+        container_name: edgex-core-metadata
+        depends_on:
+        - consul
+        - database
+        - notifications
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        NOTIFICATIONS_SENDER: edgex-core-metadata
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-core-metadata
+        hostname: edgex-core-metadata
+        image: edgexfoundry/core-metadata:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59881:59881/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    notifications:
+        container_name: edgex-support-notifications
+        depends_on:
+        - consul
+        - database
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-support-notifications
+        hostname: edgex-support-notifications
+        image: edgexfoundry/support-notifications:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59860:59860/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    rulesengine:
+        container_name: edgex-kuiper
+        depends_on:
+        - database
+        environment:
+        EDGEX__DEFAULT__PORT: 6379
+        EDGEX__DEFAULT__PROTOCOL: redis
+        EDGEX__DEFAULT__SERVER: edgex-redis
+        EDGEX__DEFAULT__TOPIC: rules-events
+        EDGEX__DEFAULT__TYPE: redis
+        KUIPER__BASIC__CONSOLELOG: "true"
+        KUIPER__BASIC__RESTPORT: 59720
+        hostname: edgex-kuiper
+        image: emqx/kuiper:1.2.1-alpine
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59720:59720/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: kuiper:kuiper
+        volumes:
+        - kuiper-data:/kuiper/data:z
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    scheduler:
+        container_name: edgex-support-scheduler
+        depends_on:
+        - consul
+        - database
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        INTERVALACTIONS_SCRUBAGED_HOST: edgex-core-data
+        INTERVALACTIONS_SCRUBPUSHED_HOST: edgex-core-data
+        MESSAGEQUEUE_HOST: edgex-redis
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-support-scheduler
+        hostname: edgex-support-scheduler
+        image: edgexfoundry/support-scheduler:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:59861:59861/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    system:
+        container_name: edgex-sys-mgmt-agent
+        depends_on:
+        - command
+        - consul
+        - data
+        - metadata
+        - notifications
+        - scheduler
+        environment:
+        CLIENTS_CORE_COMMAND_HOST: edgex-core-command
+        CLIENTS_CORE_DATA_HOST: edgex-core-data
+        CLIENTS_CORE_METADATA_HOST: edgex-core-metadata
+        CLIENTS_SUPPORT_NOTIFICATIONS_HOST: edgex-support-notifications
+        CLIENTS_SUPPORT_SCHEDULER_HOST: edgex-support-scheduler
+        DATABASES_PRIMARY_HOST: edgex-redis
+        EDGEX_SECURITY_SECRET_STORE: "false"
+        EXECUTORPATH: /sys-mgmt-executor
+        MESSAGEQUEUE_HOST: edgex-redis
+        METRICSMECHANISM: executor
+        REGISTRY_HOST: edgex-core-consul
+        SERVICE_HOST: edgex-sys-mgmt-agent
+        hostname: edgex-sys-mgmt-agent
+        image: edgexfoundry/sys-mgmt-agent:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 127.0.0.1:58890:58890/tcp
+        read_only: true
+        security_opt:
+        - label:disable
+        - no-new-privileges:true
+        user: root:root
+        volumes:
+        - /var/run/docker.sock:/var/run/docker.sock:z
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+            
+    ui:
+        container_name: edgex-ui-go
+        hostname: edgex-ui-go
+        image: edgexfoundry/edgex-ui:2.0.0
+        networks:
+        edgex-network: {}
+        ports:
+        - 4000:4000/tcp
+        read_only: true
+        security_opt:
+        - no-new-privileges:true
+        user: 2002:2001
+        logging:
+        driver: "json-file"
+        options:
+            max-size: "100m"
+        
+version: '3.7'
+volumes:
+consul-config: {}
+consul-data: {}
+db-data: {}
+kuiper-data: {}
+                    </pre>
+                    <button id="copyButton" class="copy-button" onclick="copyToClipboardDockerStack()">Copy</button>
+                    <script>
+                        function copyToClipboardDockerStack() {
+                            var codeElement = document.getElementById("code-stack");
+                            var text = codeElement.innerText || codeElement.textContent;
+                            navigator.clipboard.writeText(text).then(function() {
+                                var copyButton = document.getElementById("copyButton");
+                                copyButton.innerText = "Copied";
+                                copyButton.classList.add("copied");
+                            }, function(err) {
+                                console.error('Unable to copy', err);
+                            });
+                        }
+                    </script>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After pasting the code into the editor, 
+                            you'll need to edit a few lines of code specific to the 'Thing' and 'Channel' created on the platform. 
+                            Additionally, you'll need to provide the server URL. 
+                            Each Thing and Channel has an ID, and every Thing also has a Key ID used for authentication. 
+                            You need to copy these IDs from the details section of 
+                            TestThing and TestChannel and replace the corresponding placeholders in the stack you copied earlier.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/thingidandkey.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After obtaining the Thing Key, Thing ID, and Channel ID from the details section of TestThing and TestChannel, 
+                            respectively, you should paste them into the stack at specific places. 
+                            The image above indicates where the ID and Key of TestThing are located. 
+                            Similarly, for the TestChannel ID, you'll need to navigate to the details of TestChannel from the channels section. 
+                            Once you have all the necessary IDs, replace the corresponding placeholders in the stack with these IDs.                        
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/stackchange.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <table class="tutorials-table regular-tutorials">
+                        <caption>EdgeX MQTT service</caption>
+                        <tr class="tutorial-rows">
+                            <th class="tutorials-cells">Environment variables</th>
+                            <th class="tutorials-cells">Meaning and use case</th>
+                        </tr>
+                        <tr class="tutorials-rows">
+                            <td class="tutorials-cells">WRITABLE_PIPELINE_ FUNCTIONS_MQTTEXPORT _PARAMETERS_TOPIC</td>
+                            <td class="tutorials-cells">Here, enter the channel ID you created on the Nova Vector platform.</td>
+                        </tr>
+                        <tr class="tutorials-rows">
+                            <td class="tutorials-cells">WRITABLE_INSE CURESECRETS_MQTT_SECRE TS_USERNAME</td>
+                            <td class="tutorials-cells">Here, enter the thing ID you created on the Nova Vector platform.</td>
+                        </tr>
+                        <tr class="tutorials-rows">
+                            <td class="tutorials-cells">WRITABLE_INS ECURESECRETS_MQTT_SEC RETS_PASSWORD</td>
+                            <td class="tutorials-cells">Here, enter the thing Key you created on the Nova Vector platform.</td>
+                        </tr>
+                        <tr class="tutorials-rows">
+                            <td class="tutorials-cells">TRIGGER_EDGEXME SSAGEBUS_SUBSCRIBEHOS T_SUBSCRIBETOPICS</td>
+                            <td class="tutorials-cells">Here, define the data type and the device from which data is taken from EdgeX. You can define whether you want to receive data from one or more (all) devices or just from a specific one.</td>
+                        </tr>
+                        <tr class="tutorial-rows">
+                            <td class="tutorials-cells">WRITABLE_P IPELINE_FUNCTIONS_MQTTEXPORT_PA RAMETERS_BROKERADDRESS</td>
+                            <td class="tutorials-cells">Here, define the address of a message broker for MQTT. Example tcp://dev.random.com:1883 or tcp://localhost:1883</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After making the necessary changes to the stack, 
+                            scroll down and click the 'Deploy stack' button to deploy the updated stack configuration.
+                        </p>
+                        <div class="tutorials-img">
+                            <img src="{{site.baseurl}}/assets/img/tutorials/deploychangedstack.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>     
+            </div> 
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-title">
+                        <h3>
+                            Last step - Creating profile to understand data
+                        </h3>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            After deploying the stack, you should be able to see a list of running containers. 
+                            However, there's one more crucial step. 
+                            When you access your TestThing or TestChannel, you may notice that no data is being displayed. 
+                            This is because our platform only accepts messages in SenML format. 
+                            Typically, off-the-shelf devices do not support SenML message structure.
+                            To ensure compatibility with various devices, 
+                            we need to decode incoming messages and format them into SenML before persisting the data 
+                            to the database. 
+                            This is where device profiles come into play. 
+                            Device profiles are used to decode incoming messages in real-time and format them into a message 
+                            format supported by the platform.
+                            So, our next step is to create a new profile. 
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createprofile1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            After starting the wizard for creating the profile, enter the name, group, and enable it. 
+                            However, refrain from saving it immediately. Instead, navigate to the decoder section first.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createprofile2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <pre id="code-decoder">
+function Decode(bytes) { 
+    var jsonString = toString(bytes);
+    var data = JSON.parse(jsonString);
+
+    if (!data.readings || !data.readings[0]) {
+        return {}; 
+    }
+
+    var reading = data.readings[0];
+    var value = parseInt(reading.value, 10); // Konvertujemo string u broj
+
+    return {
+        "senml": [
+            {
+                "n": reading.deviceName,
+                "u": reading.valueType,
+                "v": value 
+            }
+        ]
+    };
+}
+
+function toString(bytes) {
+    var str = "";
+    for (var i = 0; i < bytes.length; i++) {
+        str += String.fromCharCode(bytes[i]);
+    }
+    return str;
+}                        
+                    </pre>
+                    <button id="copyButtonDecoder" class="copy-button" onclick="copyToClipboard()">Copy</button>
+                    <script>
+                        function copyToClipboard() {
+                            var codeElement = document.getElementById("code-decoder");
+                            var text = codeElement.innerText || codeElement.textContent;
+                            navigator.clipboard.writeText(text).then(function() {
+                                var copyButton = document.getElementById("copyButtonDecoder");
+                                copyButtonDecoder.innerText = "Copied";
+                                copyButtonDecoder.classList.add("copied");
+                            }, function(err) {
+                                console.error('Unable to copy', err);
+                            });
+                        }
+                    </script>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            So you can examine the code we provided you, 
+                            but the whole point is to gather data and structure it like the SenML 
+                            format so that the rest of our platform can understand it. Now go back to 'DETAILS' and press 'SAVE PROFILE' button.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/createprofile3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Now that you have created the profile, we need to connect it to TestThing. 
+                            Go to 'Things', search for TestThing as we did before, click on it, and then click the 'EDIT DEVICE' button to edit TestThing.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/editthing1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-text">
+                        <p>
+                            Here, you will simply select 'DETAILS' section and then press the "SAVE THING" button.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/editthing2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tutorials-body-section">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                    <div class="card-title">
+                        <h3>
+                            Checking results
+                        </h3>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            After configuring the Nova Vector platform and customizing the TestServer stack with Thing and Channel IDs, 
+                            deploying it, and ensuring data compatibility through SenML formatting, successful data flow into the platform was achieved. 
+                            By creating a device profile and connecting it to the TestThing, 
+                            data started pouring into the platform, visible in the TestThing or TestChannel sections, 
+                            confirming the setup's effectiveness.
+                            Now when you enter TestThing or TestChannel you should see data pouring into the platform. 
+                            The platform offers a wealth of additional functionalities to explore. 
+                            Stay tuned for upcoming tutorials as we delve deeper into Nova Vector's capabilities and advanced features.
+                        </p>
+                    </div>
+                    <div class="tutorials-img">
+                        <img src="{{site.baseurl}}/assets/img/tutorials/final-results.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
