@@ -578,14 +578,10 @@
 		padding: 0%;
 	}
 
-	/* Products, services, solutions, tutorials */
-	.solutions-area p, .services-entity-area p {
+	/* Products, services, solutions */
+	.solutions-area p, .products-area p, .services-entity-area p {
 		text-align: left;
 		margin: -5% 5% 10% 3%;
-	}
-	.products-area p {
-		text-align: left;
-		margin: -5% 5% 8% 0%;
 	}
 	.services-entity-area .img-fluid {
 		width: 100%;
@@ -595,21 +591,13 @@
 		margin: 10% auto 5% auto;
 	}
 
-	.solutions-content a.btn, .services-entity-content a.btn {
+	.products-content a.btn, .services-entity-content a.btn, .solutions-content a.btn {
 		margin: auto auto auto 3%;
 	}
 
-	.products-content a.btn {
-		margin: auto auto auto 0%;
-	}
-
-	.solutions-area h3, .services-entity-area h3 {
+	.solutions-area h3, .products-area h3, .services-entity-area h3 {
 		text-align: left;
-		margin: 0% 5% 12% 3%;
-	}
-	.products-area h3 {
-		text-align: left;
-		margin: 0% 5% 12% 0%;
+		margin: 0% 5% 3% 3%;
 	}
 
 	.solutions-area .solutions-box, .services-entity-area .services-entity-box {
@@ -696,6 +684,7 @@
 	.img-platform-2, .img-platform-3, .img-platform-4 {
 		width: 100%;
 		height: auto;
+		margin: 0% 5% 0% 5%;
 	}
 
 	.regular-platform {
@@ -891,14 +880,6 @@
 		margin: 7% 5% auto 5%;
 	}
 
-	.industry-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.industry-order  div:nth-child(2) {
-		order: 1;
-	}
-
 	.service-detail .title-industry::before {
 		position: absolute;
 		width: 100%;
@@ -919,10 +900,6 @@
 		height: 2px;
 		bottom: -15px;
 		margin: 0%;
-	}
-
-	.img-production-lines-1 {
-		margin: 5% 0% 5% 0%;
 	}
 
 	.service-detail .paragraph-1-industry {
@@ -1101,12 +1078,12 @@
 
 	.service-detail .paragraph-education {
 		text-align: left;
-		margin: 7% 5% 3% 5%;
+		margin: 7% 5% 5% 5%;
 	}
 
 	.service-detail .list-1-education {
 		text-align: left;
-		margin: 0% 5% 3% 15%;
+		margin: 7% 5% 0% 15%;
 	}
 
 	.service-detail .list-1-education li {
@@ -1118,7 +1095,7 @@
 	.service-detail .title-2 {
 		position: relative;
 		text-align: center;
-		margin: 5% 5% 5% 5%;
+		margin: 5% 10%;
 	}
 
 	.service-detail .title-2::before {
@@ -1135,7 +1112,7 @@
 	.service-detail .paragraph-2 {
 		opacity: 0.6;
 		text-align: center;
-		margin: 6% 10% 10% 10%;
+		margin: 15% 10% 0% 10%;
 	}
 
 	.details-text {
@@ -1148,223 +1125,9 @@
 	.img-platform-2, .img-platform-3, .img-platform-4 {
 		width: 307px;
 		height: auto;
-		margin: 0% 5% 5% 5%;
+		margin: 0% 5% 0% 5%;
 	}
 	.regular-platform {
 		display: none;
-	}
-
-		/* Smart City */
-	.service-detail .title-city {
-		position: relative;
-		text-align: left;
-		margin: 7% 5% auto 5%;
-	}
-
-	.service-detail .title-city::before {
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		bottom: -15px;
-		margin: 0%;
-	}
-
-	.service-detail .title-1-city {
-		position: relative;
-		text-align: left;
-		margin: 7% 5% auto 5%;
-	}
-
-	.service-detail .title-1-city::before {
-		position: absolute;
-		width: 50%;
-		height: 2px;
-		bottom: -15px;
-		margin: 0%;
-	}
-
-	.img-city-1 {
-		margin: 5% 0% 0% 0%;
-	}
-	.service-detail .paragraph-city {
-		text-align: left;
-		margin: 7% 5% 5% 5%;
-	}
-
-	.service-detail .paragraph-1-city {
-		text-align: left;
-		margin: 7% 5% 5% 5%;
-	}
-	.service-detail .list-1-city {
-		text-align: left;
-		margin: 7% 5% 0% 15%;
-	}
-
-	.service-detail .list-1-city li {
-		display: list-item;
-		list-style-type: disc;
-	}
-	.city-order div:nth-child(1) {
-		order: 2;
-	}
-
-	.city-order  div:nth-child(2) {
-		order: 1;
-	}
-	.city-img-1 {
-		margin: 0% 0% 5% 0%;
-	}
-
-	/* Tutorials */
-
-	.tutorials-area .card-title h1 {
-		margin: 0% 0% 5% 0%;
-	}
-
-	.tutorials-area .col-xl-12 {
-		margin: auto auto auto auto;
-	}
-
-	.regular-tutorials {
-		display: none;
-	}
-
-	.tutorials-area {
-		margin: 0% auto 0% auto;
-	}
-
-	.tutorials-content a.btn {
-		margin: auto auto auto 0%;
-	}
-
-	.tutorials-area h3 {
-		text-align: left;
-		margin: 0% 5% 3% 0%;
-	}
-
-	.tutorials-body-section {
-		margin: 0% 0% 3% 0%;
-	}
-
-	.tutorials-img  {	
-		margin: 5% 0% 5% 0%;	
-	}
-
-
-	.tutorials-area .tutorials-box {
-		box-shadow: none;
-	}
-
-	.tutorials-area p {
-		text-align: left;
-		margin: 0% 5% 0% 0%;
-	}
-
-	.tutorials-content  {
-		margin: 5% auto auto auto;
-	}
-
-	.tutorials-list {
-		margin: 2% 0% 0% 0%;
-	}
-
-	.tutorials-table {
-		margin: 5% 0% 5% 0%;
-		font-size: 14px;
-		max-width: 100%;
-	}
-
-	.tutorials-cells {
-		padding: 8px;
-	}
-
-	.tutorials-container-list {
-		list-style-type: none;
-		padding: 0;
-	}
-
-	.tutorials-container-item {
-		margin: 20px 0;
-		border-radius: 8px;
-	}
-
-	.tutorials-sub-list {
-		list-style-type: none;
-		padding: 0;
-	}
-
-	.tutorials-sub-item {
-		padding: 15px;
-	}
-
-	.tutorials-sub-item:last-child {
-		border-bottom: none;
-	}
-
-	.tutorials-sub-item strong {
-		display: block;
-		margin-bottom: 10px;
-		font-size: 1.2em;
-	}
-
-	.tutorials-inner-list {
-		list-style-type: none;
-		padding: 0;
-		margin-top: 10px;
-	}
-
-	.tutorials-inner-item {
-		margin-bottom: 8px;
-		color: #555;
-	}
-
-	.admonition {
-		border-left: 6px;
-		padding: 15px;
-		margin: 20px 0;
-		border-radius: 5px;
-	}
-    .admonition-title  {
-		padding: 8px;
-		margin-bottom: 5%;
-		border-radius: 5px;
-	  }
-	  
-	.admonition a:hover {
-		text-decoration: underline;
-	  }
-
-	.install-list {
-		padding: 0;
-		margin: 2% 0% 2% 0%;
-	  }
-	  
-	.install-item {
-		margin-bottom: 1%;
-	  }
-	  
-	.install-item::before {
-		font-size: 1.2em;
-		margin-right: 10px;
-	  }
-
-	pre {
-		background-color: #f4f4f4;
-		border: 1px;
-		border-left: 3px;
-		margin: 0% 0% 6% 0%;
-		padding: 0% 0% 0% 5%;
-		font-size: 14px;
-		max-width: 100%;
-		word-wrap: break-word; 
-		text-indent: 0;
-		max-height: 300px;
-		position: relative; 
-	  }
-
-	.copy-button {
-		top: 5px;
-		right: 5px;
-		padding: 5px 10px;
 	}
 }

@@ -550,21 +550,13 @@
 		display: none;
 	}
 
-	/* Products, services, solutions, tutorials */
+	/* Products, services, solutions */
 
 	.products-area, .services-entity-area, .solutions-area {
 		margin: 5% auto 5% auto;
 	}
 
-	.tutorials-area {
-		margin: 5% auto 5% auto;
-	}
-
 	.products-area .col-xl-12 {
-		margin: auto auto 5% auto;
-	}
-
-	.tutorials-area .col-xl-12 {
 		margin: auto auto 5% auto;
 	}
 
@@ -581,16 +573,7 @@
 		margin: -3% 5% 3% 0%;
 	}
 
-	.tutorials-area p {
-		text-align: left;
-		margin: -3% 5% 3% 0%;
-	}
-
 	.products-content  {
-		margin: 5% auto auto auto;
-	}
-
-	.tutorials-content  {
 		margin: 5% auto auto auto;
 	}
 
@@ -598,10 +581,6 @@
 		margin: auto auto auto 3%;
 	}
 	.products-content a.btn {
-		margin: auto auto auto 0%;
-	}
-
-	.tutorials-content a.btn {
 		margin: auto auto auto 0%;
 	}
 
@@ -614,16 +593,7 @@
 		margin: 0% 5% 1% 0%;
 	}
 
-	.tutorials-area h3 {
-		text-align: left;
-		margin: 0% 5% 1% 0%;
-	}
-
 	.solutions-area .solutions-box, .products-area .products-box, .services-entity-area .services-entity-box {
-		box-shadow: none;
-	}
-
-	.tutorials-area .tutorials-box {
 		box-shadow: none;
 	}
 
@@ -926,11 +896,7 @@
 	.service-detail .title-industry {
 		position: relative;
 		text-align: left;
-		margin: 0% 5% auto 5%;
-	}
-
-	.img-production-lines-1 {
-		margin: 5% 0% 0% 0%;
+		margin: 5% 5% auto 5%;
 	}
 
 	.service-detail .title-industry::before {
@@ -1203,67 +1169,7 @@
 		align-items: center;
 	}
 
-	.mobile-platform, .mobile-agriculture, .mobile-industry, .mobile-city {
+	.mobile-platform, .mobile-agriculture, .mobile-industry {
 		display: none;
-	}
-	/* Smart City */
-
-	#smart-city {
-		margin: 0% auto 0% auto;
-	}
-
-	#city-row {
-		background-color: #fbfbfb;
-	}
-
-	.regular-city {
-		margin: auto auto 1% auto;
-	}
-
-	.service-detail .title-city {
-		position: relative;
-		text-align: left;
-		margin: 5% 5% auto 5%;
-	}
-
-	.service-detail .title-city::before {
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		bottom: -15px;
-		margin: 0%;
-	}
-
-	.service-detail .title-1-city {
-		position: relative;
-		text-align: left;
-		margin: 5% 5% auto 5%;
-	}
-
-	.service-detail .title-1-city::before {
-		position: absolute;
-		width: 50%;
-		height: 2px;
-		bottom: -15px;
-		margin: 0%;
-	}
-
-	.service-detail .paragraph-city {
-		text-align: left;
-		margin: 3% 5% 5% 5%;
-	}
-
-	.service-detail .paragraph-1-city {
-		text-align: left;
-		margin: 5% 5% 5% 5%;
-	}
-	.service-detail .list-1-city {
-		text-align: left;
-		margin: 0% 5% 5% 15%;
-	}
-
-	.service-detail .list-1-city li {
-		display: list-item;
-		list-style-type: disc;
 	}
 }
